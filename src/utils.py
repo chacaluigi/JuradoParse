@@ -3,40 +3,7 @@ from datetime import datetime
 import re
 from PyPDF2 import PdfReader
 import pandas as pd
-
-def ensure_dir(p):
-    Path(p).mkdir(parents=True, exist_ok=True)
-
-def parse_date_from_filename(filename: str):
-    #intenta extraer fecha YYYYMMDD o YYYY-MM-DD del nombre de archivo.
-    m = re.search(r'(\d{4})[-_]?(\d{2})[-_]?(\d{2})', filename)
-    if m:
-        return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()
-    return None
-
-
-def normalize_document(doc_text):
-    complement=''
-    if pd.isna(doc_text):
-        return pd.Series(['','',''])
-    
-    parts=str(doc_text).strip().split('-', 1)
-
-    if parts[0].upper() == 'I':
-        doc_type='C.I.'
-    elif parts[0].upper() == 'P':
-        doc_type='PAS.'
-    else:
-        doc_type=parts[0]
-
-    doc_number=parts[1]
-    
-    return pd.Series([doc_type, doc_number, complement]) 
-
-""" def normalize_document(df):
-    processed_df=df.copy()
-    processed_df["DOCUMENTO"]=processed_df['DOCUMENTO'].str.replace(r'^I\-\s*','', regex=True)
-    return processed_df """
+import pdfplumber
 
 from data.dictionary.data_bolivia import BoliviaData
 nombres_bolivia = BoliviaData.NOMBRES
@@ -93,3 +60,81 @@ def separate_last_and_first_names(text):
         names = ' '.join(parts[2:])
     
     return pd.Series([pat_surname, mat_surname, names])
+
+def ensure_dir(p):
+    Path(p).mkdir(parents=True, exist_ok=True)
+
+def repair_broken_rows_simple(table_list):
+    for table in table_list:
+        df = table.df.fillna('')  # reemplaza NaN con strings vacíos
+        repaired_rows = []
+        
+        for _, row in df.iterrows():
+            # se convierte a strings y se limpia
+            row = [str(cell).strip() for cell in row]
+            
+            #si la primera columna vacía y hay filas anteriores
+            if row[0] == '' and repaired_rows:
+                # se une con ultima fila
+                last_row = repaired_rows[-1]
+                for i in range(len(row)):
+                    if row[i] != '':
+                        last_row[i] = (last_row[i] + ' ' + row[i]).strip()
+            else:
+                repaired_rows.append(row)
+        
+        table.df = pd.DataFrame(repaired_rows)
+    
+    return table_list
+
+def join_tables_csv(tables, pdf_path, output_dir, pages):
+    csv_paths = []
+
+    if len(tables) > 0:
+        all_dataframes = []
+
+        for i, table in enumerate(tables, start=1):
+            if i == 1:
+                all_dataframes.append(table.df)
+            else:
+                all_dataframes.append(table.df.iloc[1:])
+        
+        combined_df = pd.concat(all_dataframes, ignore_index=True)
+        combined_csv = output_dir / f"{pages}___{pdf_path.stem}.csv"
+        combined_df.to_csv(combined_csv, index=False, header=False)
+        csv_paths.append(str(combined_csv))
+        print(f"guardado en: {combined_csv}  Dimensiones: {combined_df.shape[0]} filas × {combined_df.shape[1]} columnas")
+    return csv_paths
+
+def extract_dimensions_page(pdf_file, page_number):
+    with pdfplumber.open(pdf_file) as pdf:
+        page = pdf.pages[page_number+1]
+    return page.width, page.height
+
+def parse_date_from_filename(filename: str):
+    #intenta extraer fecha YYYYMMDD o YYYY-MM-DD del nombre de archivo.
+    m = re.search(r'(\d{4})[-_]?(\d{2})[-_]?(\d{2})', filename)
+    if m:
+        return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()
+    return None
+
+def normalize_document(doc_text):
+    complement=''
+    if pd.isna(doc_text):
+        return pd.Series(['','',''])
+    
+    parts=str(doc_text).strip().split('-', 1)
+
+    if parts[0].upper() == 'I':
+        doc_type='C.I.'
+    elif parts[0].upper() == 'P':
+        doc_type='PAS.'
+    else:
+        doc_type=parts[0]
+
+    doc_number=parts[1]
+    
+    return pd.Series([doc_type, doc_number, complement]) 
+
+
+

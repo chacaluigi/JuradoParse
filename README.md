@@ -49,5 +49,3 @@ pycparser          2.23
 PyPDF2             3.0.1
 pypdfium2          4.30.0
 
-
-
