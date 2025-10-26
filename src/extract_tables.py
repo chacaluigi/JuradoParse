@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 import camelot
 import math
-from src.utils import parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows_simple
+from src.utils import parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
@@ -41,20 +41,15 @@ def extract_special_pages(pdf_path: str, output_dir: str = None, pages="4", flav
             table_areas=table_areas,
             columns=columns[i]
         )
-        repaired_tables = repair_broken_rows_simple(table_list)
+        repaired_tables = repair_broken_rows(table_list)
         tables.extend(repaired_tables)
 
-    print(f"Cantidad de tablas encontradas: {len(tables)}")
- 
-    #ordenar tablas de acuerdo al pdf
-    """ cols = 3
-    reason = math.ceil(len(tables)/cols)
-    tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]
-    tables = tables_ordered """
+    print(f"Tablas encontradas: {len(tables)}")
 
-    #unir csvs extraídos
+    #unir tablas csv
     csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
 
+    #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))
 
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
@@ -92,10 +87,11 @@ def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all",
             table_areas=table_areas,
             columns=columns[i]
         )
-        repaired_tables = repair_broken_rows_simple(table_list)
+        repaired_tables = repair_broken_rows(table_list)
         tables.extend(repaired_tables)
 
-    print(f"Cantidad de tablas encontradas: {len(tables)}")
+    print(f"Tablas encontradas: {len(tables)}")
+
  
     #ordenar tablas de acuerdo al pdf extraído
     cols = 3
@@ -106,10 +102,10 @@ def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all",
     #unir tablas csv
     csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
 
+    #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))
 
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
-
 
 def extract_pdf_tables(pdf_path: str, output_dir: str = None, pages="all", flavor="stream"):
     
@@ -118,12 +114,21 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, pages="all", flavo
     
     print(f"Extrayendo tablas de: {pdf_path} --- flavor = {flavor} --- pages = {pages}")
 
-    tables = camelot.read_pdf(str(pdf_path), pages=pages, flavor=flavor, split_text=True, flag_size=True)
+    tables = camelot.read_pdf(
+        str(pdf_path), 
+        pages=pages, 
+        flavor=flavor, 
+        split_text=True, 
+        flag_size=True
+    )
     print(f"Tablas encontradas: {len(tables)}")
 
+    #unir tablas csv
     csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
 
+    #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))
+
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
 
 
@@ -134,7 +139,11 @@ if __name__ == "__main__":
     pdf = sys.argv[1]
     pages = sys.argv[2] if len(sys.argv) > 2 else "all"
     flavor = sys.argv[3] if len(sys.argv) > 3 else "stream"
-    #top_cut = sys.argv[4]
-    #res = extract_pdf_tables(pdf, pages=pages, flavor=flavor)
-    #res = extract_pdf_tables_areas(pdf, pages=pages, flavor=flavor)
-    res = extract_special_pages(pdf, pages=pages, flavor=flavor)
+    top_cut = sys.argv[4] if len(sys.argv) > 4 else "areas"
+
+    if len(sys.argv) > 4:
+        res = extract_special_pages(pdf, pages=pages, flavor=flavor) if sys.argv[4] == "special" else extract_pdf_tables_areas(pdf, pages=pages, flavor=flavor)
+    else:
+        res = extract_pdf_tables(pdf, pages=pages, flavor=flavor)
+        
+

@@ -1,7 +1,8 @@
+from pathlib import Path
 import camelot
 
 pdf_path = 'data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf'
-pages = '91'
+pages = '22'
 flavor='stream'
 table_areas_list = [
     ['0,0,250.39,992.13'],
@@ -15,7 +16,7 @@ columns = [
 ]
 
 tables = camelot.read_pdf(
-    str(pdf_path), 
+    pdf_path, 
     pages=pages, 
     flavor=flavor, 
     split_text=False,

@@ -62,7 +62,7 @@ def separate_last_and_first_names(text):
     return pd.Series([pat_surname, mat_surname, names])
 
 
-def repair_broken_rows_simple(table_list):
+def repair_broken_rows(table_list):
     for table in table_list:
         df = table.df.fillna('')  # reemplaza NaN con strings vacíos
         repaired_rows = []
@@ -80,6 +80,8 @@ def repair_broken_rows_simple(table_list):
                         last_row[i] = (last_row[i] + ' ' + row[i]).strip()
             else:
                 repaired_rows.append(row)
+            
+            
         
         table.df = pd.DataFrame(repaired_rows)
     

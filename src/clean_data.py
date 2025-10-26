@@ -50,7 +50,7 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        print("Solo un argumento. Colocar los argumentos correctos, ver .README")
+        print("Sin argumentos en la línea de comandos. Colocar los argumentos correctos, ver .README")
     else:
         if len(sys.argv) < 2:
             print("Uso: python clean_data.py <input_csv> [source_pdf] [pdf_date]")
