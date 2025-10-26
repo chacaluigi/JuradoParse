@@ -80,10 +80,56 @@ def repair_broken_rows(table_list):
                         last_row[i] = (last_row[i] + ' ' + row[i]).strip()
             else:
                 repaired_rows.append(row)
-            
-            
-        
+
         table.df = pd.DataFrame(repaired_rows)
+    
+    return table_list
+
+def repair_columns_mixed(table_list):
+    for table in table_list:
+        df = table.df.fillna('')  # reemplaza NaN con strings vacíos
+        
+        for idx in range(len(df)):
+            #se usa .iloc para acceso seguro por índice
+            recinto = str(df.iloc[idx, 3]) if pd.notna(df.iloc[idx, 3]) else ''
+            mesa = str(df.iloc[idx, 4]) if pd.notna(df.iloc[idx, 4]) else ''
+            
+            pattern = r'\d{1,2}$'
+            pattern_number = r'^\d+$'
+            
+            
+            cambios_realizados = False
+            
+            if recinto == '' and mesa != '':
+                print(f'Fila {idx}: Recinto vacío, Mesa tiene contenido')
+                recinto = mesa
+                mesa = ''
+                cambios_realizados = True
+            
+            if mesa == '' and recinto != '':
+                print(f'Fila {idx}: Mesa vacío, Recinto tiene contenido')
+                match = re.search(pattern, recinto)
+                if match:
+                    print('mesa: ',mesa, 'recinto: ', recinto)
+                    mesa = match.group(0)
+                    recinto = re.sub(pattern, '', recinto).strip()
+                    print('mesa: ',mesa, 'recinto: ', recinto)
+                    cambios_realizados = True
+            
+            match_number = re.search(pattern_number, recinto)
+
+            if match_number:
+                print(f'Fila {idx}: Recinto es solo número, moviendo a Mesa')
+                recinto = mesa
+                mesa = match_number.group(0)
+                cambios_realizados = True
+            
+            if cambios_realizados:
+                print(f'Fila {idx}: cambios realizados, con: ', recinto, '/', mesa)
+                df.iloc[idx, 3] = recinto
+                df.iloc[idx, 4] = mesa
+        
+        table.df = df
     
     return table_list
 
