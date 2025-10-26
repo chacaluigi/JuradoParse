@@ -4,30 +4,78 @@ import sys
 from pathlib import Path
 import camelot
 import math
-from src.utils import ensure_dir, parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows_simple
+from src.utils import parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows_simple
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
-def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all", flavor="stream"):
-    pdf_path = Path(pdf_path)
-    if output_dir is None:
-        output_dir = DATA_DIR / "extracted"
-    else:
-        output_dir = Path(output_dir)
+def extract_special_pages(pdf_path: str, output_dir: str = None, pages="4", flavor="stream", top_cut = 0.178):
     
-    ensure_dir(output_dir)
+    pdf_path = Path(pdf_path)
+    output_dir = Path(output_dir or DATA_DIR / "extracted")
+    
+    print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
 
-    print(f"Extrayendo tablas de: {pdf_path} --- flavor = {flavor} --- pages = {pages}")
+    page_width, page_height = extract_dimensions_page(pdf_path, 5)
 
-    page_width, page_height = extract_dimensions_page(pdf_path, 6)
+    special_table_areas_list = [
+        [f'0,0,{1/3*float(page_width)},{top_cut*float(page_height)}'],
+        [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{top_cut*float(page_height)}'],
+        [f'{2/3*float(page_width)},0,{page_width},{top_cut*float(page_height)}']
+    ]
+
+    columns = [
+        ['78.10,113.30,154.7,244.17'],
+        ['338.5,366.7,415.67,492.93'],
+        ['587.14,615.14,663.92,740.95']
+    ]
+
+    tables=[]
+
+    for i, table_areas in enumerate(special_table_areas_list):
+        table_list = camelot.read_pdf(
+            str(pdf_path), 
+            pages=pages, 
+            flavor=flavor, 
+            split_text=False, #FALSE: evita divisiones de columnas inexactas
+            flag_size=True, 
+            table_areas=table_areas,
+            columns=columns[i]
+        )
+        repaired_tables = repair_broken_rows_simple(table_list)
+        tables.extend(repaired_tables)
+
+    print(f"Cantidad de tablas encontradas: {len(tables)}")
+ 
+    #ordenar tablas de acuerdo al pdf
+    """ cols = 3
+    reason = math.ceil(len(tables)/cols)
+    tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]
+    tables = tables_ordered """
+
+    #unir csvs extraídos
+    csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
+
+    pdf_date = parse_date_from_filename(str(pdf_path))
+
+    return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
+
+def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all", flavor="stream"):
+    
+    pdf_path = Path(pdf_path)
+    output_dir = Path(output_dir or DATA_DIR / "extracted")
+    
+    print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
+
+    page_width, page_height = extract_dimensions_page(pdf_path, 5)
 
     table_areas_list = [
         [f'0,0,{1/3*float(page_width)},{page_height}'],
         [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{page_height}'],
         [f'{2/3*float(page_width)},0,{page_width},{page_height}']
     ]
+
     columns = [
-        ['78.10,113.30,154.7,243.17'],
+        ['78.10,113.30,154.7,244.17'],
         ['338.5,366.7,415.67,492.93'],
         ['587.14,615.14,663.92,740.95']
     ]
@@ -35,49 +83,39 @@ def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all",
     tables=[]
     
     for i, table_areas in enumerate(table_areas_list):
-        table_list = camelot.read_pdf(str(pdf_path), 
-                                      pages=pages, 
-                                      flavor=flavor, 
-                                      split_text=False, #FALSE: evita divisiones de columnas inexactas
-                                      flag_size=True, 
-                                      table_areas=table_areas,
-                                      columns=columns[i]
-                                      )
+        table_list = camelot.read_pdf(
+            str(pdf_path), 
+            pages=pages, 
+            flavor=flavor, 
+            split_text=False, #FALSE: evita divisiones de columnas inexactas
+            flag_size=True, 
+            table_areas=table_areas,
+            columns=columns[i]
+        )
         repaired_tables = repair_broken_rows_simple(table_list)
         tables.extend(repaired_tables)
 
     print(f"Cantidad de tablas encontradas: {len(tables)}")
-    
-    print("1ra tabla")
-    print(tables[0].df)
-    print("2da tabla")
-    print(tables[1].df)
-    print("3ra tabla")
-    print(tables[2].df)
-
+ 
+    #ordenar tablas de acuerdo al pdf extraído
     cols = 3
     reason = math.ceil(len(tables)/cols)
-
     tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]
-
     tables = tables_ordered
 
+    #unir tablas csv
     csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
 
     pdf_date = parse_date_from_filename(str(pdf_path))
+
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
 
 
 def extract_pdf_tables(pdf_path: str, output_dir: str = None, pages="all", flavor="stream"):
+    
     pdf_path = Path(pdf_path)
+    output_dir = Path(output_dir or DATA_DIR / "extracted")
     
-    if output_dir is None:
-        output_dir = DATA_DIR / "extracted"
-    else:
-        output_dir = Path(output_dir)
-    
-    ensure_dir(output_dir)
-
     print(f"Extrayendo tablas de: {pdf_path} --- flavor = {flavor} --- pages = {pages}")
 
     tables = camelot.read_pdf(str(pdf_path), pages=pages, flavor=flavor, split_text=True, flag_size=True)
@@ -96,5 +134,7 @@ if __name__ == "__main__":
     pdf = sys.argv[1]
     pages = sys.argv[2] if len(sys.argv) > 2 else "all"
     flavor = sys.argv[3] if len(sys.argv) > 3 else "stream"
+    #top_cut = sys.argv[4]
     #res = extract_pdf_tables(pdf, pages=pages, flavor=flavor)
-    res = extract_pdf_tables_areas(pdf, pages=pages, flavor=flavor)
+    #res = extract_pdf_tables_areas(pdf, pages=pages, flavor=flavor)
+    res = extract_special_pages(pdf, pages=pages, flavor=flavor)

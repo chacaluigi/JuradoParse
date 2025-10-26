@@ -10,14 +10,15 @@ def extract_pdf_pdfplumber(pdf_file, page_number, area_number):
         page=pdf.pages[page_number-1]
 
         if area_number == 1:
-            #area=page.crop((0, 0, 1/3*float(page.width), page.height))
-            area=page.crop((0, 0.045*(page.height), 1/3*float(page.width), page.height))
+            area=page.crop((0, 0, 1/3*float(page.width), page.height))
         elif area_number == 2:
             area=page.crop((1/3*float(page.width), 0, 2*1/3*float(page.width), page.height))
         elif area_number == 3:        
             area=page.crop((2/3*float(page.width), 0, page.width, page.height))
         else:
-            area=page.crop((243.17, 0, 284.17, 900))
+            area=page.crop((0, 0.178*float(page.height), 1/3*float(page.width), page.height))
+            #area=page.crop((1/3*float(page.width), 0.822*float(page.height), 2*1/3*float(page.width), page.height))
+            #area=page.crop((2/3*float(page.width), 0.822*float(page.height), page.width, page.height))
 
         print(f'ancho: {area.width}, alto: {area.height}')
         im=area.to_image(resolution=150)
@@ -26,7 +27,7 @@ def extract_pdf_pdfplumber(pdf_file, page_number, area_number):
 
 #w, h = extract_dimensions_page("data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf", 96)
 #print(f'ancho: {w}, alto: {h}')
-a = extract_pdf_pdfplumber("data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf", 91, 4)
+a = extract_pdf_pdfplumber("data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf", 4, 4)
 
 
 

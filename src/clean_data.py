@@ -1,13 +1,16 @@
 import pandas as pd
 from pathlib import Path
-from src.utils import ensure_dir, parse_date_from_filename, normalize_document, separate_last_and_first_names
+from src.utils import parse_date_from_filename, normalize_document, separate_last_and_first_names
 import sys
 
 CLEAN_DIR = Path(__file__).resolve().parents[1] / "data" / "cleaned"
 
 def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=None):
     
-    ensure_dir(CLEAN_DIR)
+    if output_csv is None:
+        input_path = Path(input_csv)
+        output_csv = CLEAN_DIR / f"{input_path.stem}_clean.csv"
+
     df = pd.read_csv(input_csv, dtype=str, keep_default_na=False)
 
     if 'APELLIDOS Y NOMBRES' in df.columns:
@@ -21,6 +24,7 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         df = df.drop(columns='DOCUMENTO')
         df = df.rename(columns={'DOC_NUMBER': 'DOCUMENTO'})
     
+    #ordenar columnas
     end_columns = ['MUNICIPIO', 'RECINTO', 'MESA']
     all_columns = df.columns.tolist()
     first_columns = [col for col in all_columns if col not in end_columns]
@@ -37,9 +41,7 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         if extracted_date:
             df['FECHA_PDF'] = extracted_date
 
-    if output_csv is None:
-        input_path = Path(input_csv)
-        output_csv = CLEAN_DIR / f"{input_path.stem}_clean.csv"
+    
 
     df.to_csv(output_csv, index=False, encoding='utf-8')
     print(f"Archivo limpio guardado en: {output_csv}")

@@ -61,8 +61,6 @@ def separate_last_and_first_names(text):
     
     return pd.Series([pat_surname, mat_surname, names])
 
-def ensure_dir(p):
-    Path(p).mkdir(parents=True, exist_ok=True)
 
 def repair_broken_rows_simple(table_list):
     for table in table_list:
@@ -103,7 +101,7 @@ def join_tables_csv(tables, pdf_path, output_dir, pages):
         combined_csv = output_dir / f"{pages}___{pdf_path.stem}.csv"
         combined_df.to_csv(combined_csv, index=False, header=False)
         csv_paths.append(str(combined_csv))
-        print(f"guardado en: {combined_csv}  Dimensiones: {combined_df.shape[0]} filas × {combined_df.shape[1]} columnas")
+        print(f"guardado en: {combined_csv}  Dimensiones: {combined_df.shape[0]} filas x {combined_df.shape[1]} columnas")
     return csv_paths
 
 def extract_dimensions_page(pdf_file, page_number):
