@@ -19,18 +19,19 @@ def separate_last_and_first_names(text):
         print(f'ERROR: EXTRACCIÓN NOMBRE INCORRECTO. El nombre {text} no puede ser menos de 2 palabras.')
         return pd.Series([text, '', ''])
     
-    conectors={'de', 'del', 'la', 'tezanos', 'le'}
+    conectors={'de', 'del', 'la', 'tezanos', 'le', 'san', 'pinell del'}
 
     processed_parts = []
     i=0
     while i<len(parts):
         current_part=parts[i]
+        mercado_pinell_exist = True if current_part.lower() == 'mercado' and parts[i+1].lower() == 'pinell' else False
 
         if current_part.lower() in conectors and parts[i+1].lower() in conectors and i+2 < len(parts):
             combined = f"{current_part} {parts[i+1]} {parts[i+2]}"
             processed_parts.append(combined)
             i+=3
-        elif current_part.lower() in conectors and i+1<len(parts):
+        elif current_part.lower() in conectors and i+1<len(parts) or mercado_pinell_exist:
             combined = f"{current_part} {parts[i+1]}"
             processed_parts.append(combined)
             i+=2
@@ -97,17 +98,28 @@ def repair_columns_mixed(table_list):
     for table in table_list:
         df = table.df.fillna('')  # reemplaza NaN con strings vacíos
         
-        for idx in range(len(df)):
+        for idx in range(1, len(df)):
             #se usa .iloc para acceso seguro por índice
+            nombre = str(df.iloc[idx, 0]) if pd.notna(df.iloc[idx, 0]) else ''
+            documento = str(df.iloc[idx, 1]) if pd.notna(df.iloc[idx, 1]) else ''
             recinto = str(df.iloc[idx, 3]) if pd.notna(df.iloc[idx, 3]) else ''
             mesa = str(df.iloc[idx, 4]) if pd.notna(df.iloc[idx, 4]) else ''
             
-            pattern = r'\d{1,2}$'
-            pattern_number = r'^\d+$'
-            
+            pattern_nombre_doc = r'^(.+?)([A-Z]-?\d+)$'
+            pattern_mesa = r'\d{1,2}$'
+            pattern_exchanged = r'^\d+$'
             
             cambios_realizados = False
             
+            if documento == '' and nombre != '':
+                match = re.search(pattern_nombre_doc, nombre)
+                if match:
+                    nombre = match.group(1).strip()
+                    documento = match.group(2).strip()
+                    cambios_realizados = True
+                else:
+                    print(f'src.utils-repair_columns_mixed: No se pudo separar el nombre del documento. documento = {documento} | nombre = {nombre}')
+
             if recinto == '' and mesa != '':
                 #print(f'Fila {idx}: Recinto vacío, Mesa tiene contenido')
                 recinto = mesa
@@ -115,14 +127,16 @@ def repair_columns_mixed(table_list):
                 cambios_realizados = True
             
             if mesa == '' and recinto != '':
-                #print(f'Fila {idx}: Mesa vacío, Recinto tiene contenido')
-                match = re.search(pattern, recinto)
+                #print(f'Fila {idx}: Recinto tiene contenido, Mesa vacío')
+                match = re.search(pattern_mesa, recinto)
                 if match:
                     mesa = match.group(0)
-                    recinto = re.sub(pattern, '', recinto).strip()
+                    recinto = re.sub(pattern_mesa, '', recinto).strip()
                     cambios_realizados = True
+                else:
+                    print(f'src.utils-repair_columns_mixed: No se pudo separar el recinto de mesa. documento = {documento} | recinto = {recinto}')
             
-            match_number = re.search(pattern_number, recinto)
+            match_number = re.search(pattern_exchanged, recinto)
 
             if match_number:
                 #print(f'Fila {idx}: Recinto es solo número, moviendo a Mesa')
@@ -132,6 +146,8 @@ def repair_columns_mixed(table_list):
             
             if cambios_realizados:
                 #print(f'Fila {idx}: cambios realizados, con: ', recinto, '/', mesa)
+                df.iloc[idx, 0] = nombre
+                df.iloc[idx, 1] = documento
                 df.iloc[idx, 3] = recinto
                 df.iloc[idx, 4] = mesa
         
@@ -152,10 +168,10 @@ def join_tables_csv(tables, pdf_path, output_dir, pages):
                 all_dataframes.append(table.df.iloc[1:])
         
         combined_df = pd.concat(all_dataframes, ignore_index=True)
-        combined_csv = output_dir / f"{pages}___{pdf_path.stem}.csv"
+        combined_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
         combined_df.to_csv(combined_csv, index=False, header=False)
         csv_paths.append(str(combined_csv))
-        print(f"guardado en: {combined_csv}  Dimensiones: {combined_df.shape[0]} filas x {combined_df.shape[1]} columnas")
+        print(f"Archivo extraido guardado en: {combined_csv}  Dimensiones: {combined_df.shape[0]} filas x {combined_df.shape[1]} columnas")
     return csv_paths
 
 def extract_dimensions_page(pdf_file, page_number):
@@ -175,7 +191,7 @@ def normalize_document(doc_text):
     if pd.isna(doc_text):
         return pd.Series(['','',''])
     
-    parts=str(doc_text).strip().split('-', 1)
+    parts = str(doc_text).strip().split('-', 1)
 
     if parts[0].upper() == 'I':
         doc_type='C.I.'
@@ -184,7 +200,12 @@ def normalize_document(doc_text):
     else:
         doc_type=parts[0]
 
-    doc_number=parts[1]
+    if len(parts) > 1:
+        doc_number = parts[1]
+    else:
+        #captura del problema
+        print(f'Error: "src.utils-normalize_document(doc_text)" parts no tiene suficientes elementos. parts = {parts} | doc_text = {doc_text}')
+        doc_number = None
     
     return pd.Series([doc_type, doc_number, complement]) 
 

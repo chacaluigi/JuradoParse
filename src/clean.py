@@ -38,17 +38,18 @@ def separate_last_and_first_names(text):
         print(f'ERROR: EXTRACCIÓN NOMBRE INCORRECTO. El nombre {text} no puede ser menos de 2 palabras.')
         return pd.Series([text, '', ''])
     
-    conectors={'de', 'del', 'la', 'tezanos', 'le'}
+    conectors={'de', 'del', 'la', 'tezanos', 'le', 'san'}
     processed_parts = []
     i=0
     while i<len(parts):
-        current_part=parts[i]
+        current_part = parts[i]
+        mercado_pinell_exist = True if current_part.lower() == 'mercado' and parts[i+1].lower() == 'pinell' else False
 
         if current_part.lower() in conectors and parts[i+1].lower() in conectors and i+2 < len(parts):
             combined = f"{current_part} {parts[i+1]} {parts[i+2]}"
             processed_parts.append(combined)
             i+=3
-        elif current_part.lower() in conectors and i+1<len(parts):
+        elif current_part.lower() in conectors and i+1<len(parts) or mercado_pinell_exist:
             combined = f"{current_part} {parts[i+1]}"
             processed_parts.append(combined)
             i+=2
@@ -84,20 +85,20 @@ def separate_last_and_first_names(text):
 def probar_casos_especiales():
     print("PRUEBA DE CASOS ESPECIALES:")
     print("=" * 80)
-    """ for caso in casos_prueba:
+    for caso in casos_prueba:
         pat, mat, nom = separate_last_and_first_names(caso)
         print(f"ORIGINAL: {caso}")
         print(f"PATERNO:  {pat}")
         print(f"MATERNO:  {mat}") 
         print(f"NOMBRES:  {nom}")
-        print("-" * 50) """
+        print("-" * 50)
 
-    for doc in docs_prueba:
+    """ for doc in docs_prueba:
         doc_type, doc_number, comp = normalize_document(doc)
         print(f"ORIGINAL: {doc}")
         print(f"type:     {doc_type}")
         print(f"number:   {doc_number}") 
         print(f"comp:     {comp}")
-        print("-" * 50)
+        print("-" * 50) """
 
 probar_casos_especiales()

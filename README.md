@@ -18,7 +18,11 @@ python -m src.clean_data data/extracted/2019-10-20-Elecciones-Generales-Cochabam
 python -m src.clean_data data/extracted/82___2020-10-18-Elecciones-Generales-Cochabamba.csv
 
 # ejecutar cli.py
-python -m src.cli extract-clean ./data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf 1-3 lattice
+python -m src.cli normal ./data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf 36-39 lattice
+
+python -m src.cli areas ./data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf 51-55 stream
+
+python -m src.cli special ./data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf 4 stream 0.180
 
 # propiedades camelot
 
@@ -50,3 +54,6 @@ pycparser          2.23
 PyPDF2             3.0.1
 pypdfium2          4.30.0
 
+
+5247476
+3496704

@@ -20,9 +20,8 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
     
     if 'DOCUMENTO' in df.columns:
         split_document = df['DOCUMENTO'].apply(normalize_document)
-        df[['TIPO', 'DOC_NUMBER', 'COMP']] = split_document
         df = df.drop(columns='DOCUMENTO')
-        df = df.rename(columns={'DOC_NUMBER': 'DOCUMENTO'})
+        df[['TIPO', 'DOCUMENTO', 'COMP']] = split_document
     
     #limpiar columnas
     columns_to_drop = ['MESA', 'Nro.', '', ' ', '   ']
@@ -34,8 +33,6 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         new_name = clean_header_column(str(column))
         if new_name != column:
             df.rename(columns={column: new_name}, inplace=True)
-
-    print(df.columns)
 
     #ordenar columnas
     end_columns = ['MUNICIPIO', 'RECINTO']
@@ -55,7 +52,7 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
             df['FECHA_PDF'] = extracted_date
 
     df.to_csv(output_csv, index=False, encoding='utf-8')
-    print(f"Archivo limpio guardado en: {output_csv}")
+    print(f"Archivo limpio guardado en: {output_csv}  Dimensiones: {df.shape[0]} filas x {df.shape[1]} columnas")
 
     return df
 
