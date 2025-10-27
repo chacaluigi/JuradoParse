@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from src.utils import parse_date_from_filename, normalize_document, separate_last_and_first_names
+from src.utils import clean_header_column, parse_date_from_filename, normalize_document, separate_last_and_first_names
 import sys
 
 CLEAN_DIR = Path(__file__).resolve().parents[1] / "data" / "cleaned"
@@ -24,8 +24,21 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         df = df.drop(columns='DOCUMENTO')
         df = df.rename(columns={'DOC_NUMBER': 'DOCUMENTO'})
     
+    #limpiar columnas
+    columns_to_drop = ['MESA', 'Nro.', '', ' ', '   ']
+    unnamed_columns = [col for col in df.columns if str(col).startswith('Unnamed')] #para las Unnamed
+    columns_to_drop.extend(unnamed_columns)
+    df.drop(columns_to_drop, axis=1, inplace=True, errors='ignore')
+
+    for column in df.columns:
+        new_name = clean_header_column(str(column))
+        if new_name != column:
+            df.rename(columns={column: new_name}, inplace=True)
+
+    print(df.columns)
+
     #ordenar columnas
-    end_columns = ['MUNICIPIO', 'RECINTO', 'MESA']
+    end_columns = ['MUNICIPIO', 'RECINTO']
     all_columns = df.columns.tolist()
     first_columns = [col for col in all_columns if col not in end_columns]
     new_columns = first_columns + end_columns
@@ -40,8 +53,6 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         extracted_date = parse_date_from_filename(source_pdf)
         if extracted_date:
             df['FECHA_PDF'] = extracted_date
-
-    
 
     df.to_csv(output_csv, index=False, encoding='utf-8')
     print(f"Archivo limpio guardado en: {output_csv}")

@@ -61,6 +61,14 @@ def separate_last_and_first_names(text):
     
     return pd.Series([pat_surname, mat_surname, names])
 
+def clean_header_column(text):
+    pattern = r'^(RECINTO|MUNICIPIO)'
+    match = re.match(pattern, text, re.IGNORECASE)
+    
+    if match:
+        return match.group(0).upper()
+    
+    return text 
 
 def repair_broken_rows(table_list):
     for table in table_list:
@@ -101,31 +109,29 @@ def repair_columns_mixed(table_list):
             cambios_realizados = False
             
             if recinto == '' and mesa != '':
-                print(f'Fila {idx}: Recinto vacío, Mesa tiene contenido')
+                #print(f'Fila {idx}: Recinto vacío, Mesa tiene contenido')
                 recinto = mesa
                 mesa = ''
                 cambios_realizados = True
             
             if mesa == '' and recinto != '':
-                print(f'Fila {idx}: Mesa vacío, Recinto tiene contenido')
+                #print(f'Fila {idx}: Mesa vacío, Recinto tiene contenido')
                 match = re.search(pattern, recinto)
                 if match:
-                    print('mesa: ',mesa, 'recinto: ', recinto)
                     mesa = match.group(0)
                     recinto = re.sub(pattern, '', recinto).strip()
-                    print('mesa: ',mesa, 'recinto: ', recinto)
                     cambios_realizados = True
             
             match_number = re.search(pattern_number, recinto)
 
             if match_number:
-                print(f'Fila {idx}: Recinto es solo número, moviendo a Mesa')
+                #print(f'Fila {idx}: Recinto es solo número, moviendo a Mesa')
                 recinto = mesa
                 mesa = match_number.group(0)
                 cambios_realizados = True
             
             if cambios_realizados:
-                print(f'Fila {idx}: cambios realizados, con: ', recinto, '/', mesa)
+                #print(f'Fila {idx}: cambios realizados, con: ', recinto, '/', mesa)
                 df.iloc[idx, 3] = recinto
                 df.iloc[idx, 4] = mesa
         

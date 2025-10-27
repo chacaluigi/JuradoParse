@@ -25,7 +25,7 @@ if __name__ == "__main__":
         print("comandos: extract <pdf>, run_all")
         sys.exit(1)
     cmd = sys.argv[1]
-    if cmd == "extract":
+    if cmd == "extract-clean":
         run_pipeline_for_pdf(sys.argv[2], sys.argv[3], sys.argv[4])
     elif cmd == "run_all":
         print('run_all')

@@ -8,6 +8,7 @@ from src.utils import parse_date_from_filename, extract_dimensions_page, join_ta
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
+
 def extract_special_page(pdf_path: str, output_dir: str = None, pages="4", flavor="stream", top_cut: float = 0.178):
     
     pdf_path = Path(pdf_path)
@@ -56,6 +57,7 @@ def extract_special_page(pdf_path: str, output_dir: str = None, pages="4", flavo
 
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
 
+
 def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all", flavor="stream"):
     
     pdf_path = Path(pdf_path)
@@ -92,9 +94,8 @@ def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all",
         repaired_broken_rows = repair_broken_rows(table_list)
         repaired_columns_mixed = repair_columns_mixed(repaired_broken_rows)
         tables.extend(repaired_columns_mixed)
-
+    
     print(f"Tablas encontradas: {len(tables)}")
-
  
     #ordenar tablas de acuerdo al pdf extraído
     cols = 3
@@ -109,6 +110,7 @@ def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all",
     pdf_date = parse_date_from_filename(str(pdf_path))
 
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
+
 
 def extract_pdf_tables(pdf_path: str, output_dir: str = None, pages="all", flavor="stream"):
     

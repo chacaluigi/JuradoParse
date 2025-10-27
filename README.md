@@ -11,13 +11,14 @@ PROYECTO DE EXTRACCIÓN DE PDFS
 
 # extraer tablas del pdf
 python -m src.extract_tables data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf 1-3 lattice
-python -m src.extract_tables data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf 5-6 stream
+python -m src.extract_tables data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf 5-6 stream areas
 
 # limpiar una tabla extraída
-python -m src.clean_data data/extracted/2019-10-20-Elecciones-Generales-Cochabamba_table1.csv data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf
+python -m src.clean_data data/extracted/2019-10-20-Elecciones-Generales-Cochabamba_combined.csv data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf
+python -m src.clean_data data/extracted/82___2020-10-18-Elecciones-Generales-Cochabamba.csv
 
 # ejecutar cli.py
-python -m src.cli extract ./data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf 1-3 lattice
+python -m src.cli extract-clean ./data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf 1-3 lattice
 
 # propiedades camelot
 
