@@ -4,12 +4,13 @@ import sys
 from pathlib import Path
 import camelot
 import math
-from src.utils import parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows, repair_columns_mixed
+from src.utils import parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows, repair_mixed_columns
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
+
 #normal
-def extract_pdf_tables(pdf_path: str, output_dir: str = None, pages="all", flavor="stream"):
+def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor="stream", pages="all"):
     
     pdf_path = Path(pdf_path)
     output_dir = Path(output_dir or DATA_DIR / "extracted")
@@ -34,26 +35,30 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, pages="all", flavo
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
 
 #areas
-def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all", flavor="stream"):
+def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream', pages = 'all', all_top_cut = None, column_separators = None, column_names = None):
     
     pdf_path = Path(pdf_path)
     output_dir = Path(output_dir or DATA_DIR / "extracted")
     
     print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
 
+    # Para extraer las areas de la página
     page_width, page_height = extract_dimensions_page(pdf_path, 5)
+    table_areas_list = []
+    all_top_cut = float(all_top_cut) if all_top_cut else None
 
-    table_areas_list = [
-        [f'0,0,{1/3*float(page_width)},{page_height}'],
-        [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{page_height}'],
-        [f'{2/3*float(page_width)},0,{page_width},{page_height}']
-    ]
-
-    columns = [
-        ['78.10,113.30,154.7,244.17'],
-        ['338.5,366.7,415.67,492.93'],
-        ['587.14,615.14,663.92,740.95']
-    ]
+    if(all_top_cut):
+        table_areas_list = [
+            [f'0,0,{1/3*float(page_width)},{all_top_cut*float(page_height)}'],
+            [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{all_top_cut*float(page_height)}'],
+            [f'{2/3*float(page_width)},0,{page_width},{all_top_cut*float(page_height)}']
+        ]
+    else:
+        table_areas_list = [
+            [f'0,0,{1/3*float(page_width)},{page_height}'],
+            [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{page_height}'],
+            [f'{2/3*float(page_width)},0,{page_width},{page_height}']
+        ]
 
     tables=[]
     
@@ -65,68 +70,22 @@ def extract_pdf_tables_areas(pdf_path: str, output_dir: str = None, pages="all",
             split_text=False, #FALSE: evita divisiones de columnas inexactas
             flag_size=True, 
             table_areas=table_areas,
-            columns=columns[i]
+            columns=column_separators[i]
         )
         repaired_broken_rows = repair_broken_rows(table_list)
-        repaired_columns_mixed = repair_columns_mixed(repaired_broken_rows)
+        repaired_columns_mixed = repair_mixed_columns(repaired_broken_rows)
         tables.extend(repaired_columns_mixed)
     
     print(f"Tablas encontradas: {len(tables)}")
- 
+
     #ordenar tablas de acuerdo al pdf extraído
     cols = 3
     reason = math.ceil(len(tables)/cols)
     tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]
     tables = tables_ordered
 
-    #unir tablas csv
-    csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
-
-    #obtener la fecha del nombre del documento
-    pdf_date = parse_date_from_filename(str(pdf_path))
-
-    return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
-
-#special
-def extract_special_page(pdf_path: str, output_dir: str = None, pages="4", flavor="stream", top_cut: float = 0.178):
-    
-    pdf_path = Path(pdf_path)
-    output_dir = Path(output_dir or DATA_DIR / "extracted")
-    
-    print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
-
-    page_width, page_height = extract_dimensions_page(pdf_path, 5)
-
-    top_cut = float(top_cut)
-
-    special_table_areas_list = [
-        [f'0,0,{1/3*float(page_width)},{top_cut*float(page_height)}'],
-        [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{top_cut*float(page_height)}'],
-        [f'{2/3*float(page_width)},0,{page_width},{top_cut*float(page_height)}']
-    ]
-
-    columns = [
-        ['78.10,113.30,154.7,244.17'],
-        ['338.5,366.7,415.67,492.93'],
-        ['587.14,615.14,663.92,740.95']
-    ]
-
-    tables=[]
-
-    for i, table_areas in enumerate(special_table_areas_list):
-        table_list = camelot.read_pdf(
-            str(pdf_path), 
-            pages=pages, 
-            flavor=flavor, 
-            split_text=False, #FALSE: evita divisiones de columnas inexactas
-            flag_size=True, 
-            table_areas=table_areas,
-            columns=columns[i]
-        )
-        repaired_tables = repair_broken_rows(table_list)
-        tables.extend(repaired_tables)
-
-    print(f"Tablas encontradas: {len(tables)}")
+    #renombrar el nombre de las columnas en la fila 0 de la primera tabla
+    tables[0].df.iloc[0] = list(column_names)
 
     #unir tablas csv
     csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
@@ -137,7 +96,7 @@ def extract_special_page(pdf_path: str, output_dir: str = None, pages="4", flavo
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
 
 
-if __name__ == "__main__":
+""" if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Uso: python extract_tables.py <pdf_path> [pages] [flavor]")
         sys.exit(1)
@@ -150,6 +109,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 4:
         res = extract_special_page(pdf, pages=pages, flavor=flavor, top_cut=top_cut) if sys.argv[4] == "special" else extract_pdf_tables_areas(pdf, pages=pages, flavor=flavor)
     else:
-        res = extract_pdf_tables(pdf, pages=pages, flavor=flavor)
+        res = extract_pdf_tables(pdf, pages=pages, flavor=flavor) """
         
 

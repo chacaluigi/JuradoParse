@@ -50,6 +50,78 @@ class BoliviaData:
         "MENDOZA SAN ROMAN MARIA DE LOS ANGELES MAGALI"
     ]
 
-    DOCUMENTOS_PRUEBA=[
+    DOCUMENTOS_PRUEBA = [
         "I-3623322","P-6445020","M-51258-88","R-4007-030171C","R-4000-200160D","I-14187764","M-179514384"
     ]
+
+class PDFConfig:
+    # Diccionario con configuraciones de PDFs
+    CONFIGURACIONES = {
+        '2019_EG_CBBA': {
+            'type': 'normal',
+            'pdf_path': './data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf',
+            'flavor': 'lattice',
+            'first_page': '1',
+            'first_top_cut': None,
+            'all_pages': '1-505',
+            'all_top_cut': None,
+            'column_separators': None,
+            'column_names': None
+        },
+        
+        '2020_EG_CBBA': {
+            'type': 'areas',
+            'pdf_path': './data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf',
+            'flavor': 'stream',
+            'first_page': '4',
+            'first_top_cut': '0.178',
+            'all_pages': '5-97',
+            'all_top_cut': None,
+            'column_separators': [
+                ['78.10,113.30,154.7,244.17'],
+                ['338.5,366.7,415.67,492.93'],
+                ['587.14,615.14,663.92,740.95']
+            ],
+            'column_names': [
+                'APELLIDOS Y NOMBRES',
+                'DOCUMENTO',
+                'MUNICIPIO',
+                'RECINTO',
+                'MESA'
+            ]
+        },
+
+        '2021_ES_CBBA': {
+            'type': 'areas',
+            'pdf_path': './data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf',
+            'flavor': 'stream',
+            'first_page': '4',
+            'first_top_cut': '0.178',
+            'all_pages': '5-99',
+            'all_top_cut': '0.968',
+            'column_separators': [
+                ['88.10,117.30,165.70,242.95'],
+                ['337.5,365.7,414.67,491.90'],
+                ['585.90,614.3,662.92,738.95']
+            ],
+            'column_names': [
+                'APELLIDOS Y NOMBRES',
+                'DOCUMENTO',
+                'MUNICIPIO',
+                'RECINTO',
+                'MESA'
+            ]
+        }
+    }
+    
+    @classmethod
+    def get_config(cls, pdf_key):
+        return cls.CONFIGURACIONES.get(pdf_key)
+    
+    @classmethod
+    def get_attributes(cls, pdf_key, *attributes):
+        config = cls.get_config(pdf_key)
+        if config:
+            return tuple(config.get(attr) for attr in attributes)
+        return tuple(None for _ in attributes)
+

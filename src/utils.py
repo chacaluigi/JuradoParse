@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from datetime import datetime
 import re
@@ -94,7 +95,7 @@ def repair_broken_rows(table_list):
     
     return table_list
 
-def repair_columns_mixed(table_list):
+def repair_mixed_columns(table_list):
     for table in table_list:
         df = table.df.fillna('')  # reemplaza NaN con strings vacíos
         
@@ -118,7 +119,7 @@ def repair_columns_mixed(table_list):
                     documento = match.group(2).strip()
                     cambios_realizados = True
                 else:
-                    print(f'src.utils-repair_columns_mixed: No se pudo separar el nombre del documento. documento = {documento} | nombre = {nombre}')
+                    print(f'src.utils-repair_mixed_columns: No se pudo separar el nombre del documento. documento = {documento} | nombre = {nombre}')
 
             if recinto == '' and mesa != '':
                 #print(f'Fila {idx}: Recinto vacío, Mesa tiene contenido')
@@ -134,7 +135,7 @@ def repair_columns_mixed(table_list):
                     recinto = re.sub(pattern_mesa, '', recinto).strip()
                     cambios_realizados = True
                 else:
-                    print(f'src.utils-repair_columns_mixed: No se pudo separar el recinto de mesa. documento = {documento} | recinto = {recinto}')
+                    print(f'src.utils-repair_mixed_columns: No se pudo separar el recinto de mesa. documento = {documento} | recinto = {recinto}')
             
             match_number = re.search(pattern_exchanged, recinto)
 
@@ -209,5 +210,8 @@ def normalize_document(doc_text):
     
     return pd.Series([doc_type, doc_number, complement]) 
 
+def file_exists(pdf_path):
+    return os.path.isfile(pdf_path)
 
-
+def is_pdf_file(pdf_path):
+    return pdf_path.lower().endswith('.pdf')
