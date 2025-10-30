@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from src.utils import clean_header_column, parse_date_from_filename, normalize_document, separate_last_and_first_names
+from src.utils import clean_header_column, parse_date_from_filename, normalize_document, remove_number_column, separate_last_and_first_names
 import sys
 
 CLEAN_DIR = Path(__file__).resolve().parents[1] / "data" / "cleaned"
@@ -34,7 +34,10 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         if new_name != column:
             df.rename(columns={column: new_name}, inplace=True)
 
-    #ordenar columnas
+    # eliminar numeros de columnas
+    df = remove_number_column(df.copy(), 'MUNICIPIO')
+
+    # ordenar columnas
     end_columns = ['MUNICIPIO', 'RECINTO']
     all_columns = df.columns.tolist()
     first_columns = [col for col in all_columns if col not in end_columns]
