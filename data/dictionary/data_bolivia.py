@@ -57,6 +57,7 @@ class BoliviaData:
 class PDFConfig:
     # Diccionario con configuraciones de PDFs
     CONFIGURACIONES = {
+        
         '2019_EG_CBBA': {
             'type': 'normal',
             'pdf_path': './data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf',
@@ -111,7 +112,29 @@ class PDFConfig:
                 'RECINTO',
                 'MESA'
             ]
-        }
+        },
+
+        '2024_EJ_CBBA': {
+            'type': 'normal',
+            'pdf_path': './data/raw/2024-12-15-Elecciones-Judiciales-Cochabamba.pdf',
+            'flavor': 'lattice',
+            'first_page': '16',
+            'first_top_cut': None,
+            'all_pages': '16-337',
+            'all_top_cut': None,
+            'column_separators': None,
+            'column_names': [
+                'Nro.',
+                'APELLIDOS',
+                'NOMBRES',
+                'TIPO',
+                'DOCUMENTO',
+                'COMP',
+                'MUNICIPIO',
+                'RECINTO',
+                'MESA'
+            ]
+        },
     }
     
     @classmethod
@@ -124,4 +147,8 @@ class PDFConfig:
         if config:
             return tuple(config.get(attr) for attr in attributes)
         return tuple(None for _ in attributes)
+    
+    @classmethod
+    def get_config(cls, pdf_key):
+        return cls.CONFIGURACIONES.get(pdf_key, {})
 

@@ -10,21 +10,24 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
 
 #normal
-def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor="stream", pages="all"):
+def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream", pages = "all", column_names = None):
     
     pdf_path = Path(pdf_path)
     output_dir = Path(output_dir or DATA_DIR / "extracted")
     
-    print(f"Extrayendo tablas de: {pdf_path} --- flavor = {flavor} --- pages = {pages}")
+    print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
 
     tables = camelot.read_pdf(
         str(pdf_path), 
         pages=pages, 
         flavor=flavor, 
         split_text=True, 
-        flag_size=True
+        flag_size=True,
     )
     print(f"Tablas encontradas: {len(tables)}")
+
+    #renombrar el nombre de las columnas en la fila 0 de la primera tabla
+    tables[0].df.iloc[0] = list(column_names)
 
     #unir tablas csv
     csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 

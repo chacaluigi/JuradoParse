@@ -8,7 +8,9 @@ from data.dictionary.data_bolivia import PDFConfig
 
 def run_pipeline_for_pdf(pdf_key, pages):
 
-    type, pdf_path, flavor, first_page, first_top_cut, all_pages, all_top_cut, column_separators, column_names = PDFConfig.get_attributes(pdf_key, 'type', 'pdf_path', 'flavor', 'first_page', 'first_top_cut', 'all_pages', 'all_top_cut', 'column_separators', 'column_names')
+    config = PDFConfig.get_config(pdf_key)
+    pdf_path = config['pdf_path']
+    type = config['type']
 
     if not file_exists(pdf_path):
         print(f"Error: El archivo '{pdf_path}' no existe")
@@ -19,11 +21,23 @@ def run_pipeline_for_pdf(pdf_key, pages):
         return
 
     if(type == 'normal'):
-        res = extract_pdf_tables(pdf_path, flavor = flavor, pages = pages)
+        res = extract_pdf_tables(
+            pdf_path=pdf_path,
+            flavor = config['flavor'],
+            pages = pages,
+            column_names = config['column_names']
+        )
     elif(type == 'areas'):
-        res = extract_pdf_tables_areas(pdf_path, flavor = flavor, pages = pages, all_top_cut = all_top_cut, column_separators = column_separators, column_names = column_names)
+        res = extract_pdf_tables_areas(
+            pdf_path=config['pdf_path'],
+            flavor=config['flavor'],
+            pages=config['all_pages'],
+            all_top_cut=config['all_top_cut'],
+            column_separators=config['column_separators'],
+            column_names=config['column_names']
+        )
     else:
-        print('colocar tipo')
+        print('especificar tipo de extracción')
 
     print(res['pdf_date'])
 

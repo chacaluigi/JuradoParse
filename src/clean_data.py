@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from src.utils import clean_header_column, parse_date_from_filename, normalize_document, remove_number_column, separate_last_and_first_names
+from src.utils import clean_header_column, parse_date_from_filename, normalize_document, separate_last_and_first_names
 import sys
 
 CLEAN_DIR = Path(__file__).resolve().parents[1] / "data" / "cleaned"
@@ -23,12 +23,13 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         df = df.drop(columns='DOCUMENTO')
         df[['TIPO', 'DOCUMENTO', 'COMP']] = split_document
     
-    #limpiar columnas
-    columns_to_drop = ['MESA', 'Nro.', '', ' ', '   ']
+    #limpiar columnas vacías
+    columns_to_drop = ['MESA', 'Nro.', 'NRO', '', ' ', '   ']
     unnamed_columns = [col for col in df.columns if str(col).startswith('Unnamed')] #para las Unnamed
     columns_to_drop.extend(unnamed_columns)
     df.drop(columns_to_drop, axis=1, inplace=True, errors='ignore')
 
+    # despejar nombre de columnas
     for column in df.columns:
         new_name = clean_header_column(str(column))
         if new_name != column:

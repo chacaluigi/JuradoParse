@@ -6,8 +6,8 @@ PROYECTO DE EXTRACCIÓN DE PDFS
 ## Subir proyecto en venv Ubuntu a git hub.
 ## quitar los enumeramientos de las columnas en la extracción de la tabla.
 ## modificar la función de extract_pdf_tables: unir las tablas encontradas de un pdf, en un solo archivo csv, ya que, las tablas de un pdf tienen el mismo encabezado y formato en todas sus páginas. Además que los pdfs tienen cientos de páginas con tablas.
-- Tipos de documentos
-- Extraer el 2do pdf
+## Tipos de documentos
+## Extraer el 2do pdf
 
 # extraer tablas del pdf
 python -m src.extract_tables data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf 1-3 lattice
@@ -26,9 +26,10 @@ python -m src.cli special ./data/raw/2020-10-18-Elecciones-Generales-Cochabamba.
 python -m src.cli special ./data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf 4 stream 0.180
 python -m src.cli special ./data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf 51-55 stream 0.968
 
-python -m src.cli 2019_EG_CBBA 43-47
-python -m src.cli 2020_EG_CBBA 43-47
-python -m src.cli 2021_ES_CBBA 43-47
+python -m src.cli 2019_EG_CBBA 1-505
+python -m src.cli 2020_EG_CBBA 5-97
+python -m src.cli 2021_ES_CBBA 5-99
+python -m src.cli 2024_EJ_CBBA 16-337
 
 
 # propiedades camelot
