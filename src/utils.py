@@ -46,21 +46,23 @@ def repair_mixed_columns(table_list):
             #se usa .iloc para acceso seguro por índice
             nombre = str(df.iloc[idx, 0]) if pd.notna(df.iloc[idx, 0]) else ''
             documento = str(df.iloc[idx, 1]) if pd.notna(df.iloc[idx, 1]) else ''
+            municipio = str(df.iloc[idx, 2]) if pd.notna(df.iloc[idx, 2]) else ''
             recinto = str(df.iloc[idx, 3]) if pd.notna(df.iloc[idx, 3]) else ''
             mesa = str(df.iloc[idx, 4]) if pd.notna(df.iloc[idx, 4]) else ''
             
             pattern_nombre_doc = r'^(.+?)([A-Z]-?\d+)$'
             pattern_mesa = r'\d{1,2}$'
             pattern_exchanged = r'^\d+$'
+            pattern_remove_number = r'\d'
             
-            cambios_realizados = False
+            changes_made = False
             
             if documento == '' and nombre != '':
                 match = re.search(pattern_nombre_doc, nombre)
                 if match:
                     nombre = match.group(1).strip()
                     documento = match.group(2).strip()
-                    cambios_realizados = True
+                    changes_made = True
                 else:
                     print(f'src.utils-repair_mixed_columns: No se pudo separar el nombre del documento. documento = {documento}')
 
@@ -68,7 +70,7 @@ def repair_mixed_columns(table_list):
                 #print(f'Fila {idx}: Recinto vacío, Mesa tiene contenido')
                 recinto = mesa
                 mesa = ''
-                cambios_realizados = True
+                changes_made = True
             
             if mesa == '' and recinto != '':
                 #print(f'Fila {idx}: Recinto tiene contenido, Mesa vacío')
@@ -76,7 +78,11 @@ def repair_mixed_columns(table_list):
                 if match:
                     mesa = match.group(0)
                     recinto = re.sub(pattern_mesa, '', recinto).strip()
-                    cambios_realizados = True
+                    changes_made = True
+                elif (re.sub(pattern_remove_number, '', municipio)):
+                    municipio = re.sub(pattern_remove_number, '', municipio).strip()
+                    changes_made = True
+                    print(f'src.utils-repair_mixed_columns: No se pudo separar el recinto de mesa, pero, se eliminaron numeros de municipio. documento = {documento}')
                 else:
                     print(f'src.utils-repair_mixed_columns: No se pudo separar el recinto de mesa. documento = {documento}')
             
@@ -86,12 +92,12 @@ def repair_mixed_columns(table_list):
                 #print(f'Fila {idx}: Recinto es solo número, moviendo a Mesa')
                 recinto = mesa
                 mesa = match_number.group(0)
-                cambios_realizados = True
+                changes_made = True
             
-            if cambios_realizados:
-                #print(f'Fila {idx}: cambios realizados, con: ', recinto, '/', mesa)
+            if changes_made:
                 df.iloc[idx, 0] = nombre
                 df.iloc[idx, 1] = documento
+                df.iloc[idx, 2] = municipio
                 df.iloc[idx, 3] = recinto
                 df.iloc[idx, 4] = mesa
         
@@ -144,9 +150,9 @@ def normalize_document(doc_text):
     
     return pd.Series([doc_type, doc_number, complement]) 
 
-def remove_number_column(df, nombre_columna):
+""" def remove_number_column(df, nombre_columna):
     df[nombre_columna] = df[nombre_columna].astype(str).str.replace(r'[\d\.]', '', regex=True).str.strip()
-    return df
+    return df """
 
 def separate_last_and_first_names(text):
     nombres_bolivia = BoliviaData.NOMBRES

@@ -96,7 +96,7 @@ def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream'
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
 
 
-""" if __name__ == "__main__":
+if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Uso: python extract_tables.py <pdf_path> [pages] [flavor]")
         sys.exit(1)
@@ -109,6 +109,6 @@ def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream'
     if len(sys.argv) > 4:
         res = extract_special_page(pdf, pages=pages, flavor=flavor, top_cut=top_cut) if sys.argv[4] == "special" else extract_pdf_tables_areas(pdf, pages=pages, flavor=flavor)
     else:
-        res = extract_pdf_tables(pdf, pages=pages, flavor=flavor) """
+        res = extract_pdf_tables(pdf, pages=pages, flavor=flavor)
         
 

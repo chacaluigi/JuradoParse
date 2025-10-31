@@ -34,9 +34,6 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         if new_name != column:
             df.rename(columns={column: new_name}, inplace=True)
 
-    # eliminar numeros de columnas
-    df = remove_number_column(df.copy(), 'MUNICIPIO')
-
     # ordenar columnas
     end_columns = ['MUNICIPIO', 'RECINTO']
     all_columns = df.columns.tolist()
