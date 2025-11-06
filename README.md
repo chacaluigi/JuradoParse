@@ -57,3 +57,13 @@ pypdfium2          4.30.0
 
 5247476
 3496704
+
+
+## PROBLEMAS EN LA EXTRACCIÓN
+python -m src.cli 2021_ES_CBBA 5-6
+
+ACUÑA GOMEZ FAUSTINO,I-8804647,Villa Tunari,Unidad Educativa 1ro de Mayo,1
+ACUÑA GUTIERREZ PRIMITIVA,I-7991132,San Benito (Villa José Quintín Mendoza)Unidad Educativa Wañakahua,,1
+ACUÑA TORRICO HILARIA,I-9371689,San Benito (Villa José Quintín Mendoza)Colegio Simon Bolivar (Huaricaya),,1
+AGUILAR ROJAS JHONATAN,I-6548643,San Benito (Villa José Quintín Mendoza)U. E. 27 de Mayo (Ex Jose B. Pereira),,1
+ALBA TORRICO HILDA,I-3135570,San Benito (Villa José Quintín Mendoza)U. E. 27 de Mayo (Ex Jose B. Pereira),,1

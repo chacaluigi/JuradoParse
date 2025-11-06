@@ -122,7 +122,7 @@ def join_tables_csv(tables, pdf_path, output_dir, pages, column_names):
         combined_df.columns = column_names
         print(combined_df)
         combined_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
-        combined_df.to_csv(combined_csv, index=False, header=False)
+        combined_df.to_csv(combined_csv, index=False, header=True)
         csv_paths.append(str(combined_csv))
         print(f"Archivo extraido guardado en: {combined_csv}  Dimensiones: {combined_df.shape[0]} filas x {combined_df.shape[1]} columnas")
     return csv_paths

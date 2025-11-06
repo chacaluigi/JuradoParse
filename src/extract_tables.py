@@ -84,31 +84,10 @@ def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream'
     tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]
     tables = tables_ordered
 
-    #renombrar el nombre de las columnas en la fila 0 de la primera tabla
-    tables[0].df.iloc[0] = list(column_names)
-
     #unir tablas csv
-    csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
+    csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages, column_names) 
 
     #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))
 
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
-
-
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Uso: python extract_tables.py <pdf_path> [pages] [flavor]")
-        sys.exit(1)
-    pdf = sys.argv[1]
-    pages = sys.argv[2] if len(sys.argv) > 2 else "all"
-    flavor = sys.argv[3] if len(sys.argv) > 3 else "stream"
-    type = sys.argv[4] if len(sys.argv) > 4 else "areas"
-    top_cut = sys.argv[5] if len(sys.argv) > 5 else "0.178"
-
-    if len(sys.argv) > 4:
-        res = extract_special_page(pdf, pages=pages, flavor=flavor, top_cut=top_cut) if sys.argv[4] == "special" else extract_pdf_tables_areas(pdf, pages=pages, flavor=flavor)
-    else:
-        res = extract_pdf_tables(pdf, pages=pages, flavor=flavor)
-        
-

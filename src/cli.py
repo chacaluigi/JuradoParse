@@ -31,7 +31,7 @@ def run_pipeline_for_pdf(pdf_key, pages):
         res = extract_pdf_tables_areas(
             pdf_path=config['pdf_path'],
             flavor=config['flavor'],
-            pages=config['all_pages'],
+            pages=pages,
             all_top_cut=config['all_top_cut'],
             column_separators=config['column_separators'],
             column_names=config['column_names']
@@ -43,9 +43,9 @@ def run_pipeline_for_pdf(pdf_key, pages):
 
     csvs = res['csvs']
 
-    """ for csv in csvs:
+    for csv in csvs:
         clean_csv(csv, source_pdf = res['pdf'], pdf_date = res['pdf_date'])
-    """
+   
 
 if __name__ == "__main__":
     
