@@ -13,14 +13,18 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
 
     df = pd.read_csv(input_csv, dtype=str, keep_default_na=False)
 
+    if 'APELLIDOS' in df.columns and 'NOMBRES' in df.columns:
+        df['APELLIDOS Y NOMBRES'] = df['APELLIDOS'].str.cat(df['NOMBRES'], sep=' ', na_rep='')
+        df.drop(columns=['APELLIDOS', 'NOMBRES'], inplace=True)
+
     if 'APELLIDOS Y NOMBRES' in df.columns:
         split_name = df['APELLIDOS Y NOMBRES'].apply(separate_last_and_first_names)
         df[['APELLIDO_PATERNO', 'APELLIDO_MATERNO', 'NOMBRES']] = split_name
-        df = df.drop(columns='APELLIDOS Y NOMBRES')
+        df.drop(columns='APELLIDOS Y NOMBRES', inplace=True)
     
-    if 'DOCUMENTO' in df.columns:
+    if 'DOCUMENTO' in df.columns and 'TIPO' not in df.columns:
         split_document = df['DOCUMENTO'].apply(normalize_document)
-        df = df.drop(columns='DOCUMENTO')
+        df.drop(columns='DOCUMENTO', inplace=True)
         df[['TIPO', 'DOCUMENTO', 'COMP']] = split_document
     
     #limpiar columnas vacías
@@ -35,13 +39,6 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         if new_name != column:
             df.rename(columns={column: new_name}, inplace=True)
 
-    # ordenar columnas
-    end_columns = ['MUNICIPIO', 'RECINTO']
-    all_columns = df.columns.tolist()
-    first_columns = [col for col in all_columns if col not in end_columns]
-    new_columns = first_columns + end_columns
-    df = df[new_columns]
-
     if source_pdf:
         df['FUENTE_PDF'] = source_pdf
     
@@ -51,6 +48,10 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
         extracted_date = parse_date_from_filename(source_pdf)
         if extracted_date:
             df['FECHA_PDF'] = extracted_date
+
+     # ordenar columnas
+    column_order = ['APELLIDO_PATERNO','APELLIDO_MATERNO','NOMBRES','TIPO','DOCUMENTO','COMP','MUNICIPIO','RECINTO','FUENTE_PDF','FECHA_PDF']
+    df = df[column_order]
 
     df.to_csv(output_csv, index=False, encoding='utf-8')
     print(f"Archivo limpio guardado en: {output_csv}  Dimensiones: {df.shape[0]} filas x {df.shape[1]} columnas")

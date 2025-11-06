@@ -105,6 +105,9 @@ def repair_mixed_columns(table_list):
     
     return table_list
 
+def is_header_row(first_row):
+    return any('APELLIDOS' in str(cell).upper() for cell in first_row)
+
 def join_tables_csv(tables, pdf_path, output_dir, pages, column_names):
     csv_paths = []
 
@@ -120,15 +123,12 @@ def join_tables_csv(tables, pdf_path, output_dir, pages, column_names):
             
         combined_df = pd.concat(all_dataframes, ignore_index=True)
         combined_df.columns = column_names
-        print(combined_df)
         combined_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
         combined_df.to_csv(combined_csv, index=False, header=True)
         csv_paths.append(str(combined_csv))
         print(f"Archivo extraido guardado en: {combined_csv}  Dimensiones: {combined_df.shape[0]} filas x {combined_df.shape[1]} columnas")
     return csv_paths
 
-def is_header_row(first_row):
-    return any('APELLIDOS' in str(cell).upper() for cell in first_row)
 
 # Funciones de Limpieza de datos
 
