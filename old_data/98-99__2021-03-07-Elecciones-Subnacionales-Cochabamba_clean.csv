@@ -1,0 +1,609 @@
+APELLIDO_PATERNO,APELLIDO_MATERNO,NOMBRES,TIPO,DOCUMENTO,COMP,MUNICIPIO,RECINTO,FUENTE_PDF,FECHA_PDF
+ZERDA,CALIZAYA,NORMA,C.I.,5207735,,Cochabamba,Unidad Educativa Demetrio Canelas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,CAMPEROS,WILMA,C.I.,6492420,,Santivañez,Escuela Prudencio Arauco (Santivañez),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,CLAROS,VITALIANO,C.I.,2887167,,Cochabamba,Escuela Ceferino Namuncura,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,CONDORI,JOSE LUIS,C.I.,4426807,,Quillacollo,Instituto Particular Quillacollo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,DIAZ,RENE,C.I.,3759922,,Vinto,Escuela Ismael Montes,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,ESCOBAR,FELIX,C.I.,4488193,,Vinto,Escuela Melchor Cuadros,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,FLORES,JOSE ANTONIO,C.I.,7956789,,Sipesipe,Escuela Sucre (Sipe Sipe),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,GARCIA,KATERINE NOELIA,C.I.,8678053,,Cochabamba,Colegio Tecnico Humanistico Abaroa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,GARCIA,RUTH ROSEMARY,C.I.,3785836,,Quillacollo,Colegio Nacional Calama (Nueva Infraestructura),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,JAIMES,JHOSELINE DIANA,C.I.,7960604,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,MEDRANO,GARY GILMAR,C.I.,5931682,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,MEDRANO,MELVY MADELEINE,C.I.,7999899,,Cochabamba,Escuela Ceferino Namuncura,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,ONTIVEROS,LIZBETH GIOVANA,C.I.,9055625,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,QUIROZ,DELY JOVITA,C.I.,5928677,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,ROCHA,YERKO RAUL,C.I.,5237626,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,RODRIGUEZ,TITO FILIBERTO,C.I.,4503854,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,SANCHEZ,WILBER,C.I.,13227355,,Cochabamba,Unidad Educativa Hno Pacifico Feletti,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,SEJAS,RILMAR,C.I.,5211175,,Cochabamba,Unidad Educativa Demetrio Canelas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,TRUJILLO,JOSE ISAAC,C.I.,13996061,,Cochabamba,Unidad Educativa Facundo Quiroga,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,VELEZ,LITZY ELY,C.I.,7932398,,Cochabamba,Escuela Ceferino Namuncura,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,VERA,MIGUEL ANGEL,C.I.,14151039,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,VIDAL,ROXANA,C.I.,9460860,,Puerto Villarroel,Colegio Eduardo Avaroa (P.Villarroel),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,VILLARROEL,FILOMENA,C.I.,3771277,,Cochabamba,Unidad Educativa Demetrio Canelas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERDA,ZAMBRANA,KAREN,C.I.,6462820,,Sipesipe,Unidad Educativa Andres Uzeda Ocampo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,ALMENDRAS,ROBERTO,C.I.,6418711,,Vacas,Escuela Experimental Vacas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,CLAROS,CRESENCIO,C.I.,844285,,San Benito (Villa José Quintín Mendoza)Colegio Simon Bolivar (Huaricaya),,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,CLAROS,PETRONA,C.I.,968494,,Villa Tunari,Unidad Educativa San Francisco Km 21,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,COSSIO,FERMIN,C.I.,3125892,,Tiraque,Escuela Seccional Sacabambilla,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,DOMINGUEZ,CLISMAR,C.I.,8663875,,Entre Ríos,Colegio Franz Tamayo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,ESPINOZA,SILBERIO MACARIO,C.I.,827419,,San Benito (Villa José Quintín Mendoza)Colegio Simon Bolivar (Huaricaya),,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,FLORES,ASTERIA,C.I.,6515030,,Chimoré,U.E. Marcelo Quiroga Santa Cruz (Temporal),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,GALINDO,CLAUDIA,C.I.,8034308,,San Benito (Villa José Quintín Mendoza)Escuela Experimental Paracaya,,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,GONZALES,ILARIA,C.I.,5301841,,Cochabamba,Campo Ferial,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,LOPEZ,ELMER,C.I.,8009099,,Tiraque,Escuela Seccional Sacabambilla,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,MALDONADO,CINTHIA,C.I.,6449536,,Punata,Escuela Adela Zamudio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,MALDONADO,ORLANDO,C.I.,5262185,,San Benito (Villa José Quintín Mendoza)Escuela Experimental Paracaya,,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,MALDONADO,ROSS MERY,C.I.,4393828,,San Benito (Villa José Quintín Mendoza)Escuela Experimental Paracaya,,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,MONTAÑO,ADELAIDA,C.I.,12998360,,Villa Tunari,Unidad Educativa Paracti (Villa Tunari),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,MURIEL,JUANA,C.I.,7894635,,Tiraque,Escuela Cotani Bajo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,ORELLANA,AURELIO,C.I.,12582214,,Tiraque,Escuela Cotani Bajo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,ORELLANA,NICOLAS,C.I.,3739399,,Tiraque,Escuela Cotani Bajo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,QUINTEROS,JUANA,C.I.,7877763,,Sacaba,Colegio Nataniel Aguirre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,TENORIO,HONORATO,C.I.,3720108,,San Benito (Villa José Quintín Mendoza)Colegio Simon Bolivar (Huaricaya),,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,TORRICO,UBALDINA,C.I.,9504186,,Tiraque,Escuela Cotani Bajo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,VARGAS,CATALINA,C.I.,2899922,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,VEGA,AIDE,C.I.,8723369,,Tiraque,Escuela Cotani Bajo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,VEGA,JOSE,C.I.,8723320,,Tiraque,Escuela Cotani Bajo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,VELASQUEZ,ANDREA,C.I.,8728496,,San Benito (Villa José Quintín Mendoza)Colegio Simon Bolivar (Huaricaya),,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZERNA,VELASQUEZ,WILSON,C.I.,5226211,,San Benito (Villa José Quintín Mendoza)Escuela Experimental Paracaya,,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZOLA,ACHO,ELIANA,C.I.,9447355,,Cochabamba,U. E. Libertad,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZOLA,COYO,EBER,C.I.,9412377,,Cochabamba,Unidad Educativa Nueva Esperanza,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZOLA,HUARACHI,WUENDELL ALCIDES,C.I.,5282656,,Cochabamba,Colegio Tecnico Humanistico Abaroa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZOLA,OLGUIN,NELSON JOAQUIN,C.I.,5055474,,Tiraque,U. E. Isabel Torrico Arnez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZONA,CHURA,EFRAIN,C.I.,14123462,,Quillacollo,U. E. Potrero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZONA,CONDORI,GRACIELA,C.I.,13419498,,Vinto,Nucleo Escolar Simon Bolivar (Thiomoko),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZONA,ESCALERA,CELIA,C.I.,8810666,,Quillacollo,Unidad Educativa Villa Moderna,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZONA,LAURA,TEODORO,C.I.,8793180,,Tiquipaya,Nucleo Educativo Chapisirca,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZONA,RIVEROS,SILVIA,C.I.,8698986,,Quillacollo,Escuela Arturo Quitón,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZONA,RODRIGUEZ,DELIA,C.I.,13995802,,Tiquipaya,U.E. Rumy Corral,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZONNEVELD,MICHEL,DAVID AHMAD,C.I.,6421375,,Cochabamba,Colegio Federico Froebel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZONNEVELD,VON,BRUNN NURA,C.I.,3122805,,Cochabamba,Colegio Federico Froebel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZORRILLA,PIMENTEL,DANNA ESTEFANI,C.I.,9508390,,Cochabamba,Colegio Nacional Mixto Cochabamba,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZOTA,UÑO,JOSE WALTER,C.I.,3711147,,Aiquile,Escuela Simon Rodriguez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUAZO,AMPUERO,ALEJANDRA,C.I.,3588608,,Cochabamba,Colegio Federico Froebel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUAZO,GUTIERREZ,ABEL,C.I.,3486666,,Cochabamba,Colegio Federico Froebel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUAZO,MAMANI,CARLA JOHANA,C.I.,9351891,,Cochabamba,U. E. Ayni Pacha,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUAZO,TRIVEÑO,JAHEL KATIA,C.I.,5294882,,Cochabamba,Escuela Fiscal Juan XXIII A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIA,GOMEZ,MERY YOLANDA,C.I.,9309972,,Vinto,Escuela Melchor Cuadros,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZUBIETA,BERNARDO,C.I.,3568870,,Villa Tunari,Escuela Samuzabeti,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZUBIETA,JOHN WILSON,C.I.,13895973,,Cochabamba,Colegio Santo Domingo Savio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,NANCY,CRISTINA,C.I.,7080248,,Colcapirhua,Unidad Educativa La Sagrada Familia,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZUBIETA,TITO EDUARDO,C.I.,4833246,,Tiquipaya,Unidad Educativa Libertad,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,AGUILAR,LUCIO RAUL,C.I.,664370,,Sacaba,Unidad Educativa Israelí El Abra,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,AGUILAR,MARTHA FIDELIA,C.I.,3060847,,Sacaba,U.E. República del Ecuador,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ALARCON,NEIL ALVARO,C.I.,3752465,,Cochabamba,Unidad Educativa de La Fuerza Aerea,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ANTEZANA,CARMEN ERICKA,C.I.,9336288,,Cochabamba,Unidad Educativa Jose Ignacio Sanjines,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ARGOTE,JOEL CARLOS,C.I.,9445036,,Sipesipe,Unidad Educativa Andres Uzeda Ocampo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ARIAS,VANIA SUSI,C.I.,7998583,,Quillacollo,Unidad Educativa Heroinas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ASCUY,JESUSA,C.I.,3590825,,Vinto,U.E. Simón I. Patiño,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,AYALA,MIGUEL,C.I.,675794,,Quillacollo,Colegio Franz Tamayo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,BENITEZ,GUIDO,C.I.,7893809,,Cochabamba,Colegio Luis Quintin Vila,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,BUENDIA,ALBERTA,C.I.,3734101,,Vinto,Unidad Educativa Anocaraire,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,CABRERA,MARIA VIRGINIA,C.I.,954779,,Quillacollo,Escuela Tomas Bata,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,CALLE,MARCELINO,C.I.,922162,,Cochabamba,Colegio Santa Luisa Marillac,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,COLQUE,GUALBERTO HERNAN,C.I.,5782181,,Cochabamba,Colegio Pio XII,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,DEL CASTILLO,MARCO ANTONIO,C.I.,5216869,,Cochabamba,Centro Educativo San Francisco De Asis,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,DIAZ,VIVIAN,C.I.,3794423,,Vinto,Escuela Melchor Cuadros,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ESPINOZA,MIRIAM,C.I.,5224645,,Sipesipe,Unidad Educativa Sauce Rancho,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,FRANCO,ROLANDO,C.I.,6445546,,Sacaba,Unidad Educativa Edmundo Bojanowski,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,FUENTES,SILVIO ARMANDO,C.I.,3148815,,Cochabamba,Escuela 6 de Agosto,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,GAMEZ,JULIAN,C.I.,4531527,,Sacaba,Colegio Franz Tamayo (Chiñata),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,HINOJOSA,AXEL SAUL,C.I.,5289831,,Colcapirhua,Escuela Jesus Lara,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,HUAYGUA,JUVENAL,C.I.,10563318,,Cochabamba,Colegio San Antonio De Pucara,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,LARRAZABAL,JORGE ANDREI,C.I.,3549287,,Sacaba,U.E. Marcelo Quiroga Santa Cruz (Pacata),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,LOVERA,MARIA ELENA,C.I.,6512301,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,MALDONADO,JHONNY,C.I.,8817064,,Sipesipe,Escuela Sucre (Sipe Sipe),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,MAMANI,GROBERD YONET,C.I.,5208218,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,MAMANI,KATHERINE,C.I.,9447801,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,MARTINEZ,HERNAN,C.I.,605872,,Colcapirhua,Colegio Max Fernandez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,MENDOZA,ARMINDA,C.I.,3510948,,Quillacollo,Escuela Felix Martinez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,MENDOZA,LOURDES,C.I.,8770880,,Colcapirhua,U. E. Nuestra Señora de La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,MITA,FERNANDO,C.I.,14804803,,Cochabamba,Colegio Santa Luisa Marillac,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,MORDAGON,NILDA,C.I.,6446230,,Quillacollo,Teofilo Vargas Candia B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,OLIVERA,DANIEL,C.I.,6431250,,Cochabamba,Centro Particular Geronimo De Osorio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,PADILLA,MARIZOL,C.I.,9341680,,Quillacollo,Unidad Educativa Villa Moderna,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,QUISPE,NEILA SANDRA,C.I.,7948854,,Sipesipe,Escuela Sucre (Sipe Sipe),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,REYES,JOSE KEVIN,C.I.,8817498,,Vinto,Unidad Educativa Anocaraire,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,RIVERO,PATRICIA MERCEDES JAQUELINE,C.I.,2863425,,Cochabamba,Colegio Maryknoll,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ROJAS,ELOY,C.I.,2914660,,Vinto,Unidad Educativa Anocaraire,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ROMERO,LIZETH,C.I.,12555802,,Vinto,U.E. Simón I. Patiño,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ROMERO,NAPOLEON,C.I.,4661364,,Santivañez,Unidad Educativa Caporaya,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,ROMERO,SANDRA,C.I.,6539639,,Santivañez,Unidad Educativa Caporaya,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,SAAVEDRA,LUIS ALBERTO,C.I.,8773896,,Quillacollo,Teofilo Vargas Candia B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,SARZURI,DAMARIZ,PAS.,5202034,,Ayopaya (Villa de Independencia),Colegio Simon Bolivar Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,SARZURI,MARITZA,C.I.,9335657,,Ayopaya (Villa de Independencia),Colegio Simon Bolivar Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,SOTOMAYOR,GILMAR,C.I.,8815472,,Vinto,Unidad Educativa Anocaraire,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,SUAREZ,EDWIN,C.I.,5151538,,Cochabamba,Liceo  Mercedes Candia De Ovando,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,TERCEROS,GUSTAVO DANIEL,C.I.,3755111,,Sacaba,Colegio Quintanilla,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,TERCEROS,LUIS GONZALO,C.I.,3755112,,Cochabamba,Colegio Hispano Boliviano,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,TORRICO,JHOISEL LINDSAY,C.I.,9414073,,Cochabamba,Escuela Gerardo Vargas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,TORRICO,RUTH CAROL,C.I.,12618569,,Shinahota,Unidad Educativa Ibuelo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,VEGA,MARIA INGRIT,C.I.,2864575,,Cochabamba,Esc. Republica Del Peru O I. Vasquez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,VELEZ,GISELA JACKELIN,C.I.,5230858,,Cochabamba,Liceo  Mercedes Candia De Ovando,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,VIGABRIEL,RENE EDWIN,C.I.,9396548,,Cochabamba,Escuela Ricardo Prudencio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUBIETA,VILLARROEL,SILVERIO,C.I.,5923129,,Chimoré,Unidad Educativa Cesar Zama (Chimore),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUCAÑO,ORTEGA,ROGER,C.I.,13292045,,Entre Ríos,U. E. José Carrasco (Manco Kapac),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZULETA,BRAVO,JOSE,C.I.,1324811,,Sacaba,U.E. Marcelo Quiroga Santa Cruz (Pacata),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZULETA,GARCIA,GABRIELA,C.I.,5520417,,Cochabamba,Escuela Gualberto Villarroel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZULETA,JUSTINIANO,AYSHIA ADELA,C.I.,11547289,,Cochabamba,Universidad Ucatec (Ex Ceivo),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZULETA,MAMANI,LILIAN GLORIA,C.I.,4539954,,Sacaba,Colegio Boliviano Japones,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZULETA,MIRANDA,WALTER ESTANISLAO,C.I.,2609189,,Cochabamba,Unidad Educativa Santa Maria Micaela,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZULETA,SILVA,JOSE ENRIQUE,C.I.,6691820,,Sacaba,U.E. Marcelo Quiroga Santa Cruz (Pacata),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUMA,COPAJIRA,MONICA,C.I.,8663477,,Sacaba,Unidad Educativa Israelí El Abra,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUMARAN,LOZA,CARLOS ANTONIO,C.I.,8677671,,Colcapirhua,Escuela Jesus Lara,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,CARMEN,ROSA,C.I.,12970876,,Cochabamba,Unidad Educativa Juan Jose Torrez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,ALDUNATE,CAMILA VALENTINA,C.I.,9337093,,Cochabamba,Centro Educativo San Francisco De Asis,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,CHURA,MARIANA,C.I.,4413565,,Cochabamba,Escuela Ricardo Prudencio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,COSME,JOEL,C.I.,9447061,,Cochabamba,U. E. Peniel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,HUANACO,ADELAIDA,C.I.,4383275,,Cochabamba,U. E. Libertad,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,HUANCA,NELSON,C.I.,8841043,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,LAMAS,JUAN DE DIOS JHONNY,C.I.,3108042,,Cochabamba,Unidad Educativa Maria Josefa Mujia,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,MACHACA,JORGE LUIS,C.I.,7411622,,Cochabamba,U. E. Libertad,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,MHUR,ELSA EVELYN,C.I.,5195656,,Cochabamba,Colegio Santo Domingo Savio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,MOYA,JULIA,C.I.,7994510,,Shinahota,Unidad Educativa Ivirizu Vandiola,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,NINA,ELIDA,C.I.,7341975,,Cochabamba,U. E. El Mirador,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,PEREZ,ABEL,C.I.,5270746,,Sacaba,Unidad Educativa Hernán Rivero Fiorilo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,QUISPE,JUAN,C.I.,7868428,,Colcapirhua,Unidad Educativa La Sagrada Familia,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,QUISPE,LIDIA,C.I.,7903534,,Quillacollo,Centro Integral Niño Jesus Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,QUISPE,RAFAEL,C.I.,8005027,,Colcapirhua,Unidad Educativa La Sagrada Familia,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,QUISPE,SIRLEY MAYDE,C.I.,5936350,,Quillacollo,“U. E. El Paso “”A”“”,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,QUISPE,SOFIA,C.I.,12776523,,Quillacollo,Unidad Educativa Marquina,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,RODRIGUEZ,JIMENA,C.I.,6404562,,Sacaba,Colegio Quintanilla,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNA,ZANABRIA,ELIZABETH,C.I.,6542278,,Sacabamba,Unidad Educativa Apillapa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUNAGUA,CHINCHA,JIMENA,C.I.,9381236,,Cochabamba,Unidad Educativa Hno Pacifico Feletti,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑAGUA,ESPINOZA,EDSON ENRIQUE,C.I.,8020872,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑAGUA,MAMANI,JHONNY REMIGIO,C.I.,3352726,,Sacaba,Unidad Educativa del Valle,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑAGUA,TICONA,XIMENA,C.I.,14153100,,Cochabamba,U. E. Juancito Pinto B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑAGUA,ZAMBRANA,ERIK RODRIGO,C.I.,5199810,,Cochabamba,Unidad Educativa Estados Unidos,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,CHUCA,JEAN PAUL,C.I.,4471477,,Cochabamba,Colegio La Salle Fiscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,FLORES,MARIO,C.I.,4118302,,Shinahota,Unidad Educativa Ibuelo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,LAIME,ELIASA,C.I.,9393534,,Cochabamba,U. E. San Francisco Javier,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,LAYME,DOROTEO,C.I.,13166855,,Cochabamba,Colegio Amor de Dios,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,MAMANI,JUANA,C.I.,12744430,,Puerto Villarroel,Escuela Senda 6,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,NAVA,LEIDY NACIRA,C.I.,8291011,,Cochabamba,Colegio Tecnico Humanistico Abaroa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,ORELLANA,ELOINA,C.I.,6506293,,San Benito (Villa José Quintín Mendoza)Unidad Educativa Wañakahua,,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,RIVERA,LOURDES PAMELA,C.I.,7908295,,Cochabamba,Colegio Luis Quintin Vila,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,TORREZ,JOSE RONAL,C.I.,15646945,,Shinahota,Unidad Educativa Ibuelo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUÑIGA,TORREZ,MARIA ELENA,C.I.,12585841,,Shinahota,Unidad Educativa Ibuelo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURILLA,DARLIN,C.I.,8708999,,Puerto Villarroel,Escuela Central Villa Nueva,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,ABRAHAM,C.I.,9402483,,Cochabamba,Colegio Martin Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,CALISTA,C.I.,7867601,,Puerto Villarroel,Escuela Toribio Claure (V. Hermoso),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,DANIEL,C.I.,6471597,,Cochabamba,Liceo Adela Zamudio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,ELIZABETH CARMEN,C.I.,3815996,,Arbieto,Centro Educativo German Busch - Arbieto,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,EMILIA,C.I.,3568233,,Tiraque,Nucleo Escolar Iluri Grande,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,FRANCISCA,C.I.,8768810,,AIOC Raqaypampa,Nucleo Escolar Beta Raqay Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,JORGE LUIS,C.I.,8838637,,Cliza,Escuela Sucre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,JUAN,C.I.,3798041,,Villa Tunari,Escuela San Antonio de Villa Tunari,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,LEONCIO,C.I.,8811686,,Mizque,Nucleo José Claure (U. E. San Vicente),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,MARGARITA,C.I.,7986505,,Pojo,Unidad Educativa Palca C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,PILAR,C.I.,3774012,,Cochabamba,Escuela Gerardo Vargas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,ROGER,C.I.,8742752,,Villa Tunari,Colegio Francisco Vignaud,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,SANTOS,C.I.,8848898,,Quillacollo,(Cárcel) Penal San Pablo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,VICTOR HUGO,C.I.,2902637,,Cochabamba,Colegio Richard Von Weizacker,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,VITALIANA,C.I.,5937665,,Vila Vila,Nucleo Escolar Siquimira,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AGUAYO,FORTUNATA,C.I.,5316898,,Cliza,Colegio Juan de Dios Balderrama,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AGUAYO,NOHRA,C.I.,6422602,,Villa Rivero,Unidad Educativa Martín Cárdenas Hermoso,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AGUILAR,ADA EVELIN,C.I.,3732906,,Cochabamba,Colegio Don Bosco,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AGUILAR,CONCEPCION,C.I.,5202495,,Cliza,Colegio Nacional Mixto Ucureña,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AGUILAR,GALEN GERBEN,C.I.,7862253,,Sacaba,Unidad Educativa Edmundo Bojanowski,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AGUILAR,JUAN CARLOS,C.I.,5906923,,Cochabamba,Escuela Central Taquiña C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ALANES,JAIME,C.I.,7963345,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ALANES,REYNALDO,C.I.,9474445,,Ayopaya (Villa de Independencia),Colegio Simon Bolivar Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ALBARRACIN,ELMER,C.I.,8753478,,Villa Tunari,Colegio Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ALCOBA,VERONICA,C.I.,9316156,,Sicaya,U. E. Orcoma,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ALTIRI,FREDDY,C.I.,6480183,,Ayopaya (Villa de Independencia),Colegio Simon Bolivar Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ALVARADO,FRANCISCO,C.I.,3724404,,Tiraque,Escuela Koari (Nucleo Esc. S. Bolivar),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ALVARADO,MARGARITA,C.I.,3781044,,Tiraque,Escuela Koari (Nucleo Esc. S. Bolivar),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ALVAREZ,YURI RUBENS,PAS.,6520390,,Cochabamba,Escuela Jose Maria Santivañez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AMURRIO,ORLANDO,C.I.,5273088,,Tiquipaya,Aldeas S.O.S,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ANTORIANO,SANTOS EMILIO,C.I.,4526449,,Quillacollo,U.E. 21 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AQUINO,ROGER,C.I.,13196693,,Arani,Escuela Gualberto Villarroel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARANIBAR,DEYSI,C.I.,9302109,,Quillacollo,“U. E. El Paso “”A”“”,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARANIBAR,FREDDY,C.I.,7281824,,Ayopaya (Villa de Independencia),Unidad Educativa Charahuaytu,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARANIBAR,LISBETH,C.I.,9302108,,Quillacollo,Instituto Tecnologico El Paso,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARAOS,AURORA,C.I.,4529969,,Punata,U. E. Rene Barrientos O. - La Villa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,AREBALO,ANGEL CRISTYAN,C.I.,3150737,,Tiquipaya,Escuela Toribio Claure,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARGOTE,ANA ROSA,C.I.,9372998,,Tarata,Unidad Educativa Huayculi,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARIAS,FILOMON,C.I.,8734919,,Vinto,Escuela Martín Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARIAS,HILARIA,C.I.,5312242,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARNEZ,ZENON,C.I.,7994306,,Cochabamba,U.E. Nacional San Isidro,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ARRATIA,MIJAIL,C.I.,13065757,,Cochabamba,Unidad Educativa El Salvador San Javier,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,BARRIOS,CLETO,C.I.,5316691,,Tarata,Escuela Esteban Arze,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,BAUTISTA,JULIO,C.I.,4517524,,Ayopaya (Villa de Independencia),U. E. Lirimani,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,BECERRA,MOISES,C.I.,2369197,,Cochabamba,Colegio Luis Quintin Vila,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,BURNES,MARISOL RUTH,C.I.,5153288,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,BUSTAMANTE,RODRIGO,C.I.,14058947,,Quillacollo,Centro Integral Niño Jesus Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CABERO,JORGE RONALD,C.I.,792095,,Sacaba,Escuela Man Cesped,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CABRERA,ADIJAEL,C.I.,8668510,,Cochabamba,Escuela Gerardo Vargas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CABRERA,INES PATRICIA,C.I.,3139188,,Sacaba,Colegio Boliviano Japones,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CADIMA,ALEM OSMAR,C.I.,6441259,,Cochabamba,Colegio Sergio Almaraz Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CADIMA,CLIPTON ALEXANDER,C.I.,3621772,,Cochabamba,U. E. Adventista Cochabamba,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAERO,LUCIA,C.I.,8856402,,Mizque,Unidad Educativa Thago Thago,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAERO,PACIFICA,C.I.,8753939,,AIOC Raqaypampa,Nucleo Escolar Beta Raqay Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAERO,ROLANDO,C.I.,6516285,,Cochabamba,Colegio Pio XII,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CALANI,MOISES,C.I.,8046740,,Quillacollo,“U. E. El Paso “”A”“”,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CALDERON,REMBERTO,C.I.,8000079,,Totora,U.E. La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAMACHO,BENEDICTA,C.I.,897468,,Shinahota,U. E. German Busch B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAMACHO,FLORIAN,C.I.,14357554,,Quillacollo,Unidad Educativa Villa Moderna,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAMACHO,MAURICIO,C.I.,6480596,,Quillacollo,Teofilo Vargas Candia B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAMPEROS,AGRIPINA,C.I.,8854871,,Villa Tunari,Escuela San Jose (V. Tunari),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAMPEROS,SILVIA,C.I.,8854909,,Villa Tunari,Escuela San Jose (V. Tunari),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CAMPOS,NATHALY PILAR,C.I.,8670068,,Cochabamba,Colegio Branco Petricevic,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CANO,NELIDA,C.I.,3798638,,Punata,Liceo Josefa M. Gandarillas (Ex Sucre),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CARACARA,CINTIA KAREN,C.I.,8022937,,Quillacollo,Escuela 12 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CASTELLON,MARLEN,C.I.,13128815,,Villa Tunari,U.E.T.H. Mariscal Sucre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CATON,DEYSI,C.I.,8680474,,Shinahota,Unidad Educativa Ibuelo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CENTELLAS,MARIA ELIZABETH,C.I.,8031249,,Colomi,U.E. Carmela Albornoz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CESPEDES,GEANCARLA,C.I.,8711865,,Sacaba,Escuela Guadalupe,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CESPEDES,SEVERINA,C.I.,7877462,,Totora,U.E. Eduardo Abaroa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CHAMBI,RINDA,C.I.,6555275,,Capinota,Unidad Educativa Juana Azurduy De Padilla,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CHULVE,ESTHER,C.I.,6645741,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CLAROS,JULIAN,C.I.,8000707,,Villa Tunari,U.E.T.H. Mariscal Sucre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CLAROS,MARCELINA,C.I.,4517386,,Cochabamba,Centro Educativo P.  Maria Auxiliadora,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CLAROS,MARIO MEDARDO,C.I.,7928354,,Arbieto,U. E. Casimiro López Terrazas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CLAROS,NEIDY,C.I.,12464758,,Sacaba,Unidad Educativa Republica de Italia,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CLAROS,ROBERTO,C.I.,8715880,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CLAURE,RUTH EDITH,C.I.,6465044,,Cochabamba,Colegio Branco Petricevic,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COAQUIRA,NOEMI,C.I.,9402713,,Puerto Villarroel,U. E. San Antonio de Padua,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COCA,NARCISA,C.I.,6474905,,Punata,Unidad Educativa Molle Huma,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COCA,ZENOBIO,C.I.,3130335,,Quillacollo,Escuela Tomas Bata,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COLQUE,BASILIA,C.I.,8681571,,Entre Ríos,U.E. Nacional Ayacucho,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COLQUE,JOSE,C.I.,5234414,,Quillacollo,Escuela Arturo Quitón,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COLQUE,RICHARD,C.I.,4071362,,Ayopaya (Villa de Independencia),Unidad Educativa Charahuaytu,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CONDO,ARTURO,C.I.,6488437,,Chimoré,U.E. Marcelo Quiroga Santa Cruz (Temporal),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CONDORI,ELIAS GUILLERMO,C.I.,7586345,,Sacaba,Escuela Man Cesped,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CONDORI,JUANA,C.I.,9467012,,Ayopaya (Villa de Independencia),Unidad Educativa Chapisuyo A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CONDORI,ZENOBIA,C.I.,8765713,,Ayopaya (Villa de Independencia),Unidad Educativa Chapisuyo A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COPA,CONSTANTINO,C.I.,5187778,,Vinto,Escuela Melchor Cuadros,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CORRALES,ADRIANA,C.I.,7963218,,Cochabamba,U. E. Raymundo Herman,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COSSIO,ROLANDO,C.I.,5317806,,Quillacollo,Escuela Simón Bolivar,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COTRINA,ARIEL,C.I.,13657072,,Aiquile,U. E. Tipa Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,COVARRUBIAS,RUTH CAROLINA,C.I.,3603891,,Sacaba,U.E. José Nicolás Maldonado,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CRESPO,RAMON,C.I.,6541802,,Villa Tunari,Unidad Educativa Paractito,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CUAQUIRA,NELIO,C.I.,8708990,,Puerto Villarroel,Escuela Central Villa Nueva,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,CUCHALLO,MARIO,C.I.,8662175,,Pojo,Unidad Educativa Dian Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ENRIQUEZ,CARLOS EDWIN,C.I.,3014962,,Vinto,Escuela Melchor Cuadros,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ENRIQUEZ,JOSE LUIS,C.I.,4386255,,Cochabamba,Colegio La Salle Fiscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESCALERA,CESAR ALFREDO,C.I.,3791375,,Quillacollo,Escuela Tomas Bata,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESCALERA,FLAVIANO,C.I.,4485121,,Aiquile,Nucleo Educativo Tipajara,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESCALERA,SABINA,C.I.,8714486,,Tarata,Escuela Esteban Arze,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESCALERA,WILSON,C.I.,6486975,,Sacabamba,Escuela Eliseo Torrico - Sacabamba,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESCALIER,HUGO NABUD,C.I.,3049620,,Vinto,Escuela Martín Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESCOBAR,ADRIANA,C.I.,13535147,,Entre Ríos,Colegio Franz Tamayo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESCOBAR,SANDRO ALFONSO,C.I.,8718742,,Quillacollo,Escuela 12 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESCOBAR,SIXTO,C.I.,2868068,,Colcapirhua,U.E. San Miguel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESPINOZA,JACINTO,C.I.,9416688,,Aiquile,Unidad Educativa Novillero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESPINOZA,MARTINA,C.I.,8051302,,Cochabamba,Colegio Pio XII,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ESTRADA,ESCOLASTICA,C.I.,10590167,,Sacaba,Unidad Educativa Hernán Rivero Fiorilo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERNANDEZ,GERONIMO,C.I.,4483180,,Cochabamba,Unidad Educativa Dionisio Morales Choque,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERNANDEZ,MARCELO,C.I.,6558717,,Cochabamba,Escuela Gerardo Vargas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERNANDEZ,MARIA,C.I.,9374754,,Ayopaya (Villa de Independencia),U. E. Cotani,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERNANDEZ,MARIBEL,C.I.,9471171,,Sipesipe,Unidad Educativa Suticollo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERNANDEZ,MILVIA,C.I.,8037618,,Cochabamba,U.E. Humberto Portocarrero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERNANDEZ,PEDRO,C.I.,845278,,Villa Tunari,U. E. 14 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERNANDEZ,SAMUEL,C.I.,4488822,,Ayopaya (Villa de Independencia),U. E. Cotani,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERNANDEZ,TITO FABIO,C.I.,6478594,,Cochabamba,Escuela Gerardo Vargas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERREL,PAOLA JEANETH,C.I.,3731412,,Cochabamba,Colegio Richard Von Weizacker,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERRUFINO,HUGO SANTIAGO,C.I.,9318068,,Cochabamba,Colegio Yugoslavia ( Ex Mariscal Santa Cruz),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FERRUFINO,MERY,C.I.,8685053,,Tarata,Colegio My. Victor Ustariz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FIGUEREDO,DANIEL,C.I.,9382866,,Cochabamba,Colegio Marista,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FLORES,BEATRIZ,C.I.,6517125,,Chimoré,U.E. Puerto Cochabamba,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FLORES,CINTIA,C.I.,7896085,,Punata,Unidad Educativa Tajamar,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FLORES,GREGORIA,C.I.,7971324,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FLORES,HERMINIA,C.I.,2940949,,Tiquipaya,Escuela Eugenia Ravasco,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FLORES,HILDA LOURDES,C.I.,8536740,,Quillacollo,Unidad Educativa Marquina,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FLORES,LANDIVAR,C.I.,4468076,,Quillacollo,Teofilo Vargas Candia B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FLORES,SILVIA,C.I.,7996249,,Toco,Colegio Ambrosini,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FLORES,SILVIA EUGENIA,C.I.,5302979,,Tiquipaya,Colegio Simon Bolivar (Tiquipaya),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,FUENTES,TITO MAX,C.I.,8017684,,Tiquipaya,Escuela Eugenia Ravasco,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GALINDO,FABIAN,C.I.,7866117,,Cochabamba,Colegio Venjamnin,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GARCIA,EDILBERTO EDMUNDO,C.I.,3770434,,Punata,U. E. Rene Barrientos O. - La Villa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GARCIA,EVA,C.I.,8809009,,Totora,U.E. La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GARCIA,HERMINIA,C.I.,14835292,,Cochabamba,Colegio Santo Domingo Savio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GARCIA,VICENTA,C.I.,4489756,,Entre Ríos,Escuela Eduardo Avaroa (Isarzama),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GARCIA,ZAIDA,C.I.,12841724,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GARCIA,ZULMA,C.I.,7971897,,Tiraque,Escuela Koari (Nucleo Esc. S. Bolivar),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GODOY,AIDA,C.I.,4401279,,Quillacollo,U. E. Milivoy Eterovic Matenda,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GODOY,EDWIN,C.I.,7997028,,Pojo,Unidad Educativa Dian Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GODOY,MIRIAN,C.I.,3008529,,Cochabamba,Seminario San Jose,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GOMEZ,LIZETH,C.I.,12812517,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GOMEZ,WILSON FREDY,C.I.,3725276,,Tiquipaya,Escuela Toribio Claure,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GONZALES,CLAUDINA,C.I.,936819,,Cochabamba,Colegio Amor de Dios,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GONZALES,GREGORIA,C.I.,5256633,,Villa Tunari,U. E. 14 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GONZALES,ROSA,C.I.,8713821,,Villa Tunari,Colegio Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GONZALES,VICENTA,C.I.,6439310,,Colomi,Nucleo Escolar Candelaria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUAMAN,SERAPIO,C.I.,8007947,,San Benito (Villa José Quintín Mendoza)Escuela Experimental Paracaya,,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUERRERO,MARIBEL,C.I.,5275823,,Cochabamba,Colegio Federico Froebel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUEVARA,SILVIA,C.I.,7977381,,Cliza,Escuela Sucre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUILLEN,ESTEBAN,C.I.,8685692,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUILLEN,RINALDA,C.I.,8714963,,Villa Tunari,U. E. 14 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUTIERREZ,BENEDICTO,C.I.,7277763,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUTIERREZ,ELVIRA,C.I.,8812093,,Colcapirhua,U. E. Nuestra Señora de La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUTIERREZ,JUAN GUALBERTO,C.I.,935476,,Cochabamba,Escuela IV Centenario,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUTIERREZ,ROBERTO,C.I.,3624609,,Cochabamba,Esc. Republica Del Peru O I. Vasquez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUZMAN,GIMENA,C.I.,12521464,,Villa Tunari,U.E.T.H. Mariscal Sucre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,GUZMAN,MARTHA,C.I.,932577,,Punata,U. E. Rene Barrientos O. - La Villa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HERBAS,NEIDA NADID,C.I.,8057089,,Quillacollo,Escuela Tomas Bata,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HEREDIA,CINTHYA MARGOT,C.I.,3741000,,Cochabamba,Liceo Adela Zamudio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HERRERA,JOSE ANTONIO,C.I.,5197466,,Cochabamba,Unidad Educativa Club De Leones,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HERRERA,LISBETH,C.I.,13531522,,Tiraque,U. E. Isabel Torrico Arnez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HIDALGO,LEON,C.I.,9374768,,Ayopaya (Villa de Independencia),U. E. Cotani,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HINOJOSA,CELESTINO,C.I.,8794054,,Pojo,Nucleo Escolar Duraznillo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HINOJOSA,JOSE PEPE,C.I.,3004115,,Quillacollo,Unidad Educativa Heroinas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HINOJOSA,JULIO,C.I.,8828501,,Totora,U.E. La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HINOJOSA,SANTIAGO LADISLAO,C.I.,3799677,,AIOC Raqaypampa,Unidad Educativa Santiago,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HINOJOSA,VALERIA,C.I.,9331496,,Totora,Sede Social Yungas de Vandiola,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,HUAYTA,JHOSET,C.I.,13417089,,Colcapirhua,Unidad Educativa La Sagrada Familia,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,INTURIAS,MARIA,C.I.,913088,,Puerto Villarroel,U.E. Villa Tamborada,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,IRIARTE,CRUSESA,C.I.,8036090,,Sacaba,U.E. Marcelo Quiroga Santa Cruz (Pacata),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,IRIARTE,PASCUAL,C.I.,13625295,,AIOC Raqaypampa,Nucleo Escolar Beta Raqay Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,IRIARTE,REINALDO,C.I.,7912876,,Toco,Colegio Ambrosini,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,JAILLITA,RENAN FUAD,C.I.,3151727,,Quillacollo,Instituto Particular Quillacollo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,JAIMES,ARTURO,C.I.,15505196,,Colomi,Nucleo Escolar Candelaria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,JAIMES,TOMAS,C.I.,4485033,,Colomi,Nucleo Escolar Candelaria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,JALDIN,HERNAN,C.I.,3146131,,Anzaldo,U. E. San Jose de Calazans-Litoral,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,JARANDILLA,CROX DIEGO,C.I.,3359158,,Sacaba,Escuela Man Cesped,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,JIMENEZ,MARIANA,C.I.,8753117,,Cochabamba,Colegio Marista,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,JORDAN,NELIDA,C.I.,5214921,,Tarata,Colegio My. Victor Ustariz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,JORDAN,PEPE,C.I.,2866759,,Tarata,Escuela Esteban Arze,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LEDEZMA,ELSA,C.I.,8695025,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LEDEZMA,JUAN CARLOS,C.I.,8023659,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LIMACHI,FERNANDO HANS,C.I.,6513418,,Colcapirhua,Colegio Max Fernandez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LIMON,LINA,C.I.,6528881,,Omereque,Escuela Central Peña Colorada,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LOPEZ,DANIELA,C.I.,8013429,,Cochabamba,Colegio San Francisco de Asis,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LOPEZ,FREDDY,C.I.,9337295,,Vinto,Nucleo Escolar Simon Bolivar (Thiomoko),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LOPEZ,ROMUALDA,C.I.,6484731,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LOZADA,ANA MARIA,C.I.,2785688,,Cochabamba,Colegio Maryknoll,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,LUJAN,MARIA LUZ PALMIRA,C.I.,3560273,,Cochabamba,U. E. San José,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MACIAS,ISAIAS,C.I.,7889784,,Cochabamba,Liceo  Mercedes Candia De Ovando,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MACIAS,MARIA BICELMA,C.I.,6453599,,Colcapirhua,Unidad Educativa San Lorenzo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MAIGUA,JESUS ANTONIO,C.I.,3818949,,Cochabamba,U. E. Guillermo Urquidi,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MALDONADO,ADELAIDA,C.I.,8808848,,Alalay,Unidad Educativa Yana Khakha,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MALDONADO,CARMEN,C.I.,8808801,,Alalay,Unidad Educativa Yana Khakha,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MALDONADO,MELANI,C.I.,8770612,,Quillacollo,Teofilo Vargas Candia B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MALDONADO,ZENON,C.I.,7983597,,Villa Tunari,Colegio Fe y Alegria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MAMANI,JAVIER,C.I.,8742923,,Sacaba,U.E. Nuevo Amanecer,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MAMANI,JULIO,C.I.,8816135,,Sipesipe,Unidad Educativa Uchu Uchu,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MAMANI,RUBEN DARIO,C.I.,8841239,,Vila Vila,Nucleo Escolar Siquimira,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MAMANI,SABINO,C.I.,8816136,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MARIN,ARIEL,C.I.,8731323,,Cochabamba,Unidad Educativa Rene Barrientos Ortuño,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MASIAS,ROBERTO CARLOS,C.I.,6490473,,Cochabamba,Escuela Mixta Fiscal Temporal A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,MATEO BENEDICTO,C.I.,2910703,,Ayopaya (Villa de Independencia),Unidad Educativa Chapisuyo A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MAYGUA,MARISA,C.I.,4431737,,Cochabamba,Liceo Adela Zamudio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MEDRANO,MARIA ROSARIO FATIMA,C.I.,3028243,,Cochabamba,Colegio Loyola,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MEJIA,FILOMENA,C.I.,8727912,,Totora,U.E. La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MELGARES,MARTHA,C.I.,3745236,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MENDOZA,ANDRES,C.I.,3737624,,Mizque,Nucleo José Claure (U. E. San Vicente),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MENECES,ANTONIA,C.I.,8759083,,Tarata,Colegio My. Victor Ustariz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MENECES,OSCAR GUSTAVO,C.I.,7989286,,Cochabamba,Unidad Educativa Voces Libres,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MERCADO,GERMAN EFRAIN,C.I.,5218083,,Cochabamba,U. E. Jorge Vásquez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MERUVIA,GIOVANA ALEIDA,C.I.,3157674,,Tarata,Escuela Esteban Arze,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MESA,GREGORIO,C.I.,7533376,,Entre Ríos,Colegio Franz Tamayo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MICHEL,ERICK MAURICIO,C.I.,9317248,,Cochabamba,Colegio Amor de Dios,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MILAN,LUIS FERNANDO,C.I.,9447277,,Cochabamba,Escuela Buenas Nuevas A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MILAN,MIGUEL ANGEL,C.I.,12552041,,Cochabamba,Colegio Martin Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MIRABAL,CARMELO,C.I.,3828390,,Mizque,Unidad Educativa Thago Thago,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MIRABAL,DAYSI IRENE,C.I.,3800524,,Cochabamba,U. E. Cosmos,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,FRANCISCO,C.I.,2868628,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,JENY MARGOT,C.I.,828328,,Cochabamba,Colegio Abaroa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,JILBERTH,C.I.,7915210,,Tarata,Unidad Educativa Huayculi,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,MARIA JUDITH,C.I.,8844395,,Sacaba,Escuela Man Cesped,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,MARTHA,C.I.,3793141,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,PRIMITIVA,C.I.,6500699,,Arani,Escuela Gualberto Villarroel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,REINALDO,C.I.,3805206,,Colomi,U.E. Carmela Albornoz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,ROXANA,C.I.,5929910,,Cochabamba,Colegio Tecnico Humanistico Abaroa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MONTAÑO,ZULMA,C.I.,6441124,,Cochabamba,Escuela Central Taquiña C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MOREIRA,JAIME,C.I.,3604770,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MOREIRA,REINALDO,C.I.,8778963,,Aiquile,Escuela 20 de Diciembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,MURIEL,NICASIA,C.I.,935524,,Quillacollo,Escuela Tomas Bata,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,NAVIA,GILMAR,C.I.,5908851,,Tarata,Colegio My. Victor Ustariz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,NOGALES,EMILIO,C.I.,3166901,,Tarata,Colegio My. Victor Ustariz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,NOGALES,OSVALDO,C.I.,9356811,,Colomi,U.E. Carmela Albornoz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,NOGALES,WILMA,C.I.,12341837,,Entre Ríos,Colegio Franz Tamayo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,NOLASCO,MARIA NEIZA,C.I.,8713676,,Villa Tunari,Colegio Francisco Vignaud,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,OLIVERA,ROLANDO,C.I.,8758024,,Sacaba,Unidad Educativa Israelí El Abra,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,OLIVERA,VIRGINIA,C.I.,7982569,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORELLANA,ANA,C.I.,9357783,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORELLANA,GERARDO,C.I.,3797192,,Arani,Escuela Gualberto Villarroel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORELLANA,GUALBERTO,C.I.,3614346,,Cochabamba,Esc. Republica Del Peru O I. Vasquez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORELLANA,JULIAN,C.I.,8050713,,Cochabamba,Unidad Educativa Barbara Lamas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORELLANA,JULIAN,C.I.,4436402,,Totora,Sede Social Yungas de Vandiola,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORELLANA,MACARIO,C.I.,3133548,,Tiraque,Escuela Seccional Sacabambilla,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORELLANA,VIVIANA,C.I.,12583260,,Tiraque,U.E. Boqueron K`Asa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORTEGA,VICTOR,C.I.,697666,,Villa Tunari,U. E. 14 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORTUÑO,ALEIDA,C.I.,5264279,,Cochabamba,Colegio La Salle Fiscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORTUÑO,MARIA,C.I.,3006692,,Cochabamba,Centro Particular Geronimo De Osorio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ORTUÑO,PABLO ARIEL,C.I.,5932106,,Cochabamba,Colegio Marista,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PADILLA,JUAN CARLOS,C.I.,5920877,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PANOZO,FELICIA,C.I.,12842189,,Aiquile,Unidad Educativa Laime,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PANOZO,LIDIA,C.I.,9450417,,Villa Rivero,Col. Tec. Ind. Comunitario Marcelo Quiroga,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PANTOJA,SANTOS,C.I.,8857454,,AIOC Raqaypampa,Nucleo Escolar Beta Raqay Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PARDO,EMILIANO,C.I.,3807879,,Anzaldo,U. E. San Jose de Calazans-Litoral,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PARDO,GABRIELA,C.I.,6450853,,Anzaldo,U. E. San Jose de Calazans-Litoral,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PELAEZ,ANDREA OLIVIA,C.I.,5216811,,Cochabamba,Colegio La Salle,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PEÑAFIEL,MARIYA,C.I.,9436179,,Villa Tunari,U. E. 14 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PEREDO,FANOR,C.I.,6483630,,Quillacollo,Liceo América,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PEREIRA,ELENA,C.I.,7902610,,Tiquipaya,Unidad Educativa Libertad,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PEREIRA,FLAVIA KETTY,C.I.,823565,,Quillacollo,Colegio Franz Tamayo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PEREZ,JUAN IVER,C.I.,16523713,,Sacaba,Unidad Educativa Israelí El Abra,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PEREZ,NICANORA,C.I.,3026668,,Cochabamba,Seminario San Jose,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PEREZ,NICOLAS,C.I.,8827872,,Totora,U.E. Eduardo Abaroa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PIEDRA,CIRILO,C.I.,4520289,,Puerto Villarroel,Escuela Central Villa Nueva,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PIEROLA,KEVIN,C.I.,8782941,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PINAYA,EMILENE,C.I.,5931484,,Cochabamba,Escuela Central Taquiña C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PINTO,LUISA,C.I.,7881204,,Sacaba,Escuela German Busch,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PLATA,MONICA JESUS,C.I.,8739796,,Cochabamba,Unidad Educativa de La Fuerza Aerea,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PONCE,ROGER,C.I.,6496370,,Cliza,Escuela Sucre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,PORCEL,NEIDA JIMENA,C.I.,4467420,,Cochabamba,Colegio Richard Von Weizacker,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUINTEROS,CARLA,C.I.,12494933,,Vinto,Escuela Martín Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUINTEROS,JUSTINA,C.I.,3790997,,Sacaba,Escuela Natalio Arauco,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUINTEROS,RAMIRO,C.I.,12494954,,Vinto,Escuela Martín Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUIROGA,ALBERTO,C.I.,5277288,,Villa Tunari,Escuela Elizardo Perez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUIROGA,SIXTO,C.I.,791036,,Cochabamba,Colegio Bolivar,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUIROZ,ALVARO,C.I.,6451126,,Cliza,Unidad Educativa Santa Lucia,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUIROZ,GROVER,C.I.,2876244,,Cochabamba,Colegio Pio XII,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUIROZ,MARINA,C.I.,858397,,Cochabamba,Colegio Bolivar,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,QUISPE,GIOVANA,C.I.,5304665,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RAMALLO,HONORINA,C.I.,7918656,,Morochata,Escuela Gildaro Antezana Rojas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RAMOS,ISABEL,C.I.,4453735,,Sacaba,Unidad Educativa Villa Graciela,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,REINICKE,FERNANDO VICENTE,C.I.,5071491,,Cochabamba,Centro Educativo San Francisco De Asis,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RICALDEZ,MARINA,C.I.,3149650,,Cochabamba,Colegio La Salle Fiscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RIOJA,FELICIDAD,C.I.,4471850,,Cochabamba,Unidad Educativa Vision Mundial,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RIOS,FAVIOLA,C.I.,7956615,,Sipesipe,Unidad Educativa Eduardo Abaroa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RIOS,LIZBETH,C.I.,9314202,,Puerto Villarroel,U.E. Ebenezer (Temporal),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RIOS,SANTOS,C.I.,7987197,,Totora,U.E. La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RIVAS,ZULMA,C.I.,9400774,,Cochabamba,Unidad Educativa 26 de Octubre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RIVERA,FERNANDO,C.I.,3758895,,Tarata,Escuela Esteban Arze,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RIVERA,MAX RAMIRO,C.I.,4418650,,Cochabamba,Colegio Don Bosco,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROCHA,ALCIRA,C.I.,2866885,,Tiquipaya,Escuela Isaac Attie,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROCHA,ALEXANDER,C.I.,12620436,,Cochabamba,Unidad Educativa Jose Ignacio Sanjines,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROCHA,FERNANDO,C.I.,12905930,,Colcapirhua,Unidad Educativa San Lorenzo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROCHA,RENATO,C.I.,4394336,,Aiquile,Unidad Educativa Laime,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROCHA,SILVIA KAREN,C.I.,5248599,,Tiquipaya,Aldeas S.O.S,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUES,IRENE,C.I.,5212246,,Cochabamba,Colegio San Francisco de Asis,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,ALVINA,C.I.,6486832,,Cliza,Colegio Juan de Dios Balderrama,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,CECILIO,C.I.,4499302,,Mizque,Escuela Aguada,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,CRISTINA,C.I.,9385289,,AIOC Raqaypampa,Nucleo Escolar Beta Raqay Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,LUIS,C.I.,14733343,,Villa Rivero,Escuela Gualberto Villarroel (V. Rivero),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,MARY,C.I.,3742720,,Cochabamba,Colegio La Salle Fiscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,MAXIMILIANO,C.I.,8821779,,Aiquile,Unidad Educativa Novillero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,RAUL,C.I.,3768070,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,REMBERTO,C.I.,6520635,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RODRIGUEZ,SUELI IRIS,C.I.,9482418,,Sacaba,U. E. Roberto Nicoli Parietti,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,ANA,C.I.,9387399,,Tiraque,U. E. Isabel Torrico Arnez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,DEMETRIO,C.I.,3798496,,Toco,Unidad Educativa Siches,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,FRANCISCA,C.I.,4396685,,Cochabamba,Colegio Amor de Dios,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,JOSE BETO,C.I.,3007832,,Tiquipaya,Escuela Isaac Attie,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,JUNIOR IVAN,C.I.,9330475,,Tiquipaya,Escuela Isaac Attie,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,NORMA,C.I.,6422114,,Tarata,Escuela Esteban Arze,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,RICHAR,C.I.,13799905,,Tiraque,U. E. Isabel Torrico Arnez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,ROCIO,C.I.,9309288,,Vinto,Unidad Educativa Anocaraire,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,SARA SALOME,C.I.,6486387,,Cochabamba,Escuela IV Centenario,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,TRINNY JESUS,C.I.,3130317,,Cochabamba,Universidad Ucatec (Ex Ceivo),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,VICTORIA,C.I.,7900620,,Aiquile,Escuela 20 de Diciembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,WILDER RAFAEL,C.I.,3620325,,Cochabamba,Universidad Ucatec (Ex Ceivo),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROJAS,ZENOBIA,C.I.,6528458,,Aiquile,Escuela Manuel De Ugarte,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROLDAN,JOSE ANTONIO,C.I.,3814033,,Quillacollo,Unidad Educativa Nestor Adriazola (Ex Colegio Nacional Calama),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+,ZURITA,ROMAN FLAVIANO,C.I.,3620075,,Punata,Unidad Educativa Tajamar,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROMERO,FABIOLA MARGOT,C.I.,8035005,,Cochabamba,U.E. Humberto Portocarrero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROMERO,ROBERTO,C.I.,13684334,,Tiraque,U. E. Isabel Torrico Arnez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROMERO,STEVEN,C.I.,12554048,,Cochabamba,Instituto Eduardo Laredo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROSAS,RAUL,C.I.,3604821,,Quillacollo,Escuela Felix Martinez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROSAS,REINA SONIA,C.I.,4383958,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ROSENDO,SIMON,C.I.,9505846,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,RUEDA,RILDA,C.I.,6427005,,Chimoré,Unidad Educativa Cesar Zama (Chimore),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SAAVEDRA,CLAUDIA,C.I.,3560892,,Omereque,Unidad Educativa Perereta,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SAAVEDRA,GENOVEVA,C.I.,3893630,,Omereque,Unidad Educativa Perereta,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SAAVEDRA,VICTOR EMILIO,C.I.,4392692,,Cochabamba,Colegio La Salle Fiscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SALAZAR,BENIGNO,C.I.,3015293,,Aiquile,Unidad Educativa Novillero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SALAZAR,MARITZA,C.I.,3612332,,Cochabamba,Colegio Martin Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SALAZAR,MODESTA,C.I.,897840,,Tiraque,U. E. Isabel Torrico Arnez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SALINAS,SINFOROSA,C.I.,3014657,,Entre Ríos,U.E. San Marcos,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SALVATIERRA,EMILIANA,C.I.,3754096,,Cochabamba,Colegio Marista Nuestra Señora Del Pilar,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SAMO,MILENCA,C.I.,8661785,,Cochabamba,U.E. Madre De La Divina Providencia,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANCHEZ,BERTHA,C.I.,983151,,Sacaba,U.E. Marcelo Quiroga Santa Cruz (Pacata),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANCHEZ,CARMEN ROSA,C.I.,6551030,,Sacaba,U.E. Tutimayu,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANCHEZ,GILBERT,C.I.,8858433,,Chimoré,Unidad Educativa Cesar Zama (Chimore),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANCHEZ,MARINA,C.I.,13194021,,Aiquile,Unidad Educativa Novillero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANCHEZ,RAUL,C.I.,8858871,,Sacaba,U.E. José Nicolás Maldonado,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANDOVAL,ANDRES,C.I.,4440413,,Shinahota,U. E. German Busch B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANDOVAL,CLAUDIA LIZBETT,C.I.,4432393,,Colcapirhua,Escuela Jesus Lara,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANDOVAL,CONSTANTINO,C.I.,788298,,Arbieto,Centro Educativo German Busch - Arbieto,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANDOVAL,MIGUELINA,C.I.,8744473,,AIOC Raqaypampa,Nucleo Escolar Beta Raqay Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANDOVAL,WALDOMIRO,C.I.,2873335,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANSUSTI,ROSE MARY,C.I.,3128088,,Tiquipaya,Escuela Isaac Attie,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANTA,MARIA JOSE CRISTHIAN,C.I.,5938642,,Quillacollo,U.E. 21 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SANTOS,ESTEBAN,C.I.,9509836,,Ayopaya (Villa de Independencia),Unidad Educativa Chapisuyo A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SARABIA,MARCELINO,C.I.,7971402,,Anzaldo,U. E. San Jose de Calazans-Litoral,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SARABIA,MIGUEL,C.I.,13425823,,Villa Tunari,U. E. 14 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SARDAN,FERNANDO,C.I.,3755039,,Cochabamba,Unidad Educ. Eduardo Lopez O E. Don Bosco,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SAYA,INDALECIO MARIANO,C.I.,5925421,,Tarata,Colegio My. Victor Ustariz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SEJAS,GREGORIA,C.I.,3124488,,Arbieto,Centro Educativo German Busch - Arbieto,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SILES,EDITH,C.I.,3502823,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SILES,ESTELA,C.I.,3084949,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SILES,FELISA,C.I.,3758500,,Entre Ríos,U. E. José Carrasco (Manco Kapac),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SILES,SEVERINA,C.I.,6537770,,Santivañez,Unidad Educativa Pampa Churihua,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SOLIS,VALENTINA,C.I.,9420098,,Sacaba,Escuela Guadalupe,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SOLIZ,ANA MARIA,C.I.,9428664,,Vinto,Escuela Martín Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SOLIZ,INES,C.I.,12342777,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SORIA,JHEYSON ZAID,C.I.,9472890,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SORIA,JUAQUIN,C.I.,7989407,,AIOC Raqaypampa,Nucleo Escolar Beta Raqay Pampa,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SOTO,JENNY ADELA,C.I.,6432819,,Sacaba,Escuela Man Cesped,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SOTO,JULIO EDGAR,C.I.,4482969,,San Benito (Villa José Quintín Mendoza)U. E. José Braulio Pereira,,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SOTO,LIMBER,C.I.,9372314,,Cliza,Unidad Educativa Chullpas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SOTO,RENE,C.I.,14213440,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SOTO,VICTOR RAMIRO,C.I.,3057783,,Cochabamba,Escuela IV Centenario,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SUAREZ,CACILDA,C.I.,3734333,,Cliza,Unidad Educativa Chullpas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,SUYO,SARA,C.I.,7933985,,Cliza,Colegio Juan de Dios Balderrama,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TERCEROS,JESSICA JACKELINE,C.I.,9412934,,Tiquipaya,Unidad Educativa Libertad,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TERCEROS,MARLENY MARIA,C.I.,3750326,,Tolata,Colegio Victor Rosales,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TERRAZAS,GROBER RAMIRO,C.I.,820351,,Cochabamba,Colegio Paulo VI,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TERRAZAS,JUAN CARLOS,C.I.,3604685,,Vinto,Escuela Martín Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TERRAZAS,JUANA,C.I.,2883274,,Quillacollo,Escuela Simón Bolivar,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TICONA,GERMAN,C.I.,14173821,,Cochabamba,Unidad Educativa Stefano Hotellier,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TISCO,JHANET,C.I.,8715354,,Cliza,Colegio Nacional Mixto Ucureña,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TORDOYA,JORGE,C.I.,2873947,,Cliza,Colegio Juan de Dios Balderrama,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TORRICO,EMILIA,C.I.,7910190,,Cochabamba,Unidad Educativa Dionisio Morales Choque,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TORRICO,JOAQUIN ALBERTO,C.I.,954892,,Cochabamba,Colegio Richard Von Weizacker,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TORRICO,LUIS FERNANDO,C.I.,9401577,,Cliza,Colegio Juan de Dios Balderrama,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TORRICO,RENE,C.I.,6485071,,Villa Rivero,Escuela Gualberto Villarroel (V. Rivero),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TORRICO,ROSSMAN,C.I.,9433786,,Cochabamba,Unidad Educativa 14 de Septiembre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TORRICO,SEYJA ELIANA,C.I.,5905182,,Tiquipaya,Escuela Isaac Attie,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TOVAR,ALBINA YOCONDA,C.I.,7874165,,Vinto,Escuela Martín Cardenas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,TRUJILLO,CLAUDIA SANTUSA,C.I.,5215896,,Cochabamba,Liceo  Mercedes Candia De Ovando,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,UGARTE,MONICA,C.I.,7908302,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,URIBE,PABLO,C.I.,3009319,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,URIBE,PATRICIA VERONICA,C.I.,8020565,,Quillacollo,Teofilo Vargas Candia B,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALENCIA,CARMEN ROSA,C.I.,4173103,,Sacaba,U.E. Marcelo Quiroga Santa Cruz (Pacata),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALENCIA,DIEGO ARMANDO,C.I.,5232111,,Cochabamba,Colegio Marista Nuestra Señora Del Pilar,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALLEJOS,ANDRES,C.I.,9368258,,Shinahota,Unidad Educativa Ibuelo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALLEJOS,CUPERTINO,C.I.,9364184,,Villa Tunari,Unidad Educativa Paractito,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALLEJOS,HEIDY,C.I.,7948248,,Cochabamba,Liceo  Mercedes Candia De Ovando,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALLEJOS,ISABEL,C.I.,7991701,,Cliza,Colegio Juan de Dios Balderrama,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALLEJOS,NANCY,C.I.,9399586,,Totora,U.E. La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALLEJOS,ROBERTA,C.I.,9342998,,Villa Tunari,U.E.T.H. Mariscal Sucre,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALLEJOS,TORIBIA,C.I.,6511324,,Villa Tunari,U. E. Independencia (Villa Tunari),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALVERDE,BEATRIZ MARLENE,C.I.,4384403,,Colcapirhua,Colegio Max Fernandez,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALVERDE,JOSE JHONNY,C.I.,959347,,Cochabamba,Escuela Fiscal Juan XXIII A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VALVERDE,MIRIAM BETTY,C.I.,959349,,Cochabamba,Escuela Fiscal Juan XXIII A,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VARGAS,DORA,C.I.,12520318,,Colomi,U.E. Carmela Albornoz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VARGAS,INES,C.I.,8742196,,Pojo,Unidad Educativa Challhuani,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VARGAS,LUIS,C.I.,854065,,Cochabamba,Colegio La Salle Fiscal,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VARGAS,MARIA,C.I.,8712965,,Pojo,Nucleo Escolar Duraznillo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VARGAS,MARIA EUGENIA,C.I.,5209149,,Vinto,U. E. Combuyo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VASQUEZ,EWIN,C.I.,7901689,,Puerto Villarroel,Centro Polifuncional Cesarzama,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VASQUEZ,JUAN BRIAN,C.I.,6493072,,Quillacollo,Instituto Particular Quillacollo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VASQUEZ,KATHERYN,C.I.,12463670,,Quillacollo,Unidad Educativa Nestor Adriazola (Ex Colegio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VASQUEZ,LUIS,C.I.,2905988,,Entre Ríos,Colegio Franz Tamayo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VEDIA,GISELLA VERONICA,C.I.,3518880,,Cochabamba,Universidad Catolica,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VEGA,JAIME MAURICIO,C.I.,3380300,,Cochabamba,Escuela Gualberto Villarroel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VEIZAGA,BRENDA,C.I.,9515783,,Cochabamba,Liceo Adela Zamudio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VEIZAGA,JHONNY,C.I.,13800200,,Tarata,Escuela Esteban Arze,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VEIZAGA,JOSE FLORENCIO,C.I.,996991,,Colomi,U.E. Carmela Albornoz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VEIZAGA,JUAN CARLOS,C.I.,5285140,,Cliza,Unidad Educativa Chullpas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VEIZAGA,LORENZO,C.I.,905904,,Totora,U.E. La Paz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VELA,ROMAN,C.I.,8856993,,Mizque,Escuela Guillermo Viscarra,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VELASQUEZ,JHOAN SEBASTIAN,C.I.,9428363,,Cochabamba,U.E. José Carlos Carrillo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VELIZ,ROMALDA,C.I.,6433246,,Colomi,U.E. Carmela Albornoz,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VERA,VERONICA BEATRIZ,C.I.,5228072,,Colcapirhua,U.E. San Miguel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VIDAL,ADELAIDA,C.I.,6412614,,Sacaba,Escuela Man Cesped,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VILLARROEL,AIDA,C.I.,9384719,,Colomi,Nucleo Escolar Candelaria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,VILLARROEL,ALVARO MIGUEL,C.I.,8031835,,Cliza,Colegio Juan de Dios Balderrama,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,YUCRA,SOLEDAD,PAS.,6463624,,Quillacollo,Instituto Particular Quillacollo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZAMBRANA,MANFRED FELIX,C.I.,3618688,,Tiquipaya,U.E. Técnico Humanístico San Gabriel,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZANABRIA,SALUSTIANA,C.I.,8025149,,Sacaba,Escuela 6 de Junio - Tacopoca,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZAPATA,FLORENTINO,C.I.,8856073,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZEBALLOS,ANTONIA,C.I.,8856638,,Mizque,Nucleo José Claure (U. E. San Vicente),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZEBALLOS,FELIX,C.I.,4393168,,Mizque,Sede Sindical De Chahuarani Chico,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZEBALLOS,RICHAR,C.I.,6457203,,Cochabamba,(Cárcel) Penitenciaria San Antonio,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZEBALLOS,SANTO,C.I.,7989279,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZELADA,JOSE BENIGNO,C.I.,3134377,,Tiquipaya,Escuela Isaac Attie,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZENTENO,FAUSTINO,C.I.,8782717,,Tiraque,Escuela Koari (Nucleo Esc. S. Bolivar),data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZORRILLA,CASTA FLORINDA,C.I.,2882098,,Cochabamba,Escuela Gerardo Vargas,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITA,ZURITA,MARGARITA,C.I.,13533032,,Cochabamba,Unidad Educativa Andres Bello,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURITAA,VEIZAGA,CARLA DANIELA,C.I.,6538963,,Cochabamba,Unidad Educativa Estados Unidos,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURRITA,CEBALLOS,GREGORIA,C.I.,4638416,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZURTITA,HINOJOSA,MARIA DELIA,C.I.,3026077,,Quillacollo,Instituto Particular Quillacollo,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07
+ZUZUNAGA,SALGUEIRO,MAURICIO,C.I.,5174115,,Cochabamba,Colegio Aleman Santa Maria,data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf,2021-03-07

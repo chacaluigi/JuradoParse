@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from src.utils import clean_header_column, parse_date_from_filename, normalize_document, separate_last_and_first_names
+from src.utils import parse_date_from_filename, normalize_document, separate_last_and_names, separate_lastname
 import sys
 
 CLEAN_DIR = Path(__file__).resolve().parents[1] / "data" / "cleaned"
@@ -13,31 +13,27 @@ def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=
 
     df = pd.read_csv(input_csv, dtype=str, keep_default_na=False)
 
-    if 'APELLIDOS' in df.columns and 'NOMBRES' in df.columns:
-        df['APELLIDOS Y NOMBRES'] = df['APELLIDOS'].str.cat(df['NOMBRES'], sep=' ', na_rep='')
-        df.drop(columns=['APELLIDOS', 'NOMBRES'], inplace=True)
 
     if 'APELLIDOS Y NOMBRES' in df.columns:
-        split_name = df['APELLIDOS Y NOMBRES'].apply(separate_last_and_first_names)
+        split_name = df['APELLIDOS Y NOMBRES'].apply(separate_last_and_names)
         df[['APELLIDO_PATERNO', 'APELLIDO_MATERNO', 'NOMBRES']] = split_name
         df.drop(columns='APELLIDOS Y NOMBRES', inplace=True)
-    
+        
+    elif 'APELLIDOS' in df.columns and 'NOMBRES' in df.columns:
+        split_lastname = df['APELLIDOS'].apply(separate_lastname)
+        df[['APELLIDO_PATERNO', 'APELLIDO_MATERNO']] = split_lastname
+        df.drop(columns='APELLIDOS', inplace=True)
+
     if 'DOCUMENTO' in df.columns and 'TIPO' not in df.columns:
         split_document = df['DOCUMENTO'].apply(normalize_document)
         df.drop(columns='DOCUMENTO', inplace=True)
         df[['TIPO', 'DOCUMENTO', 'COMP']] = split_document
     
-    #limpiar columnas vacías
+    #limpiar columnas vacías y columnas que no necesitemos
     columns_to_drop = ['MESA', 'Nro.', 'NRO', '', ' ', '   ']
     unnamed_columns = [col for col in df.columns if str(col).startswith('Unnamed')] #para las Unnamed
     columns_to_drop.extend(unnamed_columns)
     df.drop(columns_to_drop, axis=1, inplace=True, errors='ignore')
-
-    # despejar nombre de columnas
-    for column in df.columns:
-        new_name = clean_header_column(str(column))
-        if new_name != column:
-            df.rename(columns={column: new_name}, inplace=True)
 
     if source_pdf:
         df['FUENTE_PDF'] = source_pdf

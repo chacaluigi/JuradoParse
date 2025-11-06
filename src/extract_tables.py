@@ -78,7 +78,7 @@ def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream'
     
     print(f"Tablas encontradas: {len(tables)}")
 
-    #ordenar tablas de acuerdo al pdf extraído
+    #ordenar tablas de las columnas de acuerdo a: izquierda, centro y derecha por cada página
     cols = 3
     reason = math.ceil(len(tables)/cols)
     tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]

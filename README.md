@@ -9,6 +9,23 @@ PROYECTO DE EXTRACCIÓN DE PDFS
 ## Tipos de documentos
 ## Extraer el 2do pdf
 
+
+## PROBLEMAS EN LA EXTRACCIÓN
+python -m src.cli 2021_ES_CBBA 5-6
+
+ACUÑA GOMEZ FAUSTINO,I-8804647,Villa Tunari,Unidad Educativa 1ro de Mayo,1
+ACUÑA GUTIERREZ PRIMITIVA,I-7991132,San Benito (Villa José Quintín Mendoza)Unidad Educativa Wañakahua,,1
+ACUÑA TORRICO HILARIA,I-9371689,San Benito (Villa José Quintín Mendoza)Colegio Simon Bolivar (Huaricaya),,1
+AGUILAR ROJAS JHONATAN,I-6548643,San Benito (Villa José Quintín Mendoza)U. E. 27 de Mayo (Ex Jose B. Pereira),,1
+ALBA TORRICO HILDA,I-3135570,San Benito (Villa José Quintín Mendoza)U. E. 27 de Mayo (Ex Jose B. Pereira),,1
+
+## PROBLEMS EN LA DIVISION DE NOMBRES
+* Existen nombres que son apellidos a la vez.
+FRANCO
+VICENTE
+
+- dividir la función "separate_last_and_names", para separar primero apellidos de nombres ya luego los apellidos en paterno y materno
+
 # extraer tablas del pdf
 python -m src.extract_tables data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf 1-3 lattice
 python -m src.extract_tables data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf 5-6 stream areas
@@ -58,12 +75,3 @@ pypdfium2          4.30.0
 5247476
 3496704
 
-
-## PROBLEMAS EN LA EXTRACCIÓN
-python -m src.cli 2021_ES_CBBA 5-6
-
-ACUÑA GOMEZ FAUSTINO,I-8804647,Villa Tunari,Unidad Educativa 1ro de Mayo,1
-ACUÑA GUTIERREZ PRIMITIVA,I-7991132,San Benito (Villa José Quintín Mendoza)Unidad Educativa Wañakahua,,1
-ACUÑA TORRICO HILARIA,I-9371689,San Benito (Villa José Quintín Mendoza)Colegio Simon Bolivar (Huaricaya),,1
-AGUILAR ROJAS JHONATAN,I-6548643,San Benito (Villa José Quintín Mendoza)U. E. 27 de Mayo (Ex Jose B. Pereira),,1
-ALBA TORRICO HILDA,I-3135570,San Benito (Villa José Quintín Mendoza)U. E. 27 de Mayo (Ex Jose B. Pereira),,1

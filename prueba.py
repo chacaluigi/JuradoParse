@@ -14,7 +14,7 @@ def clean_ci_document(df):
     processed_df=df.copy()
     processed_df["DOCUMENTO"]=processed_df['DOCUMENTO'].str.replace(r'^[I\-]\s*','', regex=True)
 
-def separate_last_and_first_names(text):
+def separate_last_and_names(text):
     if pd.isna(text):
         return pd.Series(['','',''])
     
