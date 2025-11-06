@@ -67,7 +67,14 @@ class PDFConfig:
             'all_pages': '1-505',
             'all_top_cut': None,
             'column_separators': None,
-            'column_names': None
+            'column_names': [
+                'NRO',
+                'APELLIDOS Y NOMBRES',
+                'DOCUMENTO',
+                'MUNICIPIO',
+                'RECINTO',
+                'MESA'
+            ]
         },
         
         '2020_EG_CBBA': {
@@ -124,7 +131,7 @@ class PDFConfig:
             'all_top_cut': None,
             'column_separators': None,
             'column_names': [
-                'Nro.',
+                'NRO',
                 'APELLIDOS',
                 'NOMBRES',
                 'TIPO',

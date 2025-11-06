@@ -18,14 +18,6 @@ python -m src.clean_data data/extracted/2019-10-20-Elecciones-Generales-Cochabam
 python -m src.clean_data data/extracted/82___2020-10-18-Elecciones-Generales-Cochabamba.csv
 
 # ejecutar cli.py
-python -m src.cli normal ./data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf 36-39 lattice
-
-python -m src.cli areas ./data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf 51-55 stream
-
-python -m src.cli special ./data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf 4 stream 0.180
-python -m src.cli special ./data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf 4 stream 0.180
-python -m src.cli special ./data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf 51-55 stream 0.968
-
 python -m src.cli 2019_EG_CBBA 1-505
 python -m src.cli 2020_EG_CBBA 5-97
 python -m src.cli 2021_ES_CBBA 5-99

@@ -43,9 +43,9 @@ def run_pipeline_for_pdf(pdf_key, pages):
 
     csvs = res['csvs']
 
-    for csv in csvs:
+    """ for csv in csvs:
         clean_csv(csv, source_pdf = res['pdf'], pdf_date = res['pdf_date'])
-
+    """
 
 if __name__ == "__main__":
     

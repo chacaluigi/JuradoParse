@@ -26,11 +26,8 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream",
     )
     print(f"Tablas encontradas: {len(tables)}")
 
-    #renombrar el nombre de las columnas en la fila 0 de la primera tabla
-    tables[0].df.iloc[0] = list(column_names)
-
     #unir tablas csv
-    csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages) 
+    csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages, column_names) 
 
     #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))

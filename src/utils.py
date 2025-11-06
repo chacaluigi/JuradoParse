@@ -105,25 +105,30 @@ def repair_mixed_columns(table_list):
     
     return table_list
 
-def join_tables_csv(tables, pdf_path, output_dir, pages):
+def join_tables_csv(tables, pdf_path, output_dir, pages, column_names):
     csv_paths = []
 
     if len(tables) > 0:
         all_dataframes = []
 
-        for i, table in enumerate(tables, start=1):
-            if i == 1:
-                all_dataframes.append(table.df)
-            else:
+        for _, table in enumerate(tables, start=1):
+            first_row = table.df.iloc[0]
+            if is_header_row(first_row):
                 all_dataframes.append(table.df.iloc[1:])
-        
+            else:
+                all_dataframes.append(table.df)
+            
         combined_df = pd.concat(all_dataframes, ignore_index=True)
+        combined_df.columns = column_names
+        print(combined_df)
         combined_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
         combined_df.to_csv(combined_csv, index=False, header=False)
         csv_paths.append(str(combined_csv))
         print(f"Archivo extraido guardado en: {combined_csv}  Dimensiones: {combined_df.shape[0]} filas x {combined_df.shape[1]} columnas")
     return csv_paths
 
+def is_header_row(first_row):
+    return any('APELLIDOS' in str(cell).upper() for cell in first_row)
 
 # Funciones de Limpieza de datos
 
@@ -150,9 +155,10 @@ def normalize_document(doc_text):
     
     return pd.Series([doc_type, doc_number, complement]) 
 
+
 """ def remove_number_column(df, nombre_columna):
     df[nombre_columna] = df[nombre_columna].astype(str).str.replace(r'[\d\.]', '', regex=True).str.strip()
-    return df """
+return df """
 
 def separate_last_and_first_names(text):
     nombres_bolivia = BoliviaData.NOMBRES
