@@ -11,7 +11,9 @@ def run_pipeline_for_pdf(pdf_key, pages):
     config = PDFConfig.get_config(pdf_key)
     pdf_path = config['pdf_path']
     type = config['type']
+    top_cut = config['all_top_cut']
 
+    #comprobamos si el pdf existe
     if not file_exists(pdf_path):
         print(f"Error: El archivo '{pdf_path}' no existe")
         return
@@ -19,20 +21,41 @@ def run_pipeline_for_pdf(pdf_key, pages):
     if not is_pdf_file(pdf_path):
         print(f"Error: El archivo '{pdf_path}' no es un archivo PDF válido")
         return
+    
+    #si se pide extraer de todas las páginas o solo la primera
+    first_page = config['first_page']
+    first_res = ''
 
-    if(type == 'normal'):
+    if pages == first_page:
+        top_cut = config['first_top_cut']
+
+    if pages == "all":
+        pages = config['all_pages']
+        first_top_cut = config['first_top_cut']
+        #extraemos primero la 1ra página
+        if first_top_cut:
+            first_res = extract_pdf_tables_areas(
+                pdf_path=pdf_path,
+                flavor=config['flavor'],
+                pages=first_page,
+                top_cut=first_top_cut,
+                column_separators=config['column_separators'],
+                column_names=config['column_names']
+            )
+
+    if type == 'normal':
         res = extract_pdf_tables(
-            pdf_path=pdf_path,
+            pdf_path = pdf_path,
             flavor = config['flavor'],
             pages = pages,
             column_names = config['column_names']
         )
-    elif(type == 'areas'):
+    elif type == 'areas':
         res = extract_pdf_tables_areas(
-            pdf_path=config['pdf_path'],
+            pdf_path=pdf_path,
             flavor=config['flavor'],
             pages=pages,
-            all_top_cut=config['all_top_cut'],
+            top_cut=top_cut,
             column_separators=config['column_separators'],
             column_names=config['column_names']
         )
@@ -41,11 +64,12 @@ def run_pipeline_for_pdf(pdf_key, pages):
 
     print(res['pdf_date'])
 
-    csvs = res['csvs']
+    if first_res:
+        clean_csv(first_res['csv'][0], source_pdf = res['pdf'], pdf_date = res['pdf_date'])
 
-    for csv in csvs:
-        clean_csv(csv, source_pdf = res['pdf'], pdf_date = res['pdf_date'])
-   
+    csv = res['csv']
+    clean_csv(csv[0], source_pdf = res['pdf'], pdf_date = res['pdf_date'])
+
 
 if __name__ == "__main__":
     

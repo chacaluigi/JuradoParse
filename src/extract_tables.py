@@ -27,15 +27,15 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream",
     print(f"Tablas encontradas: {len(tables)}")
 
     #unir tablas csv
-    csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages, column_names) 
+    csv_path = join_tables_csv(tables, pdf_path, output_dir, pages, column_names) 
 
     #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))
 
-    return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
+    return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csv": csv_path}
 
 #areas
-def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream', pages = 'all', all_top_cut = None, column_separators = None, column_names = None):
+def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream', pages = 'all', top_cut = None, column_separators = None, column_names = None):
     
     pdf_path = Path(pdf_path)
     output_dir = Path(output_dir or DATA_DIR / "extracted")
@@ -45,13 +45,13 @@ def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream'
     # Para extraer las areas de la página
     page_width, page_height = extract_dimensions_page(pdf_path, 5)
     table_areas_list = []
-    all_top_cut = float(all_top_cut) if all_top_cut else None
+    top_cut = float(top_cut) if top_cut else None
 
-    if(all_top_cut):
+    if(top_cut):
         table_areas_list = [
-            [f'0,0,{1/3*float(page_width)},{all_top_cut*float(page_height)}'],
-            [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{all_top_cut*float(page_height)}'],
-            [f'{2/3*float(page_width)},0,{page_width},{all_top_cut*float(page_height)}']
+            [f'0,0,{1/3*float(page_width)},{top_cut*float(page_height)}'],
+            [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{top_cut*float(page_height)}'],
+            [f'{2/3*float(page_width)},0,{page_width},{top_cut*float(page_height)}']
         ]
     else:
         table_areas_list = [
@@ -85,9 +85,9 @@ def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream'
     tables = tables_ordered
 
     #unir tablas csv
-    csv_paths = join_tables_csv(tables, pdf_path, output_dir, pages, column_names) 
+    csv_path = join_tables_csv(tables, pdf_path, output_dir, pages, column_names) 
 
     #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))
 
-    return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csvs": csv_paths}
+    return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csv": csv_path}
