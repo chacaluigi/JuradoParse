@@ -4,17 +4,15 @@ import sys
 from pathlib import Path
 import camelot
 import math
-from src.utils import parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows, repair_mixed_columns
-
-DATA_DIR = Path(__file__).resolve().parents[1] / "data"
-
+from src.utils import ensure_dir, parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows, repair_mixed_columns
 
 #normal
 def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream", pages = "all", column_names = None):
     
     pdf_path = Path(pdf_path)
-    output_dir = Path(output_dir or DATA_DIR / "extracted")
-    
+    ensure_dir(output_dir)
+    output_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
+
     print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
 
     tables = camelot.read_pdf(
@@ -27,7 +25,7 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream",
     print(f"Tablas encontradas: {len(tables)}")
 
     #unir tablas csv
-    csv_path = join_tables_csv(tables, pdf_path, output_dir, pages, column_names) 
+    csv_path = join_tables_csv(tables, output_csv, column_names) 
 
     #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))
@@ -35,10 +33,11 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream",
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csv": csv_path}
 
 #areas
-def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream', pages = 'all', top_cut = None, column_separators = None, column_names = None):
+def extract_pdf_tables_areas(pdf_key: str, pdf_path, output_dir: str = None, flavor = 'stream', pages = 'all', top_cut = None, column_separators = None, column_names = None):
     
     pdf_path = Path(pdf_path)
-    output_dir = Path(output_dir or DATA_DIR / "extracted")
+    output_dir = Path(output_dir or DATA_DIR / f'{pdf_key}' / f"{pages}__{pdf_path.stem}.csv")
+    ensure_dir(output_dir)
     
     print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
 
@@ -85,7 +84,7 @@ def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream'
     tables = tables_ordered
 
     #unir tablas csv
-    csv_path = join_tables_csv(tables, pdf_path, output_dir, pages, column_names) 
+    csv_path = join_tables_csv(tables, output_dir, column_names) 
 
     #obtener la fecha del nombre del documento
     pdf_date = parse_date_from_filename(str(pdf_path))

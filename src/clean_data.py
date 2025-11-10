@@ -1,18 +1,15 @@
 import pandas as pd
 from pathlib import Path
-from src.utils import parse_date_from_filename, normalize_document, separate_last_and_names, separate_lastname
+from src.utils import ensure_dir, parse_date_from_filename, normalize_document, separate_last_and_names, separate_lastname
 import sys
 
-CLEAN_DIR = Path(__file__).resolve().parents[1] / "data" / "cleaned"
-
-def clean_csv(input_csv: str, output_csv: str = None, source_pdf=None, pdf_date=None):
+def clean_csv(input_csv: str, output_dir: str = None, source_pdf=None, pdf_date=None):
     
-    if output_csv is None:
-        input_path = Path(input_csv)
-        output_csv = CLEAN_DIR / f"{input_path.stem}_clean.csv"
+    input_path = Path(input_csv)
+    ensure_dir(output_dir)
+    output_csv = output_dir / f"{input_path.stem}_clean.csv"
 
     df = pd.read_csv(input_csv, dtype=str, keep_default_na=False)
-
 
     if 'APELLIDOS Y NOMBRES' in df.columns:
         split_name = df['APELLIDOS Y NOMBRES'].apply(separate_last_and_names)
