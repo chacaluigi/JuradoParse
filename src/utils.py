@@ -67,7 +67,7 @@ def repair_mixed_columns(table_list):
                     documento = match.group(2).strip()
                     changes_made = True
                 else:
-                    print(f'src.utils-repair_mixed_columns: No se pudo separar el nombre del documento. documento = {documento}')
+                    print(f'repair_mixed_columns: No se pudo separar el nombre del documento. DOC={documento} | NOMBRE={nombre}')
 
             if recinto == '' and mesa != '':
                 #print(f'Fila {idx}: Recinto vacío, Mesa tiene contenido')
@@ -85,9 +85,9 @@ def repair_mixed_columns(table_list):
                 elif (re.sub(pattern_remove_number, '', municipio)):
                     municipio = re.sub(pattern_remove_number, '', municipio).strip()
                     changes_made = True
-                    print(f'src.utils-repair_mixed_columns: No se pudo separar el recinto de mesa, pero, se eliminaron numeros de municipio. documento = {documento}')
+                    print(f'repair_mixed_columns: No se pudo separar el recinto de mesa, pero, se eliminaron numeros de MUNICIPIO. DOC = {documento}')
                 else:
-                    print(f'src.utils-repair_mixed_columns: No se pudo separar el recinto de mesa. documento = {documento}')
+                    print(f'repair_mixed_columns: No se pudo separar el recinto de mesa. DOC = {documento}')
             
             match_number = re.search(pattern_exchanged, recinto)
 
@@ -135,8 +135,10 @@ def join_tables_csv(tables, output_csv, column_names):
 # Funciones de Limpieza de datos
 
 def normalize_document(doc_text):
-    complement=''
-    if pd.isna(doc_text):
+    complement = ''
+    doc_text = doc_text.strip()
+    if pd.isna(doc_text) or doc_text == '':
+        print(f'Error: DOCUMENTO está vacío. DOC = {doc_text}')
         return pd.Series(['','',''])
     
     parts = str(doc_text).strip().split('-', 1)
@@ -152,8 +154,9 @@ def normalize_document(doc_text):
         doc_number = parts[1]
     else:
         #captura del problema
-        print(f'Error: "src.utils-normalize_document(doc_text)" parts no tiene suficientes elementos. parts = {parts} | doc_text = {doc_text}')
+        print(f'Error: DOCUMENTO no se pudo dividir en partes, debido a que no tiene suficientes elementos. DOC = {doc_text}')
         doc_number = None
+        complement = None
     
     return pd.Series([doc_type, doc_number, complement]) 
 
@@ -246,12 +249,12 @@ def separate_last_and_names(text):
     
     return pd.Series([pat_surname, mat_surname, names])
 
-
-""" def remove_number_column(df, nombre_columna):
+def remove_number_column(df, nombre_columna):
     df[nombre_columna] = df[nombre_columna].astype(str).str.replace(r'[\d\.]', '', regex=True).str.strip()
-return df """
+    return df
 
-""" def clean_header_column(text):
+
+    """ def clean_header_column(text):
     pattern = r'^(RECINTO|MUNICIPIO)'
     match = re.match(pattern, text, re.IGNORECASE)
     
@@ -274,3 +277,34 @@ def parse_date_from_filename(filename: str):
     if m:
         return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()
     return None
+
+def generate_groped_ranges(text: str):
+    try:
+        start_str, end_str = text.split('-')
+        start = int(start_str)
+        end = int(end_str)
+    except ValueError:
+        #En caso de que el formato no sea 'N-N'
+        print(f"Error: el formato de '{text}' no es válido (debe ser 'inicio-fin').")
+        return []
+    
+    if start > end:
+        print("Error: El número de inicio es mayor que el número final.")
+        return []
+    
+    ranges = []
+    
+    current_start = start
+    while current_start <= end:
+        range_end = current_start + 9
+        
+        # formateamos en caso que esté en el límite
+        if range_end > end:
+            range_end = end
+        
+        range_str = f"{current_start}-{range_end}"
+        ranges.append(range_str)
+        
+        current_start = range_end + 1
+        
+    return ranges

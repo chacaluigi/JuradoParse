@@ -1,0 +1,731 @@
+APELLIDO_PATERNO,APELLIDO_MATERNO,NOMBRES,TIPO,DOCUMENTO,COMP,MUNICIPIO,RECINTO,FUENTE_PDF,FECHA_PDF
+ALARCON,VILLEGAS,MARIA DEL ROSARIO,C.I.,4391109,,Cochabamba,Colegio Cristo Rey,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALARCON,VILLEGAS,NILTON VLADIMIR,C.I.,7869112,,Colcapirhua,Colegio Max Fernandez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALATA,ARANCIBIA,MANUEL,C.I.,13751984,,Cochabamba,U. E. San Nicolas Club de Leones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALATA,JURADO,MIGUEL OCTAVIO,C.I.,6583694,,Cochabamba,Colegio San Antonio De Pucara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,AGUILAR,LIDIA,C.I.,10478989,,Puerto Villarroel,Colegio Marcelo Quiroga Santa Cruz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,CARRILLO,JUSTINA,C.I.,9378762,,Morochata,U. E. Tuiruni,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,CHOQUE,DAYANA,C.I.,12681810,,Quillacollo,Instituto Tecnologico El Paso,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,FUENTES,ERNESTO,M,51258-88,,Bolivar,Nucleo Escolar Carpani,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,GUTIERREZ,ELIZABETH,C.I.,9384114,,Bolivar,Nucleo Escolar Carpani,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,HERRERA,IVETTE SANDRA,C.I.,8573341,,Quillacollo,Unidad Educativa Ironcollo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,MORALES,NICOLAS,C.I.,910370,,Vinto,Escuela Melchor Cuadros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,NAVARRO,ADELAIDA,C.I.,5738358,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,TICONA,BENITA,C.I.,12833988,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,TOLA,EDGAR,M,233411585,,Cochabamba,Colegio San Francisco (Villa Pagador),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVE,VALDEZ,ALBERTO,C.I.,3623322,,Vinto,Escuela Melchor Cuadros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALAVI,RAMON TUSCO,C.I.,982597,,Sacaba,Unidad Educativa Hernán Rivero Fiorilo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,AGUAYO,GUILLERMO,C.I.,5728663,,Cochabamba,Escuela Gerardo Vargas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,AGUAYO,JUANITA,C.I.,5934570,,Bolivar,Escuela Yarvicoya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,ANDIA,EDLIN,C.I.,9380634,,Ayopaya (Villa de Independencia),U.E. Jose Miguel Lanza,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,ARIAS,VALENTINA,C.I.,5730297,,Bolivar,Escuela Jorenko Villa Verde,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,CABALLERO,MARIA ELENA,C.I.,6415725,,Sacaba,Unidad Educativa Edmundo Bojanowski,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,CAMACHO,WENDY,C.I.,6495319,,Colcapirhua,Colegio Padre Andrés Cuschieri,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,COLQUE,PASTORA,C.I.,10522019,,Cochabamba,Unidad Educativa Dionisio Morales Choque,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,CONDORI,ROMUALDA,C.I.,5200603,,Cocapata,Escuela Choquecamata (Falsuri),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,ENCINAS,ROLANDO,C.I.,8771801,,Quillacollo,Unidad Educativa Heroinas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,FERRUFINO,PABLO,C.I.,7930222,,Cochabamba,Colegio Santa Luisa Marillac,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,GERVA,EMILIANA,C.I.,5934610,,Bolivar,Escuela Mejillones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,GUIZADA,MARLENY,C.I.,8012000,,Ayopaya (Villa de Independencia),U.E. Jose Miguel Lanza,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,GUTIERREZ,PEDRO,C.I.,887170,,Bolivar,Escuela Jorenko Villa Verde,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,HUAQUERA,NELSI,C.I.,8753826,,Cochabamba,Escuela Central Taquiña A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,MENDOZA,FLAVIA,C.I.,14187588,,Villa Tunari,Unidad Educativa Moleto Icoya (V.Tunari),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,PARI,ISABEL,C.I.,7397124,,Bolivar,Escuela Simon Bolivar,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,QUISPE,PABLO,C.I.,7332233,,Ayopaya (Villa de Independencia),Colegio Simon Bolivar Fe y Alegria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,RODRIGUEZ,ARIEL,C.I.,7932152,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,TOLA,ISABEL,C.I.,8669072,,Bolivar,Escuela Mejillones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVI,TUMIRI,TEOFILO,M,1041747,,Cochabamba,Unidad Educativa Rene Barrientos Ortuño,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAVIA,ROMERO,ELIZABETH MARITZA,C.I.,4403434,,Cochabamba,Colegio Nacional Mixto Cochabamba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALAY,CANO,JESSICA ANNI,C.I.,5999133,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALBA,BERNARDINA,C.I.,854209,,Tarata,Unidad Educativa Huayculi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,INGRID,SOLEDAD,C.I.,14291502,,Cochabamba,Colegio Tecnico Humanistico Abaroa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,ALBA,FERNANDO IVAN,C.I.,3587580,,Cochabamba,Colegio Paulo VI,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,ARNEZ,EDUARD,C.I.,5244837,,San Benito (Villa José Quintín Mendoza),Colegio Simon Bolivar (Huaricaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,ATTALA,EDGAR ROMAN,C.I.,986168,,Cochabamba,Escuela Wilge Rodriguez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,BALDELOMAR,RUBEN RICHARD,C.I.,7977351,,Tolata,Colegio Victor Rosales,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,CADIMA,MAYRA BELEN,C.I.,5254529,,Cochabamba,Universidad Catolica,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,CAERO,ROCIO SILVANA,C.I.,6473635,,Cochabamba,Escuela Antofagasta,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,CALICHO,MAGUI LUZ,C.I.,7916633,,Chimoré,Escuela Gerónimo Uzeda Fe y Alegria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,CAMACHO,RICARDO,C.I.,957142,,Aiquile,Escuela 20 de Diciembre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,CLAROS,RENE,C.I.,3022189,,Cochabamba,Colegio Sergio Almaraz Paz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,DURAN,ALEJANDRO,C.I.,4380338,,Quillacollo,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,FERRUFINO,JUANA,C.I.,3724309,,Arbieto,Centro Educativo German Busch - Arbieto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALBA,GABRIEL AYDA,C.I.,7966684,,Cocapata,Escuela Oscar Alfaro - Villa Vinto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,GUALEVE,ESMERALDA,C.I.,12189732,,Cochabamba,Colegio Martin Cardenas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,GUTIERREZ,OSVALDO,C.I.,3578458,,Punata,U. E. Manuel A. Villarroel (Ex Bolivar),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,HURTADO,ANTONY EDDY,C.I.,6538668,,Cochabamba,Unidad Educativa Hno Pacifico Feletti,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,IÑIGUEZ,XIMENA CECILIA,C.I.,3388850,,Cochabamba,Escuela Jose Maria Santivañez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,LUPE,JAQUELINE,C.I.,8021756,,Cochabamba,Unidad Educativa Maria Emilia Riquelme (Ex Maria Cristina),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,MACHADO,MARCELO,C.I.,5208812,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,MANDIREZA,CESAR,C.I.,10842590,,Cochabamba,Colegio Venezuela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,MENESES,AMILCAR DIEGO,C.I.,6433746,,Cochabamba,Unidad Educativa Demetrio Canelas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,MERIDA,GUERI JUNIOR,C.I.,8819257,,Vinto,Unidad Educativa David Arzabe,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,NINA,INGRID,C.I.,7883971,,Cochabamba,Esc. Fiscal Juan XXIII A – Juancito Pinto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,ORDOÑEZ,EDWIN RENE,C.I.,3505591,,Cochabamba,Unidad Educativa Garibaldi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,ORTUÑO,ANA MARIA,C.I.,7866786,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,OVANDO,MARIA DELIA,C.I.,960911,,Cochabamba,Colegio La Salle,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,PEREZ,GABRIEL,C.I.,5263294,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,RAMIREZ,CESIA,C.I.,12616521,,Cochabamba,Colegio Federico Froebel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,RAMIREZ,SILVIA,C.I.,8034368,,San Benito (Villa José Quintín Mendoza),Colegio Simon Bolivar (Huaricaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,ROJAS,DELIA CARMEN,C.I.,3622292,,Toco,Colegio Ambrosini,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,SAAVEDRA,ROSALY,C.I.,8029232,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,SALVATIERRA,EDWIN,C.I.,7908710,,Cochabamba,Unidad Educativa Demetrio Canelas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,SALVATIERRA,RIMY,C.I.,7946656,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,SILES,FLORA,C.I.,8667247,,Vinto,Escuela Melchor Cuadros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,SOSSA,CAMILA JANISSE,C.I.,5307420,,Cochabamba,U. E. 8 de Mayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,TERCEROS,MARCOS,C.I.,6550400,,Villa Tunari,Escuela Cristal Mayu,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,VARGAS,IGOR ANANIAS,C.I.,6559352,,Tarata,Unidad Educativa Huayculi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,VEIZAGA,LAURA CIELO,C.I.,13387759,,Cochabamba,Colegio Santo Domingo Savio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,VERA,PRIMITIVO,C.I.,800012,,Cochabamba,Escuela Ceferino Namuncura,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,VIA,OLIVER PAULO,C.I.,7930915,,Cochabamba,Centro Educativo San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,YAPURA,GABINA,C.I.,7966686,,Capinota,Unidad Educativa Tocohalla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBA,ZUBIETA,SUSAN ALEJANDRA,C.I.,9355747,,Cochabamba,Campo Ferial,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,ARNEZ,DANIEL,C.I.,12384085,,Colomi,U.E. Sócrates Villazón,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,CESPEDES,FRANCISCA,C.I.,3782427,,Colomi,Unidad Educativa Samuel Fina Savio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,FUENTES,VICTOR,C.I.,3819604,,Punata,Escuela Adela Zamudio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,GALINDO,ALEJANDRO,C.I.,7970681,,Tiraque,Colegio Juan Jose Carrasco,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,LOPEZ,ELIZABETH,C.I.,8730280,,Sacaba,Colegio Franz Tamayo (Chiñata),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,LOPEZ,EYNAR,C.I.,8730278,,Sacaba,Colegio Franz Tamayo (Chiñata),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,ROCHA,AMALIA,C.I.,9305740,,Colomi,Nucleo Escolar Candelaria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,ZANABRIA,MARIELA,C.I.,9459731,,San Benito (Villa José Quintín Mendoza),Unidad Educativa Sunchu Pampa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARADO,ZAPATA,DAIANA ANALIA,C.I.,12460303,,Punata,Escuela Andres Maria Torrico,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,AMARGO,LEONARDO,C.I.,8820557,,Mizque,Unidad Educativa Tin Tin,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,CLAURE,SAMUEL,C.I.,8775060,,Chimoré,Unidad Educativa Cesar Zama (Chimore),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,CRESPO,ROSMERY,C.I.,6412227,,Shinahota,Unidad Educativa Ibuelo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,FLORES,PRUDENCIA,C.I.,7897546,,Chimoré,Unidad Educativa Cesar Zama (Chimore),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,JIMEZ,BRIAN,C.I.,12748461,,Tarata,Colegio My. Victor Ustariz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,MENECES,EVARISTA,C.I.,9361661,,Anzaldo,U. E. San Jose de Calazans-Litoral,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,MERINO,VICMAR,C.I.,9368695,,Vinto,U.E. Avelino Mérida Zubieta,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,SANCHEZ,EDSON,C.I.,13193308,,Villa Tunari,Escuela Villa 14 de Septiembre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,TAPIA,YOLANDA,C.I.,8714889,,Tarata,Escuela Rene Barrientos O.,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARES,VELAZQUES,MARCELINO,C.I.,4435551,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBAREZ,JIMENEZ,ZULMA,C.I.,8838810,,Arbieto,Escuela Seccional Arpita,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBAREZ,RODRIGUEZ,ADAN,C.I.,9364378,,Anzaldo,U. E. San Jose de Calazans-Litoral,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBAREZ,SALAZAR,MARLENE,C.I.,12341491,,Cochabamba,Escuela Gualberto Villarroel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBAREZ,SILES,MARY,C.I.,12552682,,Tarata,Colegio My. Victor Ustariz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBAREZ,VARGAS,FLORENCIA,C.I.,7895080,,Totora,U.E. La Paz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARRACIN,ALARCON,CIRILO,C.I.,4395152,,Anzaldo,U. E. San Jose de Calazans-Litoral,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARRACIN,JIMENEZ,ELIAS,C.I.,6426814,,Punata,Liceo Josefa M. Gandarillas (Ex Sucre),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARRACIN,MASIAS,EMILIANO,C.I.,3129252,,Villa Gualberto Villarroel,Escuela Cuchu Muela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARRACIN,ORGAS,PATRICIA,C.I.,3150800,,Cochabamba,Colegio Abaroa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARRACIN,QUISPE,NOEMI ANA,C.I.,4482117,,Cochabamba,Colegio Amor de Dios,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBARRACIN,SANABRIA,HUGO,C.I.,5901911,,Cochabamba,Escuela Bolivar,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBERTO,CHOQUE,REINA,C.I.,5247050,,Villa Tunari,Unidad Educativa Jatun Pampa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBERTO,QUISPE,TEOFILO,C.I.,8770590,,Quillacollo,Unidad Educativa Ironcollo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBINO,CHAMBI,HUGO VICTOR,C.I.,9880042,,Vinto,Escuela Martín Cardenas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBINO,CONDORETI,MARIA,C.I.,2886766,,Cochabamba,Colegio Nacional Mixto Cochabamba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBINO,VIDAL,VILMA,C.I.,5232814,,Santivañez,Escuela Prudencio Arauco (Santivañez),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBIS,ARTEAGA,NAYELY MELISA,C.I.,9517717,,Sacaba,Unidad Educativa Villa Graciela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBIS,AYALA,MAYRA ALEJANDRA,C.I.,7873329,,Cochabamba,Escuela Ricardo Prudencio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORNOZ,GIL,JUAN DAVID,C.I.,975491,,Cochabamba,Centro Particular Geronimo De Osorio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORNOZ,LEDEZMA,JAMIL,C.I.,8797347,,Cochabamba,Escuela Antofagasta,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORNOZ,MOGRO,ARMINDA,C.I.,5316537,,Quillacollo,Escuela Fidelia C. De Sanchez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALBORTA,MARIA ISABEL,C.I.,5312702,,Quillacollo,Escuela Felix Martinez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORTA,CALLEJAS,LUCIA,C.I.,8768359,,Ayopaya (Villa de Independencia),Colegio Simon Bolivar Fe y Alegria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORTA,CHOQUE,DAVID,C.I.,8744134,,Colcapirhua,Unidad Educativa San José de Kami,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORTA,POZO,CARLA CECILIA,C.I.,3622774,,Cochabamba,Escuela Jose Gabriel De Gumucio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORTA,RODRIGUEZ,EMELIANA,C.I.,8698019,,Vinto,Escuela Martín Cardenas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORTA,RODRIGUEZ,PASTOR,C.I.,6448971,,Vinto,Unidad Educativa Reino Unido,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALBORTA,SILES,RENE EDGAR,C.I.,960963,,Tiquipaya,Escuela Toribio Claure,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCA,BOLTEA,CONSTANCIO,C.I.,3136443,,San Benito (Villa José Quintín Mendoza),Colegio Simon Bolivar (Huaricaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCA,BOLTEA,MACARIO,C.I.,3587980,,Sipesipe,Escuela Sucre (Sipe Sipe),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCA,CHACA,MARIANA,C.I.,4400834,,Vinto,U.E. Soledad Rivas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCA,CHOQUE,VICTORIA,C.I.,10502887,,Tarata,Escuela Esteban Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCA,OSCARITA,ROBERTO,C.I.,7981096,,Colomi,Unidad Educativa Corani Pampa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCA,VILLCA,RICARDA,C.I.,6620800,,Villa Tunari,Unidad Educativa Mixta Eterazama,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCALA,CARRASCO,YVETH,C.I.,7980954,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCALA,CRUZ,GREGORIO,C.I.,5265100,,Tacopaya,Escuela Adolfo Mercado,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCALA,CUSI,BACILIA,C.I.,9389432,,Cochabamba,Unidad Educativa Verdad y Vida,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCALA,GUZMAN,BASILIA,C.I.,3613429,,Cochabamba,Colegio Amor de Dios,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCALA,NINA,ROBERT HERBERT,C.I.,3545900,,Cochabamba,Unidad Educativa Nueva Vera Cruz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCAMAMANI,CARICARI,JOSE LUIS,C.I.,8683757,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCAMAMANI,ROJAS,ALBINA,C.I.,6530531,,Shinahota,U. E. Marcelo Quiroga Santa Cruz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCAZAR,AJATA,MARIA EUGENIA,C.I.,9517415,,Cochabamba,Colegio San Francisco (Villa Pagador),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCAZAR,SAJAMA,CRISTINA LOURDES,C.I.,3094071,,Tapacarí,Unidad Educativa San Antonio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCAZAR,SEVERICH,PEDRO JOEL,C.I.,8864002,,Cochabamba,Esc. Republica Del Peru O I. Vasquez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOA,MENECES,JHOSELIN,C.I.,8026212,,Pojo,Unidad Educativa La Habana,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOA,REQUE,MARIBEL,C.I.,8807393,,Sacaba,(Cárcel) Penitenciaria San Pedro (Sacaba),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOBA,AMPUERO,SONIA,C.I.,5151632,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOBA,CLAROS,HUGO,C.I.,3796341,,Pojo,Nucleo Escolar Duraznillo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOBA,MERIDA,LUZ CLARITA,C.I.,7868290,,Tiquipaya,Colegio Simon Bolivar (Tiquipaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOBA,ZEGARRA,JUAN CARLOS,C.I.,14212828,,Entre Ríos,Escuela Eduardo Avaroa (Isarzama),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALCOCER,MARIA GABRIELA,C.I.,3575031,,Cochabamba,Colegio Marista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ALCAZAR,ADALID,C.I.,3767956,,Cochabamba,Escuela Mixta Fiscal Temporal A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ALCAZAR,JUANA,C.I.,6420104,,Quillacollo,Unidad Educativa Martin Cardenas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ALMANZA,TITO FRANZ,C.I.,3124489,,Sacaba,Colegio Señor De Mayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ARISPE,ROSMERY,C.I.,3730922,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,BARRIENTOS,JOSE OSCAR,C.I.,3599330,,Quillacollo,Unidad Educativa Ironcollo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,BARRIONUEVO,CRISTINA,C.I.,3734121,,Quillacollo,Colegio Cristina Prada,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,BECAR,JOSE LUIS,C.I.,5317761,,Sacaba,Unidad Educativa Israelí El Abra,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,CABRERA,DANIELA,C.I.,9396793,,Cochabamba,Escuela Fiscal Juan XXIII A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,CABRERA,NOELIA,C.I.,8766011,,Cochabamba,Colegio Luis Quintin Vila,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,CABRERA,SAUL KEVIN,C.I.,13228434,,Colcapirhua,Unidad Educativa La Sagrada Familia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,CAMACHO,JHASMANY CHRISTIAN,C.I.,6449591,,Cochabamba,Escuela Gualberto Villarroel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,CASTELLON,NICOLAS KEVIN,C.I.,12682803,,Cochabamba,Colegio San Francisco de Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,CONDORI,JUAN CARLOS,C.I.,14384803,,Shinahota,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,CORIA,FRANCISCO,C.I.,2484564,,Cochabamba,Colegio Pio XII,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,CRUZ,PATRICIA LORENA,C.I.,5223655,,Quillacollo,Escuela Felix Martinez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,GUTIERREZ,ALEXANDER,C.I.,7956984,,Vinto,Unidad Educativa Sagrada Familia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,HEREDIA,JHONNY,C.I.,12430820,,Entre Ríos,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,HERRERA,HARLETH JULISSA,C.I.,13225058,,Cochabamba,Colegio Venjamnin,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,LEDEZMA,NEIZA,C.I.,8700124,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,LLANOS,MAXIMO,C.I.,7890141,,Sacaba,Colegio Nataniel Aguirre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,LOPEZ,JULIO,C.I.,2780238,,Cochabamba,Colegio Nacional Mixto Cochabamba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,MEJIA,JOEL TITO,C.I.,12808008,,Cochabamba,Escuela Camara Junior,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALCOCER,MIGUEL MARTINA,C.I.,2877232,,Quillacollo,Normal Simón Rodríguez (Ex Nucleo Escolar Paucarpata),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,MONTECINOS,JIMENA,C.I.,5215994,,Cochabamba,Colegio Richard Von Weizacker,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,MUÑOZ,JOSE ANTONIO,C.I.,844977,,Quillacollo,Escuela Felix Martinez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,MUÑOZ,MIRIAM,C.I.,13472779,,Sacaba,Colegio Nataniel Aguirre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ORELLANA,RAMIRO VLADIMIR,C.I.,9402409,,Cochabamba,Unidad Educativa Felix Capriles,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ORTIZ,LEONCIO CARLOS,C.I.,6391273,,San Benito (Villa José Quintín Mendoza),Unidad Educativa Sunchu Pampa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,PANIAGUA,FRANKLIN,C.I.,13529694,,Cochabamba,Escuela Central Taquiña A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,PEREDO,ARIEL,C.I.,6495646,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,PEREZ,ELIZABETH,C.I.,8694589,,Quillacollo,Instituto Tecnologico El Paso,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,RIVERA,NELSON ADRIAN,C.I.,5202660,,Sacaba,Unidad Educativa Edmundo Bojanowski,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ROCHA,YOLANDA CLARA,C.I.,3131054,,Sipesipe,U. E. German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ROJAS,TEODORO REGALO,C.I.,621510,,Colcapirhua,Unidad Educativa El Sausalito,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,SALAZAR,LAURA PATRICIA,C.I.,13379123,,Cochabamba,Liceo Elena Arze De Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,SALAZAR,VIRGINIA MIREYA,C.I.,4508827,,Cochabamba,Instituto Americano,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,SANCHEZ,MARIBEL,C.I.,7926034,,Colomi,U.E. Sócrates Villazón,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,SOLIZ,NINOSKA SCARLET,C.I.,5150238,,Cochabamba,Unidad Educativa Santiago,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,SORIA,MARIA NELCY,C.I.,5164489,,Cochabamba,Colegio Nacional Mixto Cochabamba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,TARDIO,GIOVANA NORMA,C.I.,3536728,,Cochabamba,Unidad Educativa Facundo Quiroga,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,TORRICO,AGUSTINA,C.I.,3574841,,Tiraque,Unidad Educativa Palca T,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,URIBE,TATIANA,C.I.,1906105,,Quillacollo,Instituto Particular Quillacollo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,VELASCO,WALTER WILLY,C.I.,1145036,,Cochabamba,Escuela IV Centenario,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,VELASQUEZ,EZEQUIEL,C.I.,896362,,Sacaba,Colegio Nataniel Aguirre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,VILLARROEL,JHOSELIN,C.I.,12810054,,Cochabamba,Hogar Comunitario Disneylandia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,VILLARROEL,JUAN PABLO,C.I.,8716658,,Sacaba,Colegio Franz Tamayo (Chiñata),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ZENTENO,FILIBERTO,C.I.,1411800,,Cochabamba,Escuela Central Taquiña C,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOCER,ZENTENO,PRIMITIVA,C.I.,2525186,,Cochabamba,Colegio San Antonio De Pucara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,LEYVA,ARACELY,C.I.,7939624,,Tiquipaya,Escuela Toribio Claure,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,ACAPA,CESAR JUAN,C.I.,5923773,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,AIMA,LIDIA,C.I.,3095175,,Cochabamba,Colegio Santa Luisa Marillac,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,ANAGUA,LUIS FERNANDO,C.I.,8038793,,Cochabamba,Unidad Educativa El Salvador San Javier,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,CARATA,YSIDORA,C.I.,3511477,,Cochabamba,Unidad Educativa Stefano Hotellier,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,CHOQUE,VICTOR HUGO,C.I.,4339627,,Cochabamba,Liceo Elena Arze De Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,COLQUE,MARIA LUISA,C.I.,2713417,,Cochabamba,Unidad Educativa Garibaldi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,CUBA,RONALD,C.I.,6916306,,Tolata,Colegio Victor Rosales,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,ESCARZA,NICOHL,C.I.,9483818,,Tiquipaya,Unidad Educativa Jesus Maestro,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,LLUSCO,BETZA,C.I.,6423309,,Cochabamba,U. E. Tiquirani,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,MEDRANO,BREDA MAYRA,C.I.,9353488,,Cochabamba,Colegio San Antonio De Pucara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCON,SALINAS,FRANCISCA,C.I.,376897,,Cochabamba,Escuela 6 de Agosto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONCE,AJHUACHO,JOSE MILTON,C.I.,5066908,,Entre Ríos,U.E. San Marcos,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONCE,ARANDA,ALEXIA,C.I.,3507926,,Cochabamba,Colegio Don Bosco,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONS,MAMANI,WILMA,C.I.,4451667,,Sacaba,Unidad Educativa Hernán Rivero Fiorilo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONZ,ALANES,JOSE ANDRES,C.I.,8730667,,Cochabamba,Unidad Educativa Esteban Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONZ,BENAVIDEZ,MARLENE,C.I.,3081251,,Cochabamba,Liceo Elena Arze De Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONZ,CHOQUE,GONZALO,C.I.,7918971,,Cochabamba,Unidad Educativa Maria Emilia Riquelme (Ex Maria Cristina),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONZ,CHOQUE,SAYDA,C.I.,13416605,,Colcapirhua,Unidad Educativa El Sausalito,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONZ,CHUCA,DANIEL OSWALDO,C.I.,6434294,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONZ,MARTINEZ,ALEX RENE,C.I.,7905133,,Cochabamba,Colegio San Francisco de Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCONZ,VILLARROEL,JESSICA PATRICIA,C.I.,6508448,,Cochabamba,Colegio Santo Domingo Savio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOSER,AREVALO,DIONISIA,C.I.,6414847,,Villa Tunari,Unidad Educativa Mixta Eterazama,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOSER,LOPEZ,JUANA,C.I.,3746648,,Sacaba,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALCOSER,RUPAY,CONSTANTINA,C.I.,5934346,,Cochabamba,Unidad Educativa El Salvador San Javier,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALCOZER,FELIPE CARLOS,C.I.,5265683,,Quillacollo,Escuela Felix Martinez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDABA,COLQUE,JULIANA,C.I.,8562127,,Cochabamba,Unidad Educativa Antonio Diez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDABA,RAMIREZ,JESUS,R,4007-030171C,,Tiquipaya,Colegio Simon Bolivar (Tiquipaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDABA,UGARTE,KENDALL,C.I.,6597896,,Tiquipaya,Escuela Toribio Claure,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDAEN,ROCABADO,JASIEL,C.I.,7973657,,Sacaba,Escuela Guadalupe,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDANA,ALVARADO,NATIVIDAD,C.I.,8656451,,Entre Ríos,U. E. José Carrasco (Manco Kapac),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDANA,GAMEZ,DEISY,C.I.,13835991,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDANA,MERLOS,TOMASA,C.I.,8544812,,Shinahota,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDANA,QUIROZ,CAROLINA,C.I.,7961965,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDANA,VEDIA,NORMA,C.I.,13656115,,Villa Tunari,Escuela Elizardo Perez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDAZOSA,SANZETENEA,CARLOS FERNANDO,C.I.,2873226,,Cochabamba,Colegio Luis Quintin Vila,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALDUNATE,KEVIN FABRICIO,C.I.,13996259,,Colcapirhua,Unidad Educativa San Lorenzo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDUNATE,DEROMEDIS,JORGE GUILLERMO,C.I.,796929,,Cochabamba,Universidad Catolica,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDUNATE,GARCIA,DELIA,C.I.,8717482,,San Benito (Villa José Quintín Mendoza),Escuela Experimental Paracaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDUNATE,GARCIA,OLGA,C.I.,8717109,,San Benito (Villa José Quintín Mendoza),Escuela Experimental Paracaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALDUNATE,ROJAS,AMELIA,C.I.,5276388,,Entre Ríos,U. E. José Carrasco (Manco Kapac),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,ARNEZ,MERY,C.I.,7468634,,Sacaba,Unidad Educativa Republica de Italia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,COCA,MARCELA,C.I.,3565134,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,COCA,NERY DEYVIS,C.I.,7892020,,Cochabamba,U. E. Patria Nueva,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,COCA,SAUL,C.I.,8676457,,Cochabamba,U. E. Patria Nueva,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,COLQUE,CELSO,C.I.,7959305,,Cochabamba,Unidad Educativa Dionisio Morales Choque,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,CONDORI,LEONCIO,C.I.,5923788,,Sacaba,Escuela 6 de Junio - Tacopoca,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,CONDORI,MARIA TERESA,C.I.,6547265,,Quillacollo,Escuela Felix Martinez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,CORDOVA,JHON IVAN,C.I.,6508500,,Quillacollo,Unidad Educativa Ironcollo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,CRUZ,RONAL WILLIAMS,C.I.,5520546,,Vinto,Escuela Melchor Cuadros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,FLORES,CARMELO,C.I.,12586439,,Chimoré,Unidad Educativa San Andrés,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,GUTIERREZ,SEBERINA,C.I.,14218967,,Sicaya,Nucleo Humanistico Sicaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,HIGUERA,RONALD,C.I.,8683996,,Puerto Villarroel,Escuela Senda 6,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,HURTADO,FREDDY,C.I.,5905086,,Cochabamba,Escuela Eusebio Tudela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,LOPEZ,ANSELMA,C.I.,2119148,,Vinto,Escuela Martín Cardenas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,LOPEZ,SIMON,C.I.,2877756,,Cochabamba,Escuela Buenas Nuevas A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,ORIHUELA,MERCEDES,C.I.,8736436,,Quillacollo,Unidad Educativa Nestor Adriazola (Ex Colegio Nacional Calama),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,PEREZ,SANTOS,C.I.,933123,,Cochabamba,Escuela Eusebio Tudela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,QUISPE,ROGER,C.I.,8059028,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,ROMERO,MARCO ANTONIO,C.I.,7869881,,Cochabamba,Escuela IV Centenario,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,SANABRIA,ELSA,C.I.,5223376,,Vinto,Unidad Educativa Anocaraire,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,SASARI,ELISA,C.I.,8661274,,Entre Ríos,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,SERRANO,ALEX JUNIOR,C.I.,6428818,,Quillacollo,Unidad Educativa Flora Salinas Hinojosa - Amalia Echalar,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,TITO,VIRGINIA,C.I.,8269117,,Cochabamba,Escuela IV Centenario,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,VASQUEZ,ELMER,C.I.,9348174,,Quillacollo,Unidad Educativa Villa Moderna,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,VASQUEZ,SIMONA,C.I.,4524847,,Quillacollo,Escuela Arturo Quitón,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,VELIZ,MARINA,C.I.,5200866,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEGRE,VIDAL,MATILDE,C.I.,885417,,Santivañez,Escuela Prudencio Arauco (Santivañez),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,ACHO,FELICIA,C.I.,7991193,,Sacaba,U.E. Marcelo Quiroga Santa Cruz (Pacata),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,CHAMBI,OLIVIA,C.I.,5186515,,Cochabamba,Colegio San Francisco de Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,CHOQUE,ISABEL,C.I.,6451710,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,COLQUE,RAYZA ALISON,C.I.,9463632,,Cochabamba,Escuela Buenas Nuevas A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,CONDORI,MARCO ANTONIO,C.I.,6552424,,Puerto Villarroel,U. E. San Antonio de Padua,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,CRUZ,LEOCADIA,C.I.,5247835,,Cochabamba,Unidad Educativa Dionisio Morales Choque,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,MALDONADO,ELMER,C.I.,7924121,,Villa Tunari,Unidad Educativa Paractito,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,MIRABAL,VIVIANA,C.I.,7865471,,Cochabamba,Colegio Venjamnin,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,MUNDOCORRE,ANTONIA,C.I.,4091348,,Cochabamba,Unidad Educativa Club De Leones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJANDRO,NINA,REMBERTO,C.I.,8004842,,Shinahota,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,CHALCO,WILSON,C.I.,6068157,,Cochabamba,Escuela Eusebio Tudela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,CONDORI,CELIA,C.I.,8813539,,Quillacollo,Unidad Educativa Marquina,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,CONDORI,CRISTOBAL,C.I.,7956392,,Quillacollo,U. E. Rene Barrienos Ortuño (Misicuni),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,CUEVAS,VANESSA FIORELA,C.I.,6559708,,Tiquipaya,Escuela Toribio Claure,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,GIGUERBA,ROSA,C.I.,6523738,,Quillacollo,Normal Simón Rodríguez (Ex Nucleo Escolar Paucarpata),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,HUANCA,VALENTIN,C.I.,8761169,,Tapacarí,U.E. Lacolaconi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,JANCO,ADRIANA,C.I.,9442005,,Ayopaya (Villa de Independencia),Colegio Simon Bolivar Fe y Alegria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,MAMANI,OLIVIA,C.I.,6546904,,Tapacarí,Unidad Educativa Central Villa Pereira,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,QUICAÑA,MARCO ANTONIO,C.I.,5273968,,Cochabamba,Colegio Nacional Mixto Cochabamba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,QUISPE,SANDRO,C.I.,14289899,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,RAMIREZ,JHENNY REYNA,C.I.,12461510,,Cochabamba,Unidad Educativa Rene Barrientos Ortuño,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEJO,RIOS,LUCIO,C.I.,928457,,Quillacollo,U. E. Rene Barrienos Ortuño (Misicuni),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALELUYA,APAZA,GUSTAVO,C.I.,8853396,,Cochabamba,Escuela Ricardo Prudencio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALELUYA,FERNANDEZ,JAVIER,C.I.,3617830,,Vinto,Unidad Educativa Reino Unido,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEM,ZABALAGA,IGNACIO,C.I.,5278461,,Quillacollo,Unidad Educativa Maria Auxiliadora,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEMAN,CAMACHO,SHEYLA JANNETE,C.I.,4382880,,Quillacollo,Unidad Educativa El Paso,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALEMAN,QUISPE,IRIS ELIZABETH,C.I.,5300342,,Cochabamba,Escuela Antofagasta,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALESSANDRI,IPORRE,KATHERINE ERIKA,C.I.,8724076,,Vinto,Unidad Educativa Sagrada Familia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALFARO,ALVARADO,JUAN CARLOS,C.I.,6689664,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALFARO,HINOJOSA,DELICIA,C.I.,9382214,,Colcapirhua,Colegio Max Fernandez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALFARO,QUINTEROS,TATIANA CARMEN,C.I.,6551266,,Cochabamba,Escuela Jose Gabriel De Gumucio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALFARO,SAAVEDRA,GUSTAVO HUMBERTO,C.I.,5278330,,Cochabamba,Escuela Fiscal Juan XXIII A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALFARO,SANCHEZ,LEONOR,C.I.,3523273,,Cochabamba,Colegio Paulo VI,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALGARAÑAZ,PACHURI,MIRIAN,C.I.,9022888,,Cochabamba,Colegio Tecnico Humanistico Abaroa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALGARAÑAZ,SUAREZ,YENNY,C.I.,1116436,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALGODONEZ,COANQUI,ADALUZ,C.I.,7974586,,Cochabamba,Unidad Educativa Nueva Vera Cruz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALI,ARIZACA,FANNY,C.I.,5126576,,Cochabamba,U. E. Jorge Vásquez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALI,CALSINA,JONNY JULIO,C.I.,3428793,,Quillacollo,Escuela 12 de Septiembre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALI,COCHI,JUAN MOISES,C.I.,7961200,,Cochabamba,Colegio San Francisco (Villa Pagador),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALI,COLQUE,MARIO,C.I.,1410896,,Quillacollo,Unidad Educativa Nestor Adriazola (Ex Colegio Nacional Calama),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALI,FUNES,VLADIMIR DIMAS,C.I.,8842498,,Cochabamba,Escuela Central Taquiña C,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALI,LOPEZ,MARIA DEL CARMEN,C.I.,12464752,,Sacaba,Escuela Copacabana,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALI,TOLA,ERIKA,C.I.,8466708,,Cochabamba,Unidad Educativa de La Fuerza Aerea,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALI,VARGAS,YAQUELIN,C.I.,4787396,,Sacaba,Unidad Educativa René Barrientos Ortuño,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIAGA,CONDORI,ANGELA,C.I.,9254495,,Quillacollo,U.E. Oscar Alfaro,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIAGA,GEMIO,YNGRID,C.I.,4302184,,Quillacollo,Kinder Mariscal Jose Ballivian,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIAGA,GUMIEL,SILVIA ELIZABETH,C.I.,6681171,,Cochabamba,Seminario San Jose,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIAGA,NOLVANI,GABRIEL ELIAS,C.I.,9398899,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIAGA,PEREZ,LOURDES RONILDA,C.I.,8788501,,Tiquipaya,Colegio San Miguel (Tiquipaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIAGA,VALENCIA,GONZALO AGUSTIN,C.I.,6428309,,Cochabamba,Escuela Mixta Fiscal Temporal A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIAGA,VELASQUEZ,RICHARD,C.I.,12970607,,Cochabamba,Colegio San Antonio De Pucara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIAGA,VILLCA,GUALBERTO,C.I.,3031125,,Ayopaya (Villa de Independencia),U.E. Jose Miguel Lanza,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIENDRES,RICALDEZ,ANICETO JUAN,C.I.,4414959,,Sacaba,Unidad Educativa Israelí El Abra,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIES,YAPURA,ROSA MARIA,C.I.,3775830,,Cochabamba,Unidad Educativa Andres Bello,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALIZARES,ALONZO,EDIL PERCY,C.I.,9301802,,Sipesipe,Escuela Bolviana Americana,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALKAZAR,VILLARROEL,BISMARK,C.I.,9313877,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALLENDE,LARRAIN,EDDA MARCIA,C.I.,856242,,Cochabamba,Colegio La Salle,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANSE,MACHACA,DANIA,C.I.,12431527,,Sipesipe,Unidad Educativa Sauce Rancho,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALMANZA,IGNACIO,C.I.,6656556,,Quillacollo,Teofilo Vargas Candia B,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,ADRIAZOLA,JUANA,C.I.,927458,,Cochabamba,Unidad Educ. Eduardo Lopez O E. Don Bosco,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,AGUAYO,ISIDORO,C.I.,7882440,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,AGUILAR,APOLONIA,C.I.,5200356,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,ALMANZA,ROGELIO,C.I.,6550520,,Cochabamba,Escuela Central Taquiña A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,ARCANGEL,ADRIANA,C.I.,8036408,,Cocapata,Escuela 15 de Febrero (El Choro),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,AYALA,YAN KARLA,C.I.,9409431,,Cochabamba,Unidad Educativa Demetrio Canelas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,BELTRAN,MARIA,C.I.,9378746,,Morochata,U. E. Raymundo Herman Pint,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,BILBAO,MARIA LUISA,C.I.,888353,,Sipesipe,Unidad Educativa Sauce Rancho,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,CANELAS,BETTY,C.I.,803480,,Quillacollo,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,CARDENAS,NOELIA PATTY,C.I.,8056943,,Quillacollo,Colegio Cristina Prada,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,CATORCENO,NILDA,C.I.,8029452,,Pojo,Colegio Venancio Loss,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,CHOQUE,JABIER,C.I.,8769357,,Puerto Villarroel,Unidad Educativa Valle Tunari,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,CHOQUE,JUAN TORIBIO,C.I.,3128314,,Cochabamba,Colegio Abaroa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,CHOQUE,TOMAS,C.I.,907005,,Alalay,U. E. Abraham Flores Velasquez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,COCA,FELIX,C.I.,3592944,,Cochabamba,Unidad Educativa Demetrio Canelas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,COCA,VICTORIA,C.I.,9358292,,Cochabamba,U. E. San Nicolas Club de Leones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,COLQUE,NOEMI JASMI,C.I.,8682046,,Sacaba,Colegio Franz Tamayo (Chiñata),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,COQLUE,FELICIDADA LETICIA,C.I.,9504061,,Cochabamba,U. E. Patria Nueva,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,CORDOVA,HEBERT ANTONIO,C.I.,963629,,Cochabamba,Unidad Educativa Maria Emilia Riquelme (Ex Maria Cristina),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,CRUZ,EVANGELINA,C.I.,8769249,,Puerto Villarroel,Escuela Buenas Nuevas (Valle Ivirza),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,DAVILA,HILDA EVANGELINA,C.I.,982643,,Sacaba,(Cárcel) Penitenciaria El Abra,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,ENCINAS,GUALBERTO,C.I.,4408435,,Cochabamba,Unidad Educativa Esteban Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,ENCINAS,SANTIAGO,C.I.,830902,,Sacaba,Escuela Natalio Arauco,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,FRONTANILLA,FRANCISCO,C.I.,13418767,,Cochabamba,Escuela 6 de Agosto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,FUENTES,HUMBERTO,C.I.,3720122,,Colcapirhua,Colegio Max Fernandez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,GARCIA,MARIA ALBINA,C.I.,9379926,,Entre Ríos,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,GUAMAN,JAVIER,C.I.,141884,,Shinahota,U. E. Evo Morales Ayma,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,GUARACHI,MABEL FATIMA,C.I.,8056987,,Quillacollo,Unidad Educativa Nestor Adriazola (Ex Colegio Nacional Calama),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,GUTIERREZ,ALEX,C.I.,8812655,,Sipesipe,Unidad Educativa Sauce Rancho,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,GUZMAN,FLORENCIA,C.I.,13578446,,Morochata,U. E. Raymundo Herman Pint,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,INOCENTE,ALEX,C.I.,8748761,,Capinota,Unidad Educativa Custodio Ayaviri,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,JALDIN,CESAR,C.I.,9431851,,Aiquile,Escuela Manuel De Ugarte,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,JIMENEZ,ANGEL,C.I.,9513104,,Cochabamba,Unidad Educativa San Miguel Alta Tension,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,MARCANI,CINTHIA,C.I.,8778334,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,MATURANO,RAMBER,C.I.,8703709,,Aiquile,Escuela Simon Rodriguez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,MIRABLE,SONIA,C.I.,6472090,,Vinto,Unidad Educativa David Arzabe,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,MORALES,MILTON,C.I.,8831793,,Tarata,Colegio My. Victor Ustariz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,PEREDO,EMIGDIO,C.I.,4496315,,Sipesipe,U. E. Isidoro Carrasco Olguín,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,PEREZ,PABLO JASUE,C.I.,8693766,,Punata,U. E. Manuel A. Villarroel (Ex Bolivar),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,PHURO,IRMA,C.I.,8722026,,Sipesipe,Unidad Educativa Suticollo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,POZO,SELENA,C.I.,8036554,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,RIOS,SANTUSA,C.I.,7973280,,Quillacollo,Unidad Educativa Ironcollo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,ROCHA,ARIEL FRANZ,C.I.,6500328,,Colcapirhua,Instituto María Cristina,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,SANCHEZ,VICTOR,C.I.,8817746,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,SEJAS,GUERY RODRIGO,C.I.,6555151,,Cochabamba,Escuela Gerardo Vargas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,SOTO,ALVARO,C.I.,12493489,,Sipesipe,Unidad Educativa Viloma,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,UYUQUIPA,MARIO LUIS,C.I.,10381163,,Cochabamba,Unidad Educativa Obispo Anaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,UYUQUIPA,YESIKA JUDITH,C.I.,10381178,,Cochabamba,Unidad Educativa El Salvador San Javier,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,VALLEJOS,MARGARITA CATALINA,C.I.,2886416,,Cochabamba,Unidad Educativa Obispo Anaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,VASQUEZ,ARTURO AVELINO,C.I.,792175,,Cochabamba,Colegio Maryknoll,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,VASQUEZ,MARIA ELENA,C.I.,921351,,Tiquipaya,U.E. Monseñor Salomón Romero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,VILLARROEL,CARLOS JOAQUIN,C.I.,794242,,Colcapirhua,Unidad Educativa San José de Kami,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,VILLARROEL,JAVIER,C.I.,9360879,,Villa Tunari,Escuela 27 de Mayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,ZURITA,RAMIRO,C.I.,3784209,,Colcapirhua,Unidad Educativa El Sausalito,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMANZA,ZURITA,YLSE CARMEN,C.I.,4501274,,Cochabamba,Liceo Elena Arze De Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAS,NUÑEZ,BENIGNO,C.I.,5915723,,Villa Tunari,Unidad Educativa Paraiso-Todo Santos,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,ALTAMIRANO,CARMEN ROSA,C.I.,4431198,,Quillacollo,Unidad Educativa Heroinas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,CALANI,FRIDA NOELIA,C.I.,6534611,,Sacaba,Liceo De Señoritas Sacaba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,CAMACHO,SHIRLEY PILAR,C.I.,9442977,,Cochabamba,Esc. Fiscal Juan XXIII A – Juancito Pinto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,CHAVEZ,FELICIDAD ROSMERY,C.I.,3575261,,Quillacollo,Escuela Tomas Bata,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,GUZMAN,PAOLA CAMILA,C.I.,8053174,,Cochabamba,Colegio Abaroa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,HUANCA,NOHELIA,C.I.,5302944,,Quillacollo,Unidad Educativa Heroinas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,MEDRANO,MARLENE,C.I.,5152400,,Tiquipaya,Aldeas S.O.S,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,MEJIA,PASCUALA,C.I.,6450198,,Sacaba,Unidad Educativa Larati,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,MENESES,GIOVANA,C.I.,8688945,,Entre Ríos,U. E. José Carrasco (Manco Kapac),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,MOLINA,ROSSE MARY,C.I.,7866568,,Colcapirhua,Unidad Educativa San José de Kami,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,NOGALES,DIONISIO,M,67419,,Sacaba,Escuela 6 de Junio - Tacopoca,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,OSSIO,LUIS ALEJANDRO ABEL,C.I.,2043682,,Cochabamba,Universidad Catolica,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,PEREDO,NICOLAS,C.I.,5183191,,Sacaba,Escuela Natalio Arauco,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,PEREDO,RENE,C.I.,6534599,,Sacaba,Liceo De Señoritas Sacaba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,PERICON,BISMARCK ROMER,C.I.,6501466,,Sacaba,U.E. El Moro,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,PICON,JHONATAN,C.I.,12780775,,Villa Tunari,Escuela Samuzabeti,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALMARAZ,RAFAEL ALEJANDRO,C.I.,9316437,,Sacaba,Colegio Señor De Mayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,RODRIGUEZ,ROSMERY,C.I.,6408865,,Quillacollo,Escuela 12 de Septiembre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,SANDOVAL,AQUILINO,C.I.,3756095,,Sacaba,Liceo De Señoritas Sacaba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,SANDOVAL,BLANCA,C.I.,6454751,,Sacaba,Liceo De Señoritas Sacaba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMARAZ,VILLARROEL,JULIO OSCAR,C.I.,1031695,,Cochabamba,Unidad Educativa Esteban Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALMENDRAS,CINTIA,C.I.,4412052,,Punata,Escuela Adela Zamudio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ALBARRACIN,NIXON,C.I.,8008683,,Punata,Escuela Andres Maria Torrico,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ALVAREZ,JHONNY,C.I.,13196598,,Villa Rivero,Escuela Gualberto Villarroel (V. Rivero),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ANDRADE,YOLANDA,C.I.,5901010,,Tolata,Escuela Santa Maria (Carcaje),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,CARAL,CHRISTIAN,C.I.,13036434,,Sacaba,Colegio Nataniel Aguirre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,CESPEDES,JUAN JOSE,C.I.,5195813,,Quillacollo,Escuela Fidelia C. De Sanchez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,CLAROS,FELICIDAD,C.I.,4395587,,Punata,Escuela Andres Maria Torrico,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,COLQUE,BALBINA,C.I.,3620250,,Cochabamba,Escuela Gerardo Vargas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,GARCIA,ELIZABETH,C.I.,6513440,,Cochabamba,Colegio San Antonio De Pucara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,GARCIA,JOSE,C.I.,3026222,,Cochabamba,Colegio Albert Einstein,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,GARCIA,PAULINO,C.I.,8768932,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,GUARDIA,JOSE EDWIN,C.I.,4392097,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,HEREDIA,ZENON,C.I.,857636,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,IBARRA,RENATO,C.I.,2876877,,Sacaba,Colegio Boliviano Japones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,MAMANI,INES,C.I.,879949,,Tiraque,Escuela Seccional Pairumani,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,MARTINS,FERNANDA ADILIA,C.I.,5195501,,Cochabamba,Centro Inmaculada Concepcion,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,MONTAÑO,ROSE MERY,C.I.,3562051,,Sacaba,Liceo De Señoritas Sacaba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,NOGALES,JUAN RICARDO,C.I.,2781982,,Cochabamba,Esc. Republica Del Peru O I. Vasquez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,OCAMPO,HELEN ALEXANDRA,C.I.,7425283,,Cochabamba,Colegio San Francisco de Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,OLIVERA,FULIGENCIA,C.I.,5921115,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,OLIVERA,LUCIO,C.I.,6435555,,Villa Tunari,Escuela San Antonio de Villa Tunari,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ORELLANA,EULALIA,C.I.,6526815,,Punata,Escuela Adela Zamudio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ORELLANA,LUCIO,C.I.,5151637,,Toco,U.E. Ana Rancho,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ORELLANA,MARISABEL,C.I.,14220048,,Tiraque,Escuela Cotani Bajo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ORELLANA,PRIMITIVA ROSEMARY,C.I.,4412123,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,PINTO,EVELIN,C.I.,8098108,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,RENGEL,NEMECIO,C.I.,5364930,,Villa Tunari,Unidad Educativa Mixta Eterazama,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,RIOS,CLEYDI,C.I.,9356570,,Punata,U. E. Manuel A. Villarroel (Ex Bolivar),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ROJAS,VILMA,C.I.,8003904,,Punata,Liceo Josefa M. Gandarillas (Ex Sucre),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,SOLIZ,MARINA,C.I.,5499710,,Shinahota,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALMENDRAS,TOMAS DORIS,C.I.,12522658,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALMENDRAS,TOMAS JHONNY,C.I.,6555960,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,TORRICO,CRISTIAN OCTAVIO,C.I.,8673195,,Sacaba,Unidad Educativa Boliviano Británico,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,VARGAS,MAXIMILIANA,C.I.,998667,,Cochabamba,Unidad Educativa Bolivia (La Maica),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ZAPATA,ROCIO GIMENA,C.I.,7958376,,Tiraque,U.E. Boqueron K`Asa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMENDRAS,ZENTENO,KEVIN,C.I.,8818570,,Quillacollo,Escuela Felix Martinez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALMONTE,DELGADO,JUAN DANIEL,C.I.,7925707,,Cochabamba,Colegio San Francisco (Villa Pagador),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALONSO,PANIAGUA,ANA MARIA,C.I.,2892582,,Vinto,Unidad Educativa Reino Unido,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALONZO,COYO,KARLA EVELIN,C.I.,10567460,,Cochabamba,Escuela 6 de Agosto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALONZO,HUANCA,MICAELA,C.I.,8836336,,Chimoré,Nucleo Educativo Entre Rios Tacuaral,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALONZO,HUARACHI,BENITO,C.I.,8682618,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALONZO,SOLIZ,WILDER,C.I.,8784372,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALTAMIRANO,AZURDUY,IVAN DARIO,C.I.,3616240,,Sacaba,Unidad Educativa 27 de Agosto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALTAMIRANO,CACERES,ISAAC DAVID,C.I.,6529727,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALTAMIRANO,CHOQUE,ESTEBAN,C.I.,600995,,Cochabamba,Unidad Educativa Santa Cruz - Eduardo Ocampo Moscoso,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALTAMIRANO,FERNANDEZ,OLEGARIO,C.I.,8694901,,Ayopaya (Villa de Independencia),Unidad Educativa Sisi Palermo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALTAMIRANO,QUISPE,FELIX,C.I.,4799585,,Tiquipaya,U.E. Monseñor Salomón Romero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALTAMIRANO,SEJAS,JACQUELINE,C.I.,5191700,,Cochabamba,Colegio San Francisco de Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALTAMIRANO,TERRAZAS,CLAUDIO,C.I.,4814897,,Sacaba,Unidad Educativa del Valle,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALTAMIRANO,TORRICO,DAVID ROLANDO,C.I.,7881025,,Cochabamba,Escuela Fiscal Juan XXIII A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,FRANZ,BEIMAR,C.I.,7951420,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVARADO,MAURICIA,C.I.,4529825,,Sacaba,U.E. Nuevo Amanecer,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVARADO,NINFA,C.I.,8725573,,Tacachi,Unidad Educativa Tacachi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ALBARRACIN,ABIGAIL,C.I.,13523186,,Cochabamba,U. E. San Nicolas Club de Leones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ALCOCER,MARTHA,C.I.,13100304,,Shinahota,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ALELUYA,CRISTINA Y SABAS,PAS.,2530055,,Cochabamba,Escuela Buenas Nuevas A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ALELUYA,WILMER SERGIO,C.I.,9316343,,Arbieto,Unidad Educativa Carlos Canelas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ALVARADO,DANIEL,C.I.,8692414,,San Benito (Villa José Quintín Mendoza),Unidad Educativa Sunchu Pampa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ANDRADE,ESTEFANY,C.I.,8682220,,Sacaba,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ARIAS,BONIFACIO,C.I.,1694168,,Cochabamba,Unidad Educativa Andres Bello,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,BALDERRAMA,ASCENCION,C.I.,977756,,Punata,Unidad Educativa Tajamar,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,BALDERRAMA,BEYMAR,C.I.,7922200,,Sacaba,Liceo De Señoritas Sacaba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,BALDERRAMA,NELSON,C.I.,6516033,,Sacaba,Escuela Man Cesped,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,BUSTAMANTE,BRYAN,C.I.,12620084,,Sacaba,Unidad Educativa Edmundo Bojanowski,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,CABALLERO,EUFRONIO,C.I.,3603168,,Sacaba,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,CALUCHO,WILFREDO,C.I.,7934925,,Tiraque,Escuela Seccional Pairumani,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,CAMACHO,BERNARDINA,C.I.,979775,,Alalay,Escuela Dr. Demetrio Canelas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,CARBALLO,GONZALO,C.I.,9375732,,Shinahota,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,CESPEDES,BRAYAN,C.I.,12585173,,Villa Tunari,Unidad Educativa Mixta Eterazama,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,CESPEDES,WILFREDO,C.I.,4465214,,Vinto,Unidad Educativa Anocaraire,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,COLQUE,LUCIANA,C.I.,4490222,,Colomi,Nucleo Escolar Tablas Monte,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,DAZA,BARBARITA,C.I.,3645492,,Quillacollo,Kinder Mariscal Jose Ballivian,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ESCALERA,MAURICIO,C.I.,5313734,,Cochabamba,Colegio Branco Petricevic,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,GARCIA,LEIDY,C.I.,13418773,,Shinahota,U.E. Mariscal Sucre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,GARCIA,MARIO,C.I.,7896483,,Tiraque,Escuela Koari (Nucleo Esc. S. Bolivar),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,HEREDIA,DAMARIZ MADAY,C.I.,12748868,,Villa Tunari,Escuela San Antonio de Villa Tunari,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,HIDALGO,DENNIS,C.I.,6428079,,Sacaba,Escuela Jesus Terceros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,IMPA,MARGARITA,C.I.,5544022,,Entre Ríos,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,JALDIN,JUAN,C.I.,4528909,,Cochabamba,Colegio San Francisco de Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,JIMENEZ,ROGER,C.I.,6426792,,Punata,Escuela Andres Maria Torrico,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,LA FUENTE,MARCO ANTONIO,C.I.,7998645,,Cochabamba,Liceo Elena Arze De Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,MALDONADO,REDER,C.I.,80166442,,Sacaba,Unidad Educativa Republica de Italia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,MAMANI,LAURA DANITZA,C.I.,9438446,,Cochabamba,Escuela Eusebio Tudela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,MONTAÑO,DORA LUZ,C.I.,930295,,Punata,Unidad Educativa Tajamar,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,OLIVERA,HENRRY,C.I.,9795211,,Entre Ríos,U.E. San Marcos,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,ORELLANA,ROSA BLANCA,C.I.,3607876,,Cochabamba,Centro Educativo San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,RODRIGUEZ,MARIA MAURA,C.I.,4489042,,Cochabamba,U. E. Tiquirani,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,SANCHEZ,ALEJANDRINA,C.I.,6466241,,Villa Tunari,Escuela Samuzabeti,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,SANCHEZ,CLOTILDE,C.I.,6464540,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,SORIA,MARINA,PAS.,4444481,,Cochabamba,Unidad Educativa Prof. Oscar Rojas Caballero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,TARIFA,FERNANDO ANTONIO,C.I.,5953493,,Cochabamba,Instituto Eduardo Laredo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,TERRAZAS,AMPARO EMILIA,C.I.,985990,,Colcapirhua,Unidad Educativa El Sausalito,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,TERRAZAS,ERWIN GUIDO,C.I.,9066572,,Arbieto,Unidad Educativa Carlos Canelas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,TORRICO,AGUSTINO,C.I.,5268303,,San Benito (Villa José Quintín Mendoza),Escuela Experimental Paracaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,TORRICO,JHIOSVER HEVER,C.I.,4453643,,Cliza,Colegio Nacional Mixto Ucureña,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,URIARTE,ALAN,C.I.,9404782,,Colcapirhua,U.E. San Miguel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARADO,VALLEJO,VLADIMIR RODRIGO,C.I.,4456225,,Cochabamba,Seminario San Jose,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,ACUÑA,YESICA,C.I.,8685364,,Tiraque,Colegio Juan Jose Carrasco,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,FLORES,CECILIA,C.I.,8841171,,Quillacollo,Teofilo Vargas Candia B,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,FLORES,CECILIO,C.I.,7972400,,Ayopaya (Villa de Independencia),Unidad Educativa Charahuaytu,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,HEREDIA,PAULINA,C.I.,3015791,,Punata,U. E. Ruben Ferrufino (Camacho Rancho),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,HERRERA,ESTHER MARISOL,C.I.,9417974,,Cochabamba,Unidad Educativa Maria Josefa Mujia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,JIMENEZ,ELEUTERIO,C.I.,8856534,,Mizque,Escuela Mixta Dr. Martin Cardenas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,ROJAS,ANDRES,C.I.,12620958,,Arani,Escuela Gualberto Villarroel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,SUAREZ,BRAULIO,C.I.,772784,,Cochabamba,Unidad Educativa Vision Mundial,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARES,VALLEJOS,ORLANDO,C.I.,8783853,,Villa Tunari,Escuela Samuzabeti,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ABIGAIL,LIZETH,C.I.,6454555,,Cochabamba,Centro Particular Geronimo De Osorio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVAREZ,ADELAIDA,C.I.,5201056,,Cochabamba,Escuela Eusebio Tudela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVAREZ,CATALINA,C.I.,6499119,,Puerto Villarroel,Colegio Marcelo Quiroga Santa Cruz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVAREZ,ELIODORO,C.I.,977171,,Cliza,Unidad Educativa Chullpas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVAREZ,MARGARITA,R,3008-180161U,,Tarata,Unidad Educativa Huayculi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVAREZ,MAURA,C.I.,8731020,,Sacaba,Colegio Quintanilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVAREZ,OCTAVIO MARCELINO,C.I.,6453717,,Cochabamba,Colegio Buenas Nuevas C,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,ALVAREZ,PEDRO,C.I.,974989,,San Benito (Villa José Quintín Mendoza),U. E. 27 de Mayo (Ex Jose B. Pereira),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ABASTO,FELIX,C.I.,2863340,,Quillacollo,Unidad Educativa Heroinas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ALMENDRAS,EMILIO,C.I.,6504874,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ALMENDRAS,LUIS ARMANDO,C.I.,8766188,,Tiquipaya,U.E. Monseñor Salomón Romero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ALMENDRAS,MARGARITA,C.I.,6423921,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ALMENDRAS,ROSALIA,C.I.,8873496,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ALVAREZ,ISRAEL GABINO,C.I.,8046837,,Cochabamba,Escuela Antofagasta,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,AQUISE,FERNANDO LUIS,C.I.,11070133,,Quillacollo,Instituto Particular Quillacollo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,BARRIOS,NOEMI,C.I.,7890887,,Tiquipaya,Colegio Simon Bolivar (Tiquipaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,BARROZO,SERGIO ROLANDO,C.I.,8738793,,Cochabamba,Colegio Marista Nuestra Señora Del Pilar,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,BRAVO,EUGENIA,C.I.,4476368,,Cochabamba,Unidad Educativa 26 de Octubre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,BRIGGES,LUIS,C.I.,5204995,,Colcapirhua,Escuela Jesus Lara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CACERES,PEDRO,C.I.,2910390,,Ayopaya (Villa de Independencia),U. E. Ascasivi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CALDERON,RENE,C.I.,5925772,,Puerto Villarroel,Unidad Educativa 2 de Marzo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CALERO,CELINA,C.I.,8829351,,Cochabamba,Unidad Educativa Jose Ignacio Sanjines,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CAMACHO,CRISTINA,C.I.,4432120,,Arani,Escuela Gualberto Villarroel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CAMACHO,JHONNY,C.I.,8009391,,Villa Gualberto Villarroel,Escuela Cuchu Muela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CAMPEROS,FAVIOLA,C.I.,8665457,,Punata,Liceo Josefa M. Gandarillas (Ex Sucre),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CAMPUSANO,CIELO,C.I.,8820716,,Aiquile,Escuela 20 de Diciembre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CANO,NATIVIDAD,C.I.,4497222,,Aiquile,Escuela Manuel De Ugarte,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CARBALLO,FARELLA ISABEL,C.I.,9396627,,Colcapirhua,Instituto María Cristina,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CATACORA,CLAUDIA DANIELA,C.I.,4528150,,Cochabamba,Seminario San Jose,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CHOCAMANI,PAOLA,C.I.,12554238,,Cochabamba,Colegio Sebastian Pagador,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CHOQUE,DANIELA ALEJANDRA,C.I.,8721884,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CHOQUE,GRACIELA,C.I.,8039619,,Cochabamba,Centro Educativo P.  Maria Auxiliadora,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,COCA,SANDRA,C.I.,14257263,,Alalay,Unidad Educativa Quturi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,COPA,BETZABE,C.I.,12617976,,Vinto,Escuela Melchor Cuadros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CORDOVA,MIGUEL ANTONIO,C.I.,7946200,,Cochabamba,Escuela Eusebio Tudela,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,COSSIO,CIRILO,C.I.,8743808,,Ayopaya (Villa de Independencia),Unidad Educativa Pocanche,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CRESPO,LEONARDO,C.I.,3759614,,Morochata,Escuela Hilarion Grageda - Yayani,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CRUZ,SOFIA,C.I.,8788780,,Cochabamba,Colegio San Francisco (Villa Pagador),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,CUEVAS,ROGELIA,C.I.,3993590,,Cochabamba,Unidad Educativa Maria Josefa Mujia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,DAVILA,EDGAR ALVARO,C.I.,6426932,,Cochabamba,Colegio San Rafael,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,DAZA,COSME,C.I.,2862564,,Cochabamba,Escuela Mixta Fiscal Temporal A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ESCALERA,JOSUE,C.I.,8056707,,Quillacollo,U.E. 12 de Enero B,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,FERNANDEZ,ELICEO,C.I.,8664807,,Entre Ríos,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,FERNANDEZ,PILAR ALEYDA,C.I.,4481053,,Cochabamba,Unidad Educativa Esteban Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,FLORES,CANDELARIA,C.I.,9500072,,Aiquile,U.E. Molle Pampa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,FLORES,MARTIN,C.I.,9387693,,Punata,Liceo Josefa M. Gandarillas (Ex Sucre),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,GARCIA,JHONNY,C.I.,5198414,,Cochabamba,Escuela Gerardo Vargas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,GONZALES,RONALDO,C.I.,14238102,,Entre Ríos,U. E. José Carrasco (Manco Kapac),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,GRAGEDA,ARIEL,C.I.,9416869,,Aiquile,Nucleo Escolar El Cercado,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,GUARDIA,WENDY,C.I.,7902256,,Quillacollo,Liceo América,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,GUILLEN,ALFREDO,C.I.,8003659,,Mizque,Unidad Educativa Tin Tin,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,GUIZADA,MARTHA,C.I.,7892481,,Cochabamba,Unidad Educativa Santiago,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,HANNOVER,KEVIN,C.I.,9326509,,Quillacollo,Centro Integral Niño Jesus Fe y Alegria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,HERBAS,TEODOR,C.I.,9378665,,Morochata,Escuela Mariano Baptista- Morochata,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,HICHO,YORMINA ANGELICA,C.I.,3792386,,Cochabamba,Unidad Educativa Andres Bello,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,HINOJOSA,EPIFANIA,C.I.,8024153,,Villa Tunari,Unidad Educativa Mixta Eterazama,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,HINOJOSA,LETICIA LINA,C.I.,12940711,,Tarata,Unidad Educativa Huayculi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,HUARANCA,ELSA,C.I.,7968185,,Cochabamba,Unidad Educativa Antonio Diez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,INOCHEA,SIXTO,C.I.,3149290,,Vinto,Escuela Ismael Montes,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,INTURIAS,CLADIS HERMINIA,C.I.,6504891,,Mizque,Sede Social De Tipa Tipa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,IRIARTE,HILARIA,C.I.,6504070,,Cochabamba,Unidad Educativa Dionisio Morales Choque,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,JALDIN,BENITO,C.I.,8858545,,Aiquile,Escuela Simon Rodriguez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,JANCO,MARLENY,C.I.,12714808,,Entre Ríos,Unidad Educativa Rio Blanco,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,JORGE,CARMEN ROSA,C.I.,7957878,,Colcapirhua,Unidad Educativa Simon Bolivar (Sumunpaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,KAPAICO,BERNARDINO,C.I.,9763290,,Sacaba,Escuela 6 de Junio - Tacopoca,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,LARA,MARCELINO,C.I.,3038119,,Punata,Escuela Andres Maria Torrico,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,LEDEZMA,FELICIDAD,C.I.,927130,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,LLAMPA,MARGARITA,C.I.,9426979,,Tapacarí,Nucleo Escolar Charapaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,LLAMPA,MARITZA,C.I.,9457641,,Quillacollo,Escuela Arturo Quitón,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,LLAMPA,WILLY,C.I.,13586331,,Ayopaya (Villa de Independencia),U. E. Qhulaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,LOPEZ,HUGO,C.I.,8752500,,Morochata,U. E. Raymundo Herman Pint,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MALDONADO,CELIDA,C.I.,8716240,,Villa Rivero,Escuela Gualberto Villarroel (V. Rivero),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MALDONADO,SANTOS,C.I.,9313536,,Chimoré,U.E. Senda III,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MAMANI,BRIGIDA,C.I.,6059038,,Sacaba,Unidad Educativa Entre Rios,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MAMANI,LUIS SANTIAGO,C.I.,6434569,,Cochabamba,Centro Particular Geronimo De Osorio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MAMANI,NANCY,C.I.,4897604,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MARQUEZ,KARLA SUSANA,C.I.,9824444,,Cochabamba,Escuela Central Taquiña C,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MARQUINA,VIDAL,C.I.,8055579,,Sacaba,Unidad Educativa Pampilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MARTINEZ,MARIA CRISTINA,C.I.,3677227,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MELENDRES,INOCENCIO,C.I.,9407966,,Entre Ríos,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MENA,JUAN RAUL,C.I.,9370598,,Cochabamba,Colegio San Rafael,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MENECES,JORGE,C.I.,3721729,,Cochabamba,Escuela Carlos Medinaceli,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MIRANDA,EDWIN,C.I.,10376077,,Entre Ríos,U.E. San Marcos,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MOLINA,EMILIO,C.I.,2879750,,Cochabamba,Colegio Luis Quintin Vila,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MONTAÑO,DIONICIA,C.I.,6425338,,Villa Rivero,Escuela Gualberto Villarroel (V. Rivero),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MUÑOZ,BERTHA,C.I.,14267549,,Villa Tunari,Escuela Elizardo Perez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MUÑOZ,LIZ MARY,C.I.,7962436,,Cochabamba,Unidad Educativa Daniel Salamanca (Ex Colegio Nal. Mixto 6 De Agosto),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,MUÑOZ,NANCY,C.I.,8715730,,Cochabamba,Colegio Maryknoll,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,NARVAEZ,EDGAR,C.I.,7968303,,Cochabamba,U. E. Raymundo Herman,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,NINA,LUIS CRISTHIAN,C.I.,13529531,,Cochabamba,Unidad Educativa Rene Crespo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,NOGALES,BENILDA,C.I.,6492779,,Tarata,Unidad Educativa Huasa Rancho,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,NUÑEZ,VICTOR HUGO,C.I.,5295088,,Cochabamba,Escuela IV Centenario,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,OCHOA,ARIEL,C.I.,5282665,,Pojo,Colegio Venancio Loss,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ORELLANA,ROSMERI,C.I.,7940226,,Cliza,Unidad Educativa Huasacalle,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ORELLANA,SANTOS,C.I.,12680930,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ORELLANA,ZORAINA FAVIOLA,C.I.,6402701,,Cochabamba,Colegio Don Bosco,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ORTUÑO,DARIA MARTHA,C.I.,2862503,,Cochabamba,Colegio Sergio Almaraz Paz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,PACO,ARMINDA,C.I.,8774994,,Puerto Villarroel,Unidad Educativa 2 de Marzo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,PADILLA,SERGIO RAMIRO,C.I.,3795776,,Colcapirhua,Unidad Educativa La Sagrada Familia,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,PANIAGUA,YELSI,C.I.,13004650,,Shinahota,U. E. Evo Morales Ayma,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,PANOZO,HUGO,C.I.,7946071,,Entre Ríos,Colegio Franz Tamayo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,PARRA,JULIETA,C.I.,3760447,,Punata,Liceo Josefa M. Gandarillas (Ex Sucre),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,PEREZ,MARTHA,C.I.,5167707,,Cochabamba,Unidad Educativa Dionisio Morales Choque,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,PONCE,JULIAN,C.I.,3287815,,Arani,U.E. Arani,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,QUINAYA,PATRICIA,C.I.,7893358,,Tiquipaya,Unidad Educativa Libertad,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,QUINTEROS,YBER JAVIER,C.I.,3524381,,Cochabamba,Colegio Bolivar,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,QUISPE,JUANA,C.I.,3454527,,Cochabamba,Colegio La Salle Fiscal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RENGEL,ELICEO,C.I.,6553424,,Mizque,Unidad Educativa Thago Thago,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RENGEL,RILDO,C.I.,8054152,,Mizque,Colegio Pedro Ignacio Rivero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,REYEZ,CARLOS,C.I.,9324351,,Villa Rivero,Col. Tec. Ind. Comunitario Marcelo Quiroga,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RICALDEZ,RIMERT,C.I.,8804029,,Villa Rivero,Escuela Gualberto Villarroel (V. Rivero),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RIOJA,PORFIRIO,C.I.,7910501,,Villa Tunari,Colegio Francisco Vignaud,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RIVERA,JAVIER JOEL,C.I.,14148744,,Cochabamba,Unidad Educativa Felix Capriles,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RIVEROS,DILMA,C.I.,8685847,,Quillacollo,Unidad Educativa Bella Vista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RODRIGUEZ,VANESSA EMILIA,C.I.,5275185,,Cochabamba,Unidad Educativa San Miguel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ROJAS,AVELINA,C.I.,6528994,,Aiquile,Nucleo Educativo Tipajara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RUA,JORGE LUIS,C.I.,6453741,,Arani,Escuela Gualberto Villarroel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,RUIZ,RUTH ESTHER,C.I.,8728629,,Sacaba,Unidad Educativa del Valle,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,SAAVEDRA,MARIA NEYVA,C.I.,6523542,,Colcapirhua,Unidad Educativa Daniel Salamanca,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,SALAZAR,DANISSA CANDELARIA,C.I.,7601724,,Cochabamba,Escuela Walter Vallejo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,SALDAÑA,IDALIA,C.I.,8795763,,Cochabamba,Unidad Educativa Rene Barrientos Ortuño,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,SANDI,MARGARITA,C.I.,8817141,,Ayopaya (Villa de Independencia),U. E. Qhulaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,SOLIZ,JHONNY LIMBER,C.I.,5238527,,Cochabamba,Unidad Educativa Obispo Anaya,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,SOTELO,BIANCA MARITZA,C.I.,8724301,,Cochabamba,U. E. Raymundo Herman,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,SUYO,LEONARDO,C.I.,5208850,,Villa Rivero,Escuela Gualberto Villarroel (V. Rivero),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,TOCAYOS,YOLANDA,C.I.,8049125,,Tiquipaya,Colegio Simon Bolivar (Tiquipaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,TORRES,ABRAHAM,C.I.,12780141,,Puerto Villarroel,Escuela Central Villa Nueva,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,TORRES,MARTIN,C.I.,12521825,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,TORREZ,CLAUDIA FANNY,C.I.,5311377,,Vinto,Escuela Melchor Cuadros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,TORREZ,LUIS ENRIQUE,C.I.,5932578,,Cochabamba,Colegio Marista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,TORREZ,REYNALDO,C.I.,7901558,,Cochabamba,Colegio Nacional Mixto Cochabamba,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,TUDELA,BASILIO TITO,C.I.,5749014,,Tiquipaya,Colegio San Miguel (Tiquipaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,URIONA,FREDDY,C.I.,3800874,,Mizque,Escuela Aguada,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VALLEJOS,EDWIN,C.I.,4385290,,Quillacollo,U. E. Tunari,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VALLEJOS,NOELIA,C.I.,9397070,,Chimoré,Escuela Gerónimo Uzeda Fe y Alegria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VALLEJOS,ROSALIA,C.I.,4528148,,Chimoré,Escuela Gerónimo Uzeda Fe y Alegria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VARGAS,AIDE,C.I.,8026067,,Pojo,Colegio Venancio Loss,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VARGAS,CARLA ANDREA,C.I.,13717298,,Cochabamba,Centro Particular Geronimo De Osorio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VARGAS,DARIA,C.I.,9499624,,Puerto Villarroel,Unidad Educativa San Francisco De Asis,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VARGAS,JOSE LUIS,C.I.,7922875,,Sacaba,Unidad Educativa Boliviano Británico,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VARGAS,JUANA AMANDA,C.I.,2363856,,Tiquipaya,Escuela Toribio Claure,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VELARDE,ORLANDO,C.I.,12876450,,Sacaba,Unidad Educativa Israelí El Abra,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VELASQUEZ,FABIOLA YERALDIN,C.I.,9922520,,Sacaba,Escuela Guadalupe,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,VILLANUEVA,PAOLA ANDREA,C.I.,6557532,,Sacaba,Escuela Jesus Terceros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ZEGARRA,BEATRIZ AMPARO,C.I.,3459816,,Sacaba,Escuela Jesus Terceros,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVAREZ,ZENTENO,MARCO ANTONIO,C.I.,8739526,,Mizque,Sede Social De Tipa Tipa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARO,PARDO,RONALDO,C.I.,9302354,,Quillacollo,Colegio Nacional Calama (Nueva Infraestructura),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARO,VARGAS,ALEXANDRA ROMANNE,C.I.,13593756,,Quillacollo,Unidad Educativa Marquina,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVARO,VELASQUEZ,YOVANA,C.I.,5225054,,Quillacollo,Escuela Felix Martinez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVEREZ,VARGAS,NEISY ROCIO,C.I.,5254503,,Colcapirhua,Unidad Educativa El Sausalito,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVES,GARRADO,MARTINA,C.I.,5221007,,Cochabamba,Colegio San Antonio De Pucara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVIS,CHECO,CRISTIAN,C.I.,10582821,,Quillacollo,Escuela Fidelia C. De Sanchez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVIS,CHUMACERO,PRUDENCIO,PAS.,6518771,,Cochabamba,Colegio Venjamnin,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVIS,FLORES,FERNANDO,C.I.,3710193,,Cochabamba,Escuela Gutierrez Mariscal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVIS,RIVAS,MERY,C.I.,12908864,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVIS,RIVAS,RAUL,C.I.,9473152,,Villa Tunari,Escuela Villa 14 de Septiembre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVIS,SAHONERO,FERNANDO,C.I.,13420168,,Quillacollo,Escuela Fidelia C. De Sanchez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALVIZ,TORREZ,ELVIRA,C.I.,13128385,,Entre Ríos,U.E. Chancadora,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ALY,TORRICO,DELFIN,C.I.,5201092,,Vinto,Unidad Educativa Anocaraire,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMADOR,BAYA,EDUARDO ANTONIO,C.I.,3746679,,Cochabamba,U. E. San Agustín,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARILLO,CHIRI,HUMBERTO,C.I.,8629466,,Cochabamba,Colegio Sebastian Pagador,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARILLO,CHIRI,RAFAEL,C.I.,8580933,,Cochabamba,Escuela 6 de Agosto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARILLO,PORCO,GLADIMIR,C.I.,5139914,,Cochabamba,Colegio San Antonio De Pucara,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARILLO,QUISPE,RENE,C.I.,5124965,,San Benito (Villa José Quintín Mendoza),Unidad Educativa Sunchu Pampa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARO,AGREDA,PAULINO,C.I.,8857883,,Mizque,Nucleo José Claure (U. E. San Vicente),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARO,CHALO,MODESTA,C.I.,6476349,,Cochabamba,U. E. San Nicolas Club de Leones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARU,CONTRERAS,PEDRO,C.I.,6466412,,Cochabamba,Unidad Educativa Dionisio Morales Choque,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARU,CRUZ,CELIDA,C.I.,13096727,,Villa Tunari,Colegio Mixto Tecnico Hum. Villa Bolivar,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARU,PANTOJA,LEONCIA,C.I.,8856759,,Cochabamba,Unidad Educativa Verdad y Vida,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMARU,YAMPARA,MARIA,C.I.,6567133,,Capinota,Escuela Victor Barrientos,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMAYA,BALACA,BORIS MARTIN,C.I.,4384269,,Cochabamba,Liceo  Mercedes Candia De Ovando,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMAYA,FERNANDEZ,JOSE ALEJANDRO,C.I.,3778381,,Cochabamba,Escuela Antofagasta,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMAYA,GUZMAN,XIMENA LISBERTH,C.I.,2351812,,Cochabamba,Escuela Maryknoll,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMAYA,JIMENEZ,DANIEL,C.I.,9423112,,Villa Tunari,Escuela La Estrella (San Gabriel),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMAYA,MITA,ANTONIA,C.I.,6474840,,Arque,Escuela Nataniel Aguirre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMAYA,PEREZ,CATALINA,C.I.,6464324,,Arque,Escuela Nataniel Aguirre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMAYA,PINTO,GARY,C.I.,2890294,,Aiquile,Escuela Manuel De Ugarte,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMAYA,QUISPE,OMAR OBDIN,C.I.,2780400,,Vinto,Escuela Martín Cardenas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMBAR,CAHUANA,PABLO,C.I.,2647848,,Sacaba,Escuela German Busch,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+,AMBROCIO,TEOFILA,C.I.,4397376,,Entre Ríos,U.E. San Marcos,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMBROCIO,FRONTANILLA,EDWIN,C.I.,8748525,,Capinota,Unidad Educativa Juana Azurduy De Padilla,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMBROCIO,HUARAYO,EDGAR DAVID,C.I.,10585187,,Cochabamba,Colegio Santa Luisa Marillac,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMBROSIO,FLORES,LEANDRO,C.I.,7996347,,Sacaba,Colegio Puerto Mejillones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMBROSIO,ORELLANA,FELIX,C.I.,5259216,,Capinota,Escuela Central Marcavi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMELLER,HIDALGO,JIMENA,C.I.,2781542,,Cochabamba,Colegio Tecnico Humanistico Abaroa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMONZABEL,LUPA,MARLENE,C.I.,13943886,,Quillacollo,Unidad Educativa El Paso,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMONZABEL,ZEGARRA,JUAN PABLO,C.I.,1252717,,Cochabamba,Unidad Educativa Garibaldi,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMPUERO,ALCOBA,FELICIDAD,C.I.,3036022,,Sacaba,Escuela Carlos Peredo Sandoval,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMPUERO,ALCOBA,MERY ARMINDA,C.I.,4391052,,Colcapirhua,Colegio Max Fernandez,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMPUERO,FIGUEROA,ROSMERY,C.I.,3593423,,Cochabamba,Unidad Educativa Vision Mundial,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMPUERO,MEDRANO,NELSON MARCELO,C.I.,5234635,,Quillacollo,Unidad Educativa El Paso,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMPUERO,OVANDO,BENJAMIN,C.I.,961972,,Cochabamba,Unidad Educativa Andres Bello,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMPUERO,TORRICO,WENDY,C.I.,4518173,,Cliza,Escuela Sucre,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,ALMARAZ,FREDDY,C.I.,3125070,,Cochabamba,Colegio Abaroa,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,APAZA,ELOY,C.I.,5284577,,Ayopaya (Villa de Independencia),Colegio Simon Bolivar Fe y Alegria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,BASAN,GABRIEL,C.I.,8051465,,Totora,Unidad Educativa Potrero,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,BUTRON,ALEX SANDER,C.I.,3780972,,Tarata,Escuela Rene Barrientos O.,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,BUTRON,SANDRA,C.I.,4381432,,Tarata,Escuela Esteban Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,CANAVIRI,ALEXIS HAROLD,C.I.,9405287,,Cochabamba,Colegio Ismael Montes O Luis Espinal,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,COLQUE,JULIO CESAR,C.I.,3729755,,Cochabamba,Unidad Educativa de La Fuerza Aerea,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,DERPIC,DAVID,C.I.,959341,,Cochabamba,Colegio Marista,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,FERNANDEZ,JHONN ALBERTH,C.I.,8717819,,Tarata,Escuela Esteban Arze,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,FERNANDEZ,URBANO,C.I.,665956,,Quillacollo,Normal Simón Rodríguez (Ex Nucleo Escolar Paucarpata),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,GARRIDO,MARCO ANTONIO,C.I.,4402568,,Cochabamba,Colegio Maryknoll,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,GONZALES,YURICU,C.I.,8045350,,Tiquipaya,Colegio San Miguel (Tiquipaya),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,GUARACHI,MARISOL,C.I.,8845129,,Sacaba,Colegio Boliviano Japones,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,MARTINEZ,CECILIA,C.I.,775064,,Cochabamba,Escuela Fiscal Juan XXIII A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,MHUR,PEDRO BENJAMIN,M,107025-A,,Cochabamba,Colegio Federico Froebel,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,MONTECINOS,DAVID,C.I.,8667675,,Colomi,Nucleo Escolar Candelaria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,NOGALES,VANESSA ROSET,C.I.,4413263,,Cochabamba,Colegio Sergio Almaraz Paz,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,RODRIGUEZ,BENITO,C.I.,15834631,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,ROJAS,DEYBY,C.I.,7914242,,Arbieto,Centro Educativo German Busch - Arbieto,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,SANCHEZ,RAMON,C.I.,925912,,Tiquipaya,Unidad Educativa Libertad,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,TAPIA,PASCUALINA,C.I.,915168,,Puerto Villarroel,Colegio Juan Pablo II (Sacta),data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+AMURRIO,VEIZAGA,ESTEBAN,C.I.,6419384,,Colomi,Nucleo Escolar Candelaria,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ANACHURI,IBAÑEZ,MARGARITA MARILI,C.I.,5649861,,Aiquile,Escuela Manuel De Ugarte,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ANAGUA,CHOQUE,ADA YOLANDA,C.I.,5175443,,Cochabamba,Unidad Educativa Demetrio Canelas,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ANAGUA,LEON,SOFIA,C.I.,7871745,,Cochabamba,Escuela Mixta Fiscal Temporal A,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ANAGUA,MACHACA,LUCIA,C.I.,6650043,,Cochabamba,Liceo Adela Zamudio,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ANAGUA,VARGAS,EVA,C.I.,4075906,,Cochabamba,Unidad Educativa Nueva Esperanza,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20
+ANARATA,AGUILAR,DELIA,C.I.,13255250,,Sacaba,Unidad Educativa Hernán Rivero Fiorilo,data/raw/2019-10-20-Elecciones-Generales-Cochabamba.pdf,2019-10-20

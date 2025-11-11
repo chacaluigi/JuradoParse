@@ -1,0 +1,94 @@
+import os
+import re
+import pandas as pd
+import sys
+from pathlib import Path
+import camelot
+import math
+from src.utils import ensure_dir, parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows, repair_mixed_columns
+
+#normal
+def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream", pages = "all", column_names = None):
+    
+    pdf_path = Path(pdf_path)
+    ensure_dir(output_dir)
+    output_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
+
+    print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
+
+    tables = camelot.read_pdf(
+        str(pdf_path), 
+        pages=pages, 
+        flavor=flavor, 
+        split_text=True, 
+        flag_size=True,
+    )
+    print(f"Tablas encontradas: {len(tables)}")
+
+    #unir tablas csv
+    csv_path = join_tables_csv(tables, output_csv, column_names) 
+
+    #obtener la fecha del nombre del documento
+    pdf_date = parse_date_from_filename(str(pdf_path))
+
+    return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csv": csv_path}
+
+#areas
+def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream', pages = 'all', top_cut = None, column_separators = None, column_names = None):
+    
+    pdf_path = Path(pdf_path)
+    ensure_dir(output_dir)
+    output_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
+    
+    print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
+
+    # Para extraer las areas de la página
+    page_width, page_height = extract_dimensions_page(pdf_path, 5)
+    table_areas_list = []
+    top_cut = float(top_cut) if top_cut else None
+
+    if(top_cut):
+        table_areas_list = [
+            [f'0,0,{1/3*float(page_width)},{top_cut*float(page_height)}'],
+            [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{top_cut*float(page_height)}'],
+            [f'{2/3*float(page_width)},0,{page_width},{top_cut*float(page_height)}']
+        ]
+    else:
+        table_areas_list = [
+            [f'0,0,{1/3*float(page_width)},{page_height}'],
+            [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{page_height}'],
+            [f'{2/3*float(page_width)},0,{page_width},{page_height}']
+        ]
+
+    tables=[]
+    
+    for i, table_areas in enumerate(table_areas_list):
+        table_list = camelot.read_pdf(
+            str(pdf_path), 
+            pages=pages, 
+            flavor=flavor, 
+            split_text=False, #FALSE: evita divisiones de columnas inexactas
+            flag_size=True, 
+            table_areas=table_areas,
+            columns=column_separators[i]
+        )
+        repaired_broken_rows = repair_broken_rows(table_list)
+        repaired_columns_mixed = repair_mixed_columns(repaired_broken_rows)
+        tables.extend(repaired_columns_mixed)
+        del table_list #liberación de memoria
+    
+    print(f"Tablas encontradas: {len(tables)}")
+
+    #ordenar tablas de las columnas de acuerdo a: izquierda, centro y derecha por cada página
+    cols = 3
+    reason = math.ceil(len(tables)/cols)
+    tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]
+    tables = tables_ordered
+
+    #unir tablas csv
+    csv_path = join_tables_csv(tables, output_csv, column_names) 
+
+    #obtener la fecha del nombre del documento
+    pdf_date = parse_date_from_filename(str(pdf_path))
+
+    return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csv": csv_path}
