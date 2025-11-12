@@ -43,6 +43,8 @@ python -m src.cli 2019_EG_CBBA 1-505
 python -m src.cli 2020_EG_CBBA 4-97
 python -m src.cli 2021_ES_CBBA 4-99
 python -m src.cli 2024_EJ_CBBA 16-337
+python -m src.cli 2025_EG_CBBA 2-351
+python -m src.cli 2025_EG_2V_CBBA 1-1906
 
 2019
 152-304 | 153 | 96 seg

@@ -96,7 +96,7 @@ class PDFConfig:
             'flavor': 'stream',
             'first_page': '4',
             'first_top_cut': '0.178',
-            'all_pages': '5-97',
+            'all_pages': '4-97',
             'all_top_cut': None,
             'column_separators': [
                 ['78.10,113.30,154.7,244.17'],
@@ -118,7 +118,7 @@ class PDFConfig:
             'flavor': 'stream',
             'first_page': '4',
             'first_top_cut': '0.178',
-            'all_pages': '5-99',
+            'all_pages': '4-99',
             'all_top_cut': '0.968',
             'column_separators': [
                 ['88.10,117.30,165.70,242.95'],
@@ -147,6 +147,49 @@ class PDFConfig:
                 'NRO',
                 'APELLIDOS',
                 'NOMBRES',
+                'TIPO',
+                'DOCUMENTO',
+                'COMP',
+                'MUNICIPIO',
+                'RECINTO',
+                'MESA'
+            ]
+        },
+
+        '2025_EG_CBBA': {
+            'type': 'normal',
+            'pdf_path': './data/raw/2025-08-17-Elecciones-Generales-Cochabamba.pdf',
+            'flavor': 'lattice',
+            'first_page': '2',
+            'first_top_cut': None,
+            'all_pages': '2-351',
+            'all_top_cut': None,
+            'column_separators': None,
+            'column_names': [
+                'NRO',
+                'APELLIDOS',
+                'NOMBRES',
+                'TIPO',
+                'DOCUMENTO',
+                'COMP',
+                'MUNICIPIO',
+                'RECINTO',
+                'MESA'
+            ]
+        },
+
+        '2025_EG_2V_CBBA': {
+            'type': 'normal',
+            'pdf_path': './data/raw/2025-10-19-Elecciones-Generales-2V-Cochabamba.pdf',
+            'flavor': 'stream',
+            'first_page': '1',
+            'first_top_cut': None,
+            'all_pages': '1-1906',
+            'all_top_cut': None,
+            'column_separators': None,
+            'column_names': [
+                'NRO',
+                'APELLIDOS Y NOMBRES',
                 'TIPO',
                 'DOCUMENTO',
                 'COMP',

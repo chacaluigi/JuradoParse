@@ -2,7 +2,6 @@ import os
 from pathlib import Path
 from datetime import datetime
 import re
-from PyPDF2 import PdfReader
 import pandas as pd
 import pdfplumber
 
@@ -117,9 +116,6 @@ def join_tables_csv(tables, output_csv, column_names):
     if len(tables) > 0:
         all_dataframes = []
 
-        if os.path.exists(output_csv):
-            os.remove(output_csv)
-
         for _, table in enumerate(tables, start=1):
             first_row = table.df.iloc[0]
             if is_header_row(first_row):
@@ -129,7 +125,16 @@ def join_tables_csv(tables, output_csv, column_names):
             
         combined_df = pd.concat(all_dataframes, ignore_index=True)
         del all_dataframes
-        combined_df.columns = column_names
+
+        try:
+            combined_df.columns = column_names
+            print("✅ Nombres de columna asignados exitosamente.")
+        except ValueError as e:
+            expected_length = len(column_names)
+            current_length = combined_df.shape[1]
+            print(f"---ERROR: Se esperaban {expected_length} nombres de columna, pero el DataFrame tiene {current_length} columnas.")
+            return None
+        
         combined_df.to_csv(output_csv, index=False, header=True)
         csv_paths.append(str(output_csv))
         print(f"Archivo extraido guardado en: {output_csv}  Dimensiones: {combined_df.shape[0]} filas x {combined_df.shape[1]} columnas")
@@ -225,7 +230,7 @@ def separate_last_and_names(text):
     parts = str(text).strip().split()
 
     if len(parts) < 2:
-        print(f'ERROR: EXTRACCIÓN NOMBRE INCORRECTO. El nombre {text} no puede ser menor a 2 palabras.')
+        print(f'---ERROR: EXTRACCIÓN NOMBRE INCORRECTO. El nombre {text} no puede ser menor a 2 palabras.')
         return pd.Series([text, '', ''])
     
     conectors={'de', 'del', 'la', 'tezanos', 'le', 'san'}

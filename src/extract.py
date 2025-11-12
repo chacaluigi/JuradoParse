@@ -13,6 +13,8 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream",
     pdf_path = Path(pdf_path)
     ensure_dir(output_dir)
     output_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
+    if os.path.exists(output_csv):
+        os.remove(output_csv)
 
     print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
 

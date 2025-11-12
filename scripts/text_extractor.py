@@ -1,5 +1,5 @@
 import pdfplumber
-pdf = "data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf"
+pdf = "data/raw/2025-10-19-Elecciones-Generales-2V-Cochabamba.pdf"
 def extract_dimensions_page(pdf_file, page_number):
     with pdfplumber.open(pdf_file) as pdf:
         page = pdf.pages[page_number]
@@ -15,8 +15,11 @@ def extract_pdf_pdfplumber(pdf_file, page_number, area_number):
             area=page.crop((1/3*float(page.width), 0, 2*1/3*float(page.width), page.height))
         elif area_number == 3:        
             area=page.crop((2/3*float(page.width), 0, page.width, page.height))
+        elif area_number == 4:
+            top_cut = 0.8        
+            area=page.crop((0, 0, page.width), top_cut*float(page.height))
         else:
-            a = 365.7
+            a = 0
             b = 415.67
             area=page.crop((a, 0, b, 900))
 
@@ -29,7 +32,7 @@ columns = [
         ['337.5,365.7,414.67,491.90'],
         ['585.90,614.3,662.92,738.95']
     ]
-a = extract_pdf_pdfplumber(pdf, 57, 4)
+a = extract_pdf_pdfplumber(pdf, 1, 4)
 
 #paginas: 87, 
 #0.968

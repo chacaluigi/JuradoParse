@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from pathlib import Path
 from src.utils import ensure_dir, parse_date_from_filename, normalize_document, separate_last_and_names, separate_lastname
@@ -8,6 +9,8 @@ def clean_csv(input_csv: str, output_dir: str = None, source_pdf=None, pdf_date=
     input_path = Path(input_csv)
     ensure_dir(output_dir)
     output_csv = output_dir / f"{input_path.stem}_clean.csv"
+    if os.path.exists(output_csv):
+        os.remove(output_csv)
 
     df = pd.read_csv(input_csv, dtype=str, keep_default_na=False)
 
@@ -44,7 +47,8 @@ def clean_csv(input_csv: str, output_dir: str = None, source_pdf=None, pdf_date=
 
      # ordenar columnas
     column_order = ['APELLIDO_PATERNO','APELLIDO_MATERNO','NOMBRES','TIPO','DOCUMENTO','COMP','MUNICIPIO','RECINTO','FUENTE_PDF','FECHA_PDF']
-    df = df[column_order]
+    available_columns = [col for col in column_order if col in df.columns]
+    df = df[available_columns]
 
     df.to_csv(output_csv, index=False, encoding='utf-8')
     print(f"Archivo limpio guardado en: {output_csv}  Dimensiones: {df.shape[0]} filas x {df.shape[1]} columnas")

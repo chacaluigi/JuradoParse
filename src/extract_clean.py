@@ -43,8 +43,7 @@ def extract_clean(pdf_key, pages):
     else:
         print('especificar tipo de extracción')
 
-    print(res['pdf_date'])
-
     csvs = res['csv']
-    for csv in csvs:
-        clean_csv(csv, output_dir=output_dir_clean, source_pdf=res['pdf'], pdf_date=res['pdf_date'])
+    if csvs is not None and len(csvs) > 0:
+        for csv in csvs:
+            clean_csv(csv, output_dir=output_dir_clean, source_pdf=res['pdf'], pdf_date=res['pdf_date'])
