@@ -18,25 +18,9 @@ def extract_clean(pdf_key, pages):
     
     #si se pide extraer de todas las páginas o solo la primera
     first_page = config['first_page']
-    first_res = ''
 
     if pages == first_page:
         top_cut = config['first_top_cut']
-
-    """ if pages == "all":
-        pages = config['all_pages']
-        first_top_cut = config['first_top_cut']
-        #extraemos primero la 1ra página
-        if first_top_cut:
-            first_res = extract_pdf_tables_areas(
-                pdf_path=pdf_path,
-                output_dir=output_dir_extract,
-                flavor=config['flavor'],
-                pages=first_page,
-                top_cut=first_top_cut,
-                column_separators=config['column_separators'],
-                column_names=config['column_names']
-            ) """
 
     if type == 'normal':
         res = extract_pdf_tables(
@@ -61,9 +45,6 @@ def extract_clean(pdf_key, pages):
 
     print(res['pdf_date'])
 
-    if first_res:
-        clean_csv(input_csv=first_res['csv'][0], output_dir=output_dir_clean, source_pdf=first_res['pdf'], pdf_date=first_res['pdf_date'])
-
     csvs = res['csv']
     for csv in csvs:
-        clean_csv(input_csv=csv, output_dir=output_dir_clean, source_pdf=res['pdf'], pdf_date=res['pdf_date'])
+        clean_csv(csv, output_dir=output_dir_clean, source_pdf=res['pdf'], pdf_date=res['pdf_date'])

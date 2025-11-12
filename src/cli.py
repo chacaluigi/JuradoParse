@@ -8,6 +8,8 @@ from src.utils import file_exists, generate_groped_ranges, is_pdf_file
 def run_pipeline_for_pdf(pdf_key, pages):
     config = PDFConfig.get_config(pdf_key)
     pdf_path = config['pdf_path']
+    type = config['type']
+    first_top_cut = config['first_top_cut']
 
     #comprobamos si el pdf existe y si es un archivo pdf
     if not file_exists(pdf_path):
@@ -20,7 +22,8 @@ def run_pipeline_for_pdf(pdf_key, pages):
     if pages == "all":
         pages = config['all_pages']
 
-    page_groups = generate_groped_ranges(pages) if '-' in pages else None
+    reason = 10 if type == 'normal' else 3
+    page_groups = generate_groped_ranges(pages, first_top_cut, reason) if '-' in pages else None
     print(page_groups)
     if page_groups:
         for group in page_groups:

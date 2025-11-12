@@ -117,6 +117,9 @@ def join_tables_csv(tables, output_csv, column_names):
     if len(tables) > 0:
         all_dataframes = []
 
+        if os.path.exists(output_csv):
+            os.remove(output_csv)
+
         for _, table in enumerate(tables, start=1):
             first_row = table.df.iloc[0]
             if is_header_row(first_row):
@@ -125,6 +128,7 @@ def join_tables_csv(tables, output_csv, column_names):
                 all_dataframes.append(table.df)
             
         combined_df = pd.concat(all_dataframes, ignore_index=True)
+        del all_dataframes
         combined_df.columns = column_names
         combined_df.to_csv(output_csv, index=False, header=True)
         csv_paths.append(str(output_csv))
@@ -278,25 +282,23 @@ def parse_date_from_filename(filename: str):
         return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()
     return None
 
-def generate_groped_ranges(text: str):
-    try:
-        start_str, end_str = text.split('-')
-        start = int(start_str)
-        end = int(end_str)
-    except ValueError:
-        #En caso de que el formato no sea 'N-N'
-        print(f"Error: el formato de '{text}' no es válido (debe ser 'inicio-fin').")
-        return []
+def generate_groped_ranges(text: str, first_special_page: str, reason: int):
+    start_str, end_str = text.split('-')
+    start = int(start_str)
+    end = int(end_str)
     
     if start > end:
         print("Error: El número de inicio es mayor que el número final.")
         return []
     
     ranges = []
-    
+    if first_special_page:
+        ranges.append(str(start))
+        start += 1
+        
     current_start = start
     while current_start <= end:
-        range_end = current_start + 9
+        range_end = current_start + reason - 1
         
         # formateamos en caso que esté en el límite
         if range_end > end:

@@ -40,7 +40,8 @@ python -m src.cli 2020_EG_CBBA 5-97
 python -m src.cli 2021_ES_CBBA 5-99
 python -m src.cli 2024_EJ_CBBA 16-337
 
-
+48-60 | 43 seg
+101-136 | 
 # propiedades camelot
 
 tables = camelot.read_pdf(
