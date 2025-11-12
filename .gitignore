@@ -3,6 +3,8 @@ pdf_env/
 venv/
 .env
 */.env
+data/cleaned/*
+data/extracted/*
 
 # Archivos de Python
 __pycache__/

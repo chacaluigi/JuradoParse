@@ -3,7 +3,7 @@ import sys
 import pandas as pd
 from data.dictionary.data_bolivia import PDFConfig
 from src.extract_clean import extract_clean
-from src.utils import file_exists, generate_groped_ranges, is_pdf_file
+from src.utils import generate_groped_ranges, validate_pages, validate_pdf
 
 def run_pipeline_for_pdf(pdf_key, pages):
     config = PDFConfig.get_config(pdf_key)
@@ -12,11 +12,13 @@ def run_pipeline_for_pdf(pdf_key, pages):
     first_top_cut = config['first_top_cut']
 
     #comprobamos si el pdf existe y si es un archivo pdf
-    if not file_exists(pdf_path):
-        print(f"Error: El archivo '{pdf_path}' no existe")
+    if not validate_pdf(pdf_path):
+        print(f"Error: El archivo '{pdf_path}' no es un archivo PDF válido o no existe")
         return
-    if not is_pdf_file(pdf_path):
-        print(f"Error: El archivo '{pdf_path}' no es un archivo PDF válido")
+    
+    #comprobamos si las páginas están en formato
+    if not validate_pages(pages):
+        print(f"Error: El formato de '{pages}' no es válido, debe ser 'inicio-fin', 'all' ó 'número_página'")
         return
 
     if pages == "all":

@@ -269,12 +269,6 @@ def remove_number_column(df, nombre_columna):
 
 # Otros
 
-def file_exists(pdf_path):
-    return os.path.isfile(pdf_path)
-
-def is_pdf_file(pdf_path):
-    return pdf_path.lower().endswith('.pdf')
-
 def parse_date_from_filename(filename: str):
     #intenta extraer fecha YYYYMMDD o YYYY-MM-DD del nombre de archivo.
     m = re.search(r'(\d{4})[-_]?(\d{2})[-_]?(\d{2})', filename)
@@ -282,14 +276,43 @@ def parse_date_from_filename(filename: str):
         return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()
     return None
 
+def validate_pdf(pdf_path):
+    return os.path.isfile(pdf_path) and pdf_path.lower().endswith('.pdf')
+
+def validate_pages(pages):
+    if pages.lower() == 'all':
+        return True
+    #solo un número o dos números separados por '-'
+    num_pattern = r"^\d+$|^\d+-\d+$"
+    if not re.match(num_pattern, pages):
+        return False
+    
+    #validación de un rango
+    if '-' in pages:
+        try:
+            start_page_str, end_page_str = pages.split('-')
+            start_page = int(start_page_str)
+            end_page = int(end_page_str)
+            if start_page < 1 or end_page < 1 or start_page > end_page:
+                return False
+        except ValueError:
+            return False
+            
+    #validación de un número
+    else:
+        try:
+            page_num = int(pages)
+            if page_num < 1:
+                return False
+        except ValueError:
+            return False
+
+    return True
+
 def generate_groped_ranges(text: str, first_special_page: str, reason: int):
     start_str, end_str = text.split('-')
     start = int(start_str)
     end = int(end_str)
-    
-    if start > end:
-        print("Error: El número de inicio es mayor que el número final.")
-        return []
     
     ranges = []
     if first_special_page:
@@ -306,7 +329,6 @@ def generate_groped_ranges(text: str, first_special_page: str, reason: int):
         
         range_str = f"{current_start}-{range_end}"
         ranges.append(range_str)
-        
         current_start = range_end + 1
         
     return ranges
