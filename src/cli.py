@@ -24,7 +24,7 @@ def run_pipeline_for_pdf(pdf_key, pages):
     if pages == "all":
         pages = config['all_pages']
 
-    reason = 10 if type == 'normal' else 3
+    reason = 12 if type == 'normal' else 3
     page_groups = generate_groped_ranges(pages, first_top_cut, reason) if '-' in pages else None
     print(page_groups)
     if page_groups:

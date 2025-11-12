@@ -16,7 +16,7 @@ def extract_clean(pdf_key, pages):
     output_dir_extract = DATA_DIR / f'{pdf_key}'
     output_dir_clean = CLEAN_DIR / f'{pdf_key}'
     
-    #si se pide extraer de todas las páginas o solo la primera
+    #si se pide extraer la primera página
     first_page = config['first_page']
 
     if pages == first_page:

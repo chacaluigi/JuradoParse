@@ -19,6 +19,10 @@ ACUÑA TORRICO HILARIA,I-9371689,San Benito (Villa José Quintín Mendoza)Colegi
 AGUILAR ROJAS JHONATAN,I-6548643,San Benito (Villa José Quintín Mendoza)U. E. 27 de Mayo (Ex Jose B. Pereira),,1
 ALBA TORRICO HILDA,I-3135570,San Benito (Villa José Quintín Mendoza)U. E. 27 de Mayo (Ex Jose B. Pereira),,1
 
+page18
+CANAVIRI FERNANDEZ MARIA,,,,
+DE LOS ANGELES LUCET,I-9478016,Sacaba,Unidad Educativa Hernán Rivero Fiorilo,3
+
 ## PROBLEMS EN LA DIVISION DE NOMBRES
 * Existen nombres que son apellidos a la vez.
 FRANCO
@@ -36,9 +40,20 @@ python -m src.clean_data data/extracted/82___2020-10-18-Elecciones-Generales-Coc
 
 # ejecutar cli.py
 python -m src.cli 2019_EG_CBBA 1-505
-python -m src.cli 2020_EG_CBBA 5-97
-python -m src.cli 2021_ES_CBBA 5-99
+python -m src.cli 2020_EG_CBBA 4-97
+python -m src.cli 2021_ES_CBBA 4-99
 python -m src.cli 2024_EJ_CBBA 16-337
+
+2019
+152-304 | 153 | 96 seg
+2020
+4-30 | 78 | 75 seg
+2021
+4-29 | 76 | 120 seg
+2024
+16-112 | 96 | 100 seg
+
+
 
 48-60 | 43 seg
 101-136 | 
