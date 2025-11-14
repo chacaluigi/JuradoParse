@@ -313,13 +313,13 @@ def validate_pages(pages):
 
     return True
 
-def generate_groped_ranges(text: str, first_special_page: str, reason: int):
+def generate_groped_ranges(text: str, first_page: str, first_special_page: str, reason: int):
     start_str, end_str = text.split('-')
     start = int(start_str)
     end = int(end_str)
     
     ranges = []
-    if first_special_page:
+    if first_special_page and int(first_page) == start:
         ranges.append(str(start))
         start += 1
         

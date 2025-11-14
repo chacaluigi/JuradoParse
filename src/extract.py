@@ -64,34 +64,34 @@ def extract_pdf_tables_areas(type: str, pdf_path, output_dir: str = None, flavor
             ]
         #parseamos a strings
         table_areas_list = [
-            [",".join(str(coord) for coord in sublist)]
+            ",".join(str(coord) for coord in sublist)
             for sublist in table_areas_list
         ]
-
+    print(table_areas_list)
+    print(len(table_areas_list))
+    print(len(column_separators))
     tables=[]
     
-    for i, table_areas in enumerate(table_areas_list):
-        table_list = camelot.read_pdf(
-            str(pdf_path), 
-            pages=pages, 
-            flavor=flavor, 
-            split_text=False, #FALSE: evita divisiones de columnas inexactas
-            flag_size=True, 
-            table_areas=table_areas,
-            columns=column_separators[i]
-        )
-        repaired_broken_rows = repair_broken_rows(table_list)
-        repaired_columns_mixed = repair_mixed_columns(repaired_broken_rows)
-        tables.extend(repaired_columns_mixed)
-        del table_list #liberación de memoria
+    table_list = camelot.read_pdf(
+        str(pdf_path), 
+        pages=pages, 
+        flavor=flavor, 
+        split_text=False, #FALSE: evita divisiones de columnas inexactas
+        flag_size=True, 
+        table_areas=table_areas_list,
+        columns=column_separators
+    )
+    repaired_broken_rows = repair_broken_rows(table_list)
+    repaired_columns_mixed = repair_mixed_columns(repaired_broken_rows)
+    tables = repaired_columns_mixed
     
     print(f"Tablas encontradas: {len(tables)}")
 
     #ordenar tablas de las columnas de acuerdo a: izquierda, centro y derecha por cada página
-    cols = 3
+    """ cols = 3
     reason = math.ceil(len(tables)/cols)
     tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]
-    tables = tables_ordered
+    tables = tables_ordered """
 
     #unir tablas csv
     csv_path = join_tables_csv(tables, output_csv, column_names) 

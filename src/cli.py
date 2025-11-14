@@ -8,6 +8,7 @@ def run_pipeline_for_pdf(pdf_key, pages):
     pdf_path = config['pdf_path']
     type = config['type']
     first_top_cut = config['first_top_cut']
+    first_page = config['first_page']
 
     #comprobamos si el pdf existe y si es un archivo pdf
     if not validate_pdf(pdf_path):
@@ -23,7 +24,7 @@ def run_pipeline_for_pdf(pdf_key, pages):
         pages = config['all_pages']
 
     reason = 12 if type == 'normal' else 3
-    page_groups = generate_groped_ranges(pages, first_top_cut, reason) if '-' in pages else None
+    page_groups = generate_groped_ranges(pages, first_page, first_top_cut, reason) if '-' in pages else None
     print(page_groups)
     if page_groups:
         for group in page_groups:
