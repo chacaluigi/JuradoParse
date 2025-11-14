@@ -128,7 +128,6 @@ def join_tables_csv(tables, output_csv, column_names):
 
         try:
             combined_df.columns = column_names
-            print("✅ Nombres de columna asignados exitosamente.")
         except ValueError as e:
             expected_length = len(column_names)
             current_length = combined_df.shape[1]

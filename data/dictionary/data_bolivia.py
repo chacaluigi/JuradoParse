@@ -95,7 +95,7 @@ class PDFConfig:
             'pdf_path': './data/raw/2020-10-18-Elecciones-Generales-Cochabamba.pdf',
             'flavor': 'stream',
             'first_page': '4',
-            'first_top_cut': '0.178',
+            'first_top_cut': [0, 0, 1, 0.178],
             'all_pages': '4-97',
             'all_top_cut': None,
             'column_separators': [
@@ -117,9 +117,9 @@ class PDFConfig:
             'pdf_path': './data/raw/2021-03-07-Elecciones-Subnacionales-Cochabamba.pdf',
             'flavor': 'stream',
             'first_page': '4',
-            'first_top_cut': '0.178',
+            'first_top_cut': [0, 0, 1, 0.178],
             'all_pages': '4-99',
-            'all_top_cut': '0.968',
+            'all_top_cut': [0, 0, 1, 0.968],
             'column_separators': [
                 ['88.10,117.30,165.70,242.95'],
                 ['337.5,365.7,414.67,491.90'],
@@ -179,7 +179,7 @@ class PDFConfig:
         },
 
         '2025_EG_2V_CBBA': {
-            'type': 'normal',
+            'type': 'areas-normal',
             'pdf_path': './data/raw/2025-10-19-Elecciones-Generales-2V-Cochabamba.pdf',
             'flavor': 'stream',
             'first_page': '1',

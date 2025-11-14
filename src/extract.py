@@ -36,7 +36,7 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream",
     return {"pdf": str(pdf_path), "pdf_date": pdf_date, "csv": csv_path}
 
 #areas
-def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream', pages = 'all', top_cut = None, column_separators = None, column_names = None):
+def extract_pdf_tables_areas(type: str, pdf_path, output_dir: str = None, flavor = 'stream', pages = 'all', coord_multiplier = None, column_separators = None, column_names = None):
     
     pdf_path = Path(pdf_path)
     ensure_dir(output_dir)
@@ -47,19 +47,25 @@ def extract_pdf_tables_areas(pdf_path, output_dir: str = None, flavor = 'stream'
     # Para extraer las areas de la página
     page_width, page_height = extract_dimensions_page(pdf_path, 5)
     table_areas_list = []
-    top_cut = float(top_cut) if top_cut else None
-
-    if(top_cut):
+    coord_multiplier = [float(item) for item in coord_multiplier] if coord_multiplier else [0, 0, 1, 1]
+    if(coord_multiplier):
+        mx1, my1, mx2, my2 = coord_multiplier
+        x1, y1, x2, y2 = mx1*float(page_width), my1*float(page_height), mx2*float(page_width), my2*float(page_height)
+        page_width = x2-x1
+        page_height = y2-y1
         table_areas_list = [
-            [f'0,0,{1/3*float(page_width)},{top_cut*float(page_height)}'],
-            [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{top_cut*float(page_height)}'],
-            [f'{2/3*float(page_width)},0,{page_width},{top_cut*float(page_height)}']
+            [x1, y1, x2, y2]
         ]
-    else:
+        if type == 'areas':
+            table_areas_list = [
+                [x1, y1, 1/3*float(page_width)+x1, y2],
+                [1/3*float(page_width) + x1, y1, 2/3*float(page_width) + x1, y2],
+                [2/3*float(page_width) + x1, y1, page_width + x1, y2],
+            ]
+        #parseamos a strings
         table_areas_list = [
-            [f'0,0,{1/3*float(page_width)},{page_height}'],
-            [f'{1/3*float(page_width)},0,{2/3*float(page_width)},{page_height}'],
-            [f'{2/3*float(page_width)},0,{page_width},{page_height}']
+            [",".join(str(coord) for coord in sublist)]
+            for sublist in table_areas_list
         ]
 
     tables=[]

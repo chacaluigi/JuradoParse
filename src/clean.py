@@ -1,149 +1,73 @@
+import os
 import pandas as pd
 from pathlib import Path
+from src.utils import ensure_dir, parse_date_from_filename, normalize_document, separate_last_and_names, separate_lastname
+import sys
 
-DATA_BOL_DIR = Path(__file__).resolve().parents[1] / "data" / "dictionary"
-
-from data.dictionary.data_bolivia import BoliviaData
-
-nombres_bolivia = BoliviaData.NOMBRES
-nombres_prueba = BoliviaData.NOMBRES_PRUEBA
-apellidos_prueba = BoliviaData.APELLIDOS_PRUEBA
-docs_prueba = BoliviaData.DOCUMENTOS_PRUEBA
-
-def normalize_document(doc_text):
-    complement=''
-    if pd.isna(doc_text):
-        return pd.Series(['','',''])
+def clean_csv(input_csv: str, output_dir: str = None, source_pdf=None, pdf_date=None):
     
-    parts=str(doc_text).strip().split('-', 1)
+    input_path = Path(input_csv)
+    ensure_dir(output_dir)
+    output_csv = output_dir / f"{input_path.stem}_clean.csv"
+    if os.path.exists(output_csv):
+        os.remove(output_csv)
 
-    if parts[0].upper() == 'I':
-        doc_type='C.I.'
-    elif parts[0].upper() == 'P':
-        doc_type='PAS.'
+    df = pd.read_csv(input_csv, dtype=str, keep_default_na=False)
+
+    if 'APELLIDOS Y NOMBRES' in df.columns:
+        split_name = df['APELLIDOS Y NOMBRES'].apply(separate_last_and_names)
+        df[['APELLIDO_PATERNO', 'APELLIDO_MATERNO', 'NOMBRES']] = split_name
+        df.drop(columns='APELLIDOS Y NOMBRES', inplace=True)
+        
+    elif 'APELLIDOS' in df.columns and 'NOMBRES' in df.columns:
+        split_lastname = df['APELLIDOS'].apply(separate_lastname)
+        df[['APELLIDO_PATERNO', 'APELLIDO_MATERNO']] = split_lastname
+        df.drop(columns='APELLIDOS', inplace=True)
+
+    if 'DOCUMENTO' in df.columns and 'TIPO' not in df.columns:
+        split_document = df['DOCUMENTO'].apply(normalize_document)
+        df.drop(columns='DOCUMENTO', inplace=True)
+        df[['TIPO', 'DOCUMENTO', 'COMP']] = split_document
+    
+    #limpiar columnas vacías y columnas que no necesitemos
+    columns_to_drop = ['MESA', 'Nro.', 'NRO', '', ' ', '   ']
+    unnamed_columns = [col for col in df.columns if str(col).startswith('Unnamed')] #para las Unnamed
+    columns_to_drop.extend(unnamed_columns)
+    df.drop(columns_to_drop, axis=1, inplace=True, errors='ignore')
+
+    if source_pdf:
+        df['FUENTE_PDF'] = source_pdf
+    
+    if pdf_date:
+        df['FECHA_PDF'] = pdf_date
+    elif source_pdf:
+        extracted_date = parse_date_from_filename(source_pdf)
+        if extracted_date:
+            df['FECHA_PDF'] = extracted_date
+
+     # ordenar columnas
+    column_order = ['APELLIDO_PATERNO','APELLIDO_MATERNO','NOMBRES','TIPO','DOCUMENTO','COMP','MUNICIPIO','RECINTO','FUENTE_PDF','FECHA_PDF']
+    available_columns = [col for col in column_order if col in df.columns]
+    df = df[available_columns]
+
+    df.to_csv(output_csv, index=False, encoding='utf-8')
+    print(f"Archivo limpio guardado en: {output_csv}  Dimensiones: {df.shape[0]} filas x {df.shape[1]} columnas")
+
+    return df
+
+if __name__ == "__main__":
+    if len(sys.argv) == 1:
+        print("Sin argumentos en la línea de comandos. Colocar los argumentos correctos, ver .README")
     else:
-        doc_type=parts[0]
-
-    doc_number=parts[1]
-    
-    return pd.Series([doc_type, doc_number, complement]) 
-
-def combine_special_parts(parts: list, conectors: list):
-    processed_parts = []
-    i = 0
-    num_parts = len(parts)
-
-    while i<num_parts:
-        current_part = parts[i]
-        mercado_pinell_exist = (
-            current_part.lower() == 'mercado' and 
-            i + 1 < num_parts and 
-            parts[i + 1].lower() == 'pinell'
-        )
-
-        if current_part.lower() in conectors and parts[i+1].lower() in conectors and i+2 < num_parts:
-            combined = f"{current_part} {parts[i+1]} {parts[i+2]}"
-            processed_parts.append(combined)
-            i+=3
-        elif current_part.lower() in conectors and i+1 < num_parts or mercado_pinell_exist:
-            combined = f"{current_part} {parts[i+1]}"
-            processed_parts.append(combined)
-            i+=2
-        else:
-            processed_parts.append(current_part)
-            i+=1
-    
-    return processed_parts
-
-def separate_lastname(text):
-    if pd.isna(text):
-        return pd.Series(['',''])
-    
-    parts = str(text).strip().split()
-
-    conectors={'de', 'del', 'la', 'tezanos', 'le', 'san'}
-    
-    processed_parts = combine_special_parts(parts, conectors)
-
-    num_processed_parts = len(processed_parts)
-
-    if num_processed_parts == 1:
-        pat_surname = ''
-        mat_surname = processed_parts[0]
-    elif num_processed_parts == 2:
-        pat_surname = processed_parts[0]
-        mat_surname = processed_parts[1]
-    else:
-        pat_surname = processed_parts[0]
-        mat_surname = ' '.join(processed_parts[1:])
-
-    return pd.Series([pat_surname, mat_surname])
-
-
-
-def separate_last_and_names(text):
-    
-    if pd.isna(text):
-        return pd.Series(['','',''])
-    
-    parts = str(text).strip().split()
-
-    if len(parts) < 2:
-        print(f'ERROR: EXTRACCIÓN NOMBRE INCORRECTO. El nombre {text} no puede ser menor a 2 palabras.')
-        return pd.Series([text, '', ''])
-    
-    conectors={'de', 'del', 'la', 'tezanos', 'le', 'san'}
-    
-    processed_parts = combine_special_parts(parts, conectors)
-
-    if len(processed_parts) == 2:
-        pat_surname = ''
-        mat_surname = processed_parts[0]
-        names = processed_parts[1]
-
-    elif len(processed_parts) == 3:
-        if processed_parts[1] in nombres_bolivia:
-            pat_surname = ""
-            mat_surname = processed_parts[0]
-            names = f'{processed_parts[1]} {processed_parts[2]}'
-        else:
-            pat_surname = processed_parts[0]
-            mat_surname = processed_parts[1]
-            names = processed_parts[2]
-    else:
-        pat_surname = processed_parts[0]
-        mat_surname = processed_parts[1]
-        names = ' '.join(processed_parts[2:])
-    
-    return pd.Series([pat_surname, mat_surname, names])
-
-
-
-def probar_casos_especiales():
-    print("PRUEBA DE CASOS ESPECIALES:")
-    print("=" * 80)
-    
-    """ for caso in nombres_prueba:
-        pat, mat, nom = separate_last_and_names(caso)
-        print(f"ORIGINAL: {caso}")
-        print(f"PATERNO:  {pat}")
-        print(f"MATERNO:  {mat}") 
-        print(f"NOMBRES:  {nom}")
-        print("-" * 50) """
-
-    for caso in apellidos_prueba:
-        pat, mat = separate_lastname(caso)
-        print(f"ORIGINAL: {caso}")
-        print(f"PATERNO:  {pat}")
-        print(f"MATERNO:  {mat}") 
-        print("-" * 50)
-
-    """ for doc in docs_prueba:
-        doc_type, doc_number, comp = normalize_document(doc)
-        print(f"ORIGINAL: {doc}")
-        print(f"type:     {doc_type}")
-        print(f"number:   {doc_number}") 
-        print(f"comp:     {comp}")
-        print("-" * 50) """
-
-probar_casos_especiales()
+        if len(sys.argv) < 2:
+            print("Uso: python clean_data.py <input_csv> [source_pdf] [pdf_date]")
+            print("O: python clean_data.py (para ejecutar pruebas)")
+            sys.exit(1)
+        
+        input_csv = sys.argv[1]
+        source_pdf = sys.argv[2] if len(sys.argv) > 2 else None
+        pdf_date = sys.argv[3] if len(sys.argv) > 3 else None
+        
+        print(f"Se está procesando el archivo: {input_csv}. Waiting....")
+        
+        clean_csv(input_csv, source_pdf=source_pdf, pdf_date=pdf_date)
