@@ -22,7 +22,6 @@ def extract_clean(pdf_key, pages):
     if pages == first_page:
         coord_multiplier = config['first_top_cut']
 
-    print('====================================================')
     if type == 'normal':
         res = extract_pdf_tables(
             pdf_path=pdf_path,

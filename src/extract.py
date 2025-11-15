@@ -16,7 +16,7 @@ def extract_pdf_tables(pdf_path: str, output_dir: str = None, flavor = "stream",
     if os.path.exists(output_csv):
         os.remove(output_csv)
 
-    print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
+    print(f"====Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
 
     tables = camelot.read_pdf(
         str(pdf_path), 
@@ -42,7 +42,7 @@ def extract_pdf_tables_areas(type: str, pdf_path, output_dir: str = None, flavor
     ensure_dir(output_dir)
     output_csv = output_dir / f"{pages}__{pdf_path.stem}.csv"
     
-    print(f"Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
+    print(f"===Extrayendo tablas de: {pdf_path} / flavor = {flavor} / pages = {pages}")
 
     # Para extraer las areas de la página
     page_width, page_height = extract_dimensions_page(pdf_path, 5)
@@ -67,9 +67,6 @@ def extract_pdf_tables_areas(type: str, pdf_path, output_dir: str = None, flavor
             ",".join(str(coord) for coord in sublist)
             for sublist in table_areas_list
         ]
-    #print(table_areas_list)
-    #print(len(table_areas_list))
-    #print(len(column_separators))
     tables=[]
     
     table_list = camelot.read_pdf(
@@ -86,12 +83,6 @@ def extract_pdf_tables_areas(type: str, pdf_path, output_dir: str = None, flavor
     tables = repaired_columns_mixed
     
     print(f"Tablas encontradas: {len(tables)}")
-
-    #ordenar tablas de las columnas de acuerdo a: izquierda, centro y derecha por cada página
-    """ cols = 3
-    reason = math.ceil(len(tables)/cols)
-    tables_ordered = [tables[j] for i in range(reason) for j in range(i, len(tables), reason)]
-    tables = tables_ordered """
 
     #unir tablas csv
     csv_path = join_tables_csv(tables, output_csv, column_names) 
