@@ -185,14 +185,14 @@ class PDFConfig:
             'first_page': '1',
             'first_top_cut': None,
             'all_pages': '1-1906',
-            'all_top_cut': None,
-            'column_separators': None,
+            'all_top_cut': [0, 0.05, 1, 0.82],
+            'column_separators': [
+                '80,277,370,489,786'
+            ],
             'column_names': [
                 'NRO',
                 'APELLIDOS Y NOMBRES',
-                'TIPO',
-                'DOCUMENTO',
-                'COMP',
+                'DOCUMENTO', #TIPO, DOC y COMP juntos,. crear una función para separarlos
                 'MUNICIPIO',
                 'RECINTO',
                 'MESA'

@@ -17,9 +17,10 @@ def extract_pdf_pdfplumber(pdf_file, page_number, area_number):
         elif area_number == 3:        
             area=page.crop((2/3*float(page.width), 0, page.width, page.height))
         elif area_number == 4:
-            x1 = float(page.width) * 0
+            x1 = 277
+            x2 = 370
+
             y1 = float(page.height) * 0.18
-            x2 = float(page.width) * 1
             y2 = float(page.height) * 0.95
             area=page.crop((x1,y1,x2,y2))
         elif area_number == 5:
@@ -47,11 +48,12 @@ def extract_pdf_pdfplumber(pdf_file, page_number, area_number):
         im.save(f"area{page_number}_{area_number}.png", format="PNG")
     return area
 columns = [
-        ['88.10,117.30,165.70,242.95'],
+        ['80,277,298,370,489,786'],
         ['337.5,365.7,414.67,491.90'],
         ['585.90,614.3,662.92,738.95']
     ]
-a = extract_pdf_pdfplumber(pdf, 50, 5)
+
+a = extract_pdf_pdfplumber(pdf, 1504, 4)
 
 #paginas: 87, 
 #0.968

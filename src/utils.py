@@ -149,7 +149,7 @@ def normalize_document(doc_text):
         print(f'Error: DOCUMENTO está vacío. DOC = {doc_text}')
         return pd.Series(['','',''])
     
-    parts = str(doc_text).strip().split('-', 1)
+    parts = str(doc_text).strip().split('-', 2)
 
     if parts[0].upper() == 'I':
         doc_type='C.I.'
@@ -163,6 +163,7 @@ def normalize_document(doc_text):
     else:
         #captura del problema
         print(f'Error: DOCUMENTO no se pudo dividir en partes, debido a que no tiene suficientes elementos. DOC = {doc_text}')
+        print(parts)
         doc_number = None
         complement = None
     

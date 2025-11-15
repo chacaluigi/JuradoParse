@@ -22,14 +22,14 @@ columns = [
 
 area = 1
 
-tables = camelot.read_pdf(
-    pdf_path, 
+table_list = camelot.read_pdf(
+    str(pdf_path), 
     pages=pages, 
     flavor=flavor, 
-    split_text=False,
+    split_text=False, #FALSE: evita divisiones de columnas inexactas
     flag_size=True, 
-    table_areas=table_areas_list[area],
-    columns=columns[area]
+    table_areas=table_areas_list,
+    columns=column_separators
 )
 
 table = tables[0]

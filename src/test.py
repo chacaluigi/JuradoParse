@@ -1,10 +1,17 @@
-from reportlab.pdfgen import canvas
 
-c = canvas.Canvas("linea_vertical.pdf")
+""" 
+I-6445002
+C.I.     12620864
+R-3019-071080A
+C.I. 5575289 - 1V
+"""
 
-# (x1, y1, x2, y2)
-# Dibuja una línea vertical en la posición X=100, desde Y=50 (abajo) hasta Y=700 (arriba)
-c.line(100, 50, 100, 700) 
+import re
 
-c.showPage()
-c.save()
+
+pruebas = ["I-6445002", "C.I.     12620864", "R-3019-071080A", "C.I. 5575289 - 1V", "P-9345302"]
+separadores = r"\s+|-"
+for item in pruebas:
+    divisiones = re.split(separadores, item.strip())
+    item_filtrado = [subitem for subitem in divisiones if subitem]
+    print(item_filtrado)

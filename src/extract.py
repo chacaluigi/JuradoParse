@@ -67,9 +67,9 @@ def extract_pdf_tables_areas(type: str, pdf_path, output_dir: str = None, flavor
             ",".join(str(coord) for coord in sublist)
             for sublist in table_areas_list
         ]
-    print(table_areas_list)
-    print(len(table_areas_list))
-    print(len(column_separators))
+    #print(table_areas_list)
+    #print(len(table_areas_list))
+    #print(len(column_separators))
     tables=[]
     
     table_list = camelot.read_pdf(
@@ -82,7 +82,7 @@ def extract_pdf_tables_areas(type: str, pdf_path, output_dir: str = None, flavor
         columns=column_separators
     )
     repaired_broken_rows = repair_broken_rows(table_list)
-    repaired_columns_mixed = repair_mixed_columns(repaired_broken_rows)
+    repaired_columns_mixed = repair_mixed_columns(repaired_broken_rows) if type == 'areas' else repaired_broken_rows
     tables = repaired_columns_mixed
     
     print(f"Tablas encontradas: {len(tables)}")
