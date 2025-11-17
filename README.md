@@ -8,6 +8,8 @@ PROYECTO DE EXTRACCIÓN DE PDFS
 ## modificar la función de extract_pdf_tables: unir las tablas encontradas de un pdf, en un solo archivo csv, ya que, las tablas de un pdf tienen el mismo encabezado y formato en todas sus páginas. Además que los pdfs tienen cientos de páginas con tablas.
 ## Tipos de documentos
 ## Extraer el 2do pdf
+- probar extraer pdfs de otros departamentos
+- conexión con la base de datos
 
 
 ## PROBLEMAS EN LA EXTRACCIÓN
@@ -55,10 +57,6 @@ python -m src.cli 2025_EG_2V_CBBA 1-1906
 2024
 16-112 | 96 | 100 seg
 
-
-
-48-60 | 43 seg
-101-136 | 
 # propiedades camelot
 
 tables = camelot.read_pdf(
@@ -71,8 +69,6 @@ tables = camelot.read_pdf(
     line_scale=40,         # Más sensible a líneas
     layout_kwargs={'detect_vertical': False}  # A veces ayuda
 )
-
-
 
 package de un principio
 

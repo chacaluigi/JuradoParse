@@ -1,10 +1,6 @@
 import os
-import re
-import pandas as pd
-import sys
 from pathlib import Path
 import camelot
-import math
 from src.utils import ensure_dir, parse_date_from_filename, extract_dimensions_page, join_tables_csv, repair_broken_rows, repair_mixed_columns
 
 #normal
