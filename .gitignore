@@ -5,6 +5,7 @@ venv/
 */.env
 data/cleaned/*
 data/extracted/*
+advances/
 
 # Archivos de Python
 __pycache__/
